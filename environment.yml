@@ -1,0 +1,5 @@
+name: lu
+dependencies:
+  - python=3.7
+  - numpy=1.15.*
+  - pandas=0.24.*
