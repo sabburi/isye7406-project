@@ -75,11 +75,36 @@ main_df = main_df.merge(ali_df, how = 'left', left_on = ['Season', 'AwayTeam'], 
 
 main_df = main_df.drop(columns = ["Home_Name_Home", "Home_Name_Away"])
 
+##########################################################
+# Anu's Datasets Merge
+##########################################################
+
+def convert_name(name):
+    d = {'Chelsea': 'Chelsea', 'Bolton Wanderers': 'Bolton', 'Portsmouth': 'Portsmouth', 'Blackburn Rovers': 'Blackburn', 
+     'Stoke City': 'Stoke', 'Aston Villa': 'Aston Villa', 'Wolverhampton Wanderers': 'Wolves', 'Everton': 'Everton', 
+     'Manchester United': 'Man United', 'Tottenham Hotspur': 'Tottenham', 'Sunderland': 'Sunderland', 'Wigan Athletic': 'Wigan',
+     'Hull City': 'Hull', 'Burnley': 'Burnley', 'Birmingham City': 'Birmingham', 'Liverpool': 'Liverpool', 'Manchester City': 'Man City', 
+     'Arsenal': 'Arsenal', 'West Ham United': 'West Ham', 'Fulham': 'Fulham', 'West Bromwich Albion': 'West Brom', 'Newcastle United': 'Newcastle', 
+     'Blackpool': 'Blackpool', 'Queens Park Rangers': 'QPR', 'Swansea City': 'Swansea', 'Norwich City': 'Norwich', 'Reading': 'Reading', 
+     'Southampton': 'Southampton', 'Crystal Palace': 'Crystal Palace', 'Cardiff City': 'Cardiff', 'Leicester City': 'Leicester', 'Bournemouth': 'Bournemouth', 
+     'Watford': 'Watford', 'Middlesbrough': 'Middlesbrough', 'Brighton & Hove Albion': 'Brighton', 'Huddersfield Town': 'Huddersfield'}
+    
+    return d[name]
+
+rosters_df = pd.read_csv("../data/anu/processed_rosters_full.csv")
+
+rosters_df['HomeTeam'] = rosters_df['HomeTeam'].apply(lambda x: convert_name(x))
+rosters_df['AwayTeam'] = rosters_df['AwayTeam'].apply(lambda x: convert_name(x))
+
+main_df = main_df.merge(rosters_df, how='left', on=['Season', 'HomeTeam', 'AwayTeam'])
+
 
 ##########################################################
 # Merge Additional Dataset X
 #########################################################
 
 # <---- Add your code here to modify main_df
+
+
 
 print(main_df.head(10))
