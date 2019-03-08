@@ -99,6 +99,14 @@ rosters_df['AwayTeam'] = rosters_df['AwayTeam'].apply(lambda x: convert_name(x))
 main_df = main_df.merge(rosters_df, how='left', on=['Season', 'HomeTeam', 'AwayTeam'])
 
 
+
+##########################################################
+# Ravi's Datasets Merge
+##########################################################
+google_trends_df = pd.read_csv("../data/ravi/google_trends.csv")
+main_df = main_df.merge(google_trends_df, how='left', on=['Season', 'HomeTeam', 'AwayTeam'])
+
+
 ##########################################################
 # Merge Additional Dataset X
 #########################################################
