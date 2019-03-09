@@ -30,7 +30,7 @@ print(ali_files)
 
 ali_frames = []
 
-for i, file in enumerate(ali_files): 
+for i, file in enumerate(ali_files):
     data = pd.read_csv(file, sep = ',')
     year = file.split(".csv")[0].split("/")[-1]
     df['Season'] = np.zeros((df['Div'].values.shape[0])) + int(year)
@@ -41,12 +41,12 @@ for i, file in enumerate(ali_files):
 ali_df = pd.concat(ali_frames, sort = False)
 
 # Modify Foreigners to integer
-ali_df['Foreigners'] = ali_df['Foreigners'].astype(int) 
+ali_df['Foreigners'] = ali_df['Foreigners'].astype(int)
 
-# Modify Age to Float 
+# Modify Age to Float
 ali_df['Age'] = ali_df['Age'].apply(lambda x: x.replace(",",".")).astype(float)
 
-# Modify Total Market value 
+# Modify Total Market value
 ali_df['Total Market Value'] = ali_df['Total Market Value'].apply(lambda x: x.replace(",",""))
 ali_df['Total Market Value'] = ali_df['Total Market Value'].apply(lambda x: x.replace(" Bill. €","0000000"))
 ali_df['Total Market Value'] = ali_df['Total Market Value'].apply(lambda x: x.replace(" Mill. €","0000"))
@@ -58,7 +58,7 @@ ali_df['Average Market Value'] = ali_df['Average Market Value'].apply(lambda x: 
 ali_df['Average Market Value'] = ali_df['Average Market Value'].apply(lambda x: x.replace(" Th. €","000")).astype(float)
 
 
-#Load Name & Club Key 
+#Load Name & Club Key
 name_df = pd.read_csv('../data/ali_raw/club_home_names.csv', sep = ",")
 name_df = name_df[['Club_Name','Home_Name']]
 ali_df = ali_df.merge(name_df, how = "left", left_on = ['Club'], right_on = ['Club_Name'])
@@ -80,15 +80,15 @@ main_df = main_df.drop(columns = ["Home_Name_Home", "Home_Name_Away"])
 ##########################################################
 
 def convert_name(name):
-    d = {'Chelsea': 'Chelsea', 'Bolton Wanderers': 'Bolton', 'Portsmouth': 'Portsmouth', 'Blackburn Rovers': 'Blackburn', 
-     'Stoke City': 'Stoke', 'Aston Villa': 'Aston Villa', 'Wolverhampton Wanderers': 'Wolves', 'Everton': 'Everton', 
+    d = {'Chelsea': 'Chelsea', 'Bolton Wanderers': 'Bolton', 'Portsmouth': 'Portsmouth', 'Blackburn Rovers': 'Blackburn',
+     'Stoke City': 'Stoke', 'Aston Villa': 'Aston Villa', 'Wolverhampton Wanderers': 'Wolves', 'Everton': 'Everton',
      'Manchester United': 'Man United', 'Tottenham Hotspur': 'Tottenham', 'Sunderland': 'Sunderland', 'Wigan Athletic': 'Wigan',
-     'Hull City': 'Hull', 'Burnley': 'Burnley', 'Birmingham City': 'Birmingham', 'Liverpool': 'Liverpool', 'Manchester City': 'Man City', 
-     'Arsenal': 'Arsenal', 'West Ham United': 'West Ham', 'Fulham': 'Fulham', 'West Bromwich Albion': 'West Brom', 'Newcastle United': 'Newcastle', 
-     'Blackpool': 'Blackpool', 'Queens Park Rangers': 'QPR', 'Swansea City': 'Swansea', 'Norwich City': 'Norwich', 'Reading': 'Reading', 
-     'Southampton': 'Southampton', 'Crystal Palace': 'Crystal Palace', 'Cardiff City': 'Cardiff', 'Leicester City': 'Leicester', 'Bournemouth': 'Bournemouth', 
+     'Hull City': 'Hull', 'Burnley': 'Burnley', 'Birmingham City': 'Birmingham', 'Liverpool': 'Liverpool', 'Manchester City': 'Man City',
+     'Arsenal': 'Arsenal', 'West Ham United': 'West Ham', 'Fulham': 'Fulham', 'West Bromwich Albion': 'West Brom', 'Newcastle United': 'Newcastle',
+     'Blackpool': 'Blackpool', 'Queens Park Rangers': 'QPR', 'Swansea City': 'Swansea', 'Norwich City': 'Norwich', 'Reading': 'Reading',
+     'Southampton': 'Southampton', 'Crystal Palace': 'Crystal Palace', 'Cardiff City': 'Cardiff', 'Leicester City': 'Leicester', 'Bournemouth': 'Bournemouth',
      'Watford': 'Watford', 'Middlesbrough': 'Middlesbrough', 'Brighton & Hove Albion': 'Brighton', 'Huddersfield Town': 'Huddersfield'}
-    
+
     return d[name]
 
 rosters_df = pd.read_csv("../data/anu/processed_rosters_full.csv")
@@ -105,6 +105,42 @@ main_df = main_df.merge(rosters_df, how='left', on=['Season', 'HomeTeam', 'AwayT
 ##########################################################
 google_trends_df = pd.read_csv("../data/ravi/google_trends.csv")
 main_df = main_df.merge(google_trends_df, how='left', on=['Season', 'HomeTeam', 'AwayTeam'])
+
+
+##########################################################
+# Merge Additional Dataset Weather - Orestis
+#########################################################
+
+def convert_name_weather(name):
+    # Convert names for the weather data
+
+    d = {'Chelsea': 'Chelsea', 'Bolton': 'Bolton', 'Portsmouth': 'Portsmouth', 'Blackburn': 'Blackburn',
+     'Stoke City': 'Stoke','Stoke':"Stoke", 'Aston Villa': 'Aston Villa', 'Wolves': 'Wolves', 'Everton': 'Everton',
+     'Manchester United': 'Man United', 'Tottenham Hotspur': 'Tottenham', 'Sunderland': 'Sunderland', 'Wigan': 'Wigan',
+     'Hull': 'Hull', 'Burnley': 'Burnley', 'Birmingham': 'Birmingham', 'Liverpool': 'Liverpool', 'Manchester City': 'Man City',
+     'Arsenal': 'Arsenal', 'West Ham United': 'West Ham', 'Fulham': 'Fulham', 'West Bromwich Albion': 'West Brom', 'Newcastle United': 'Newcastle',
+     'Blackpool': 'Blackpool', 'QPR': 'QPR', 'Swansea City': 'Swansea', 'Norwich': 'Norwich', 'Reading': 'Reading',
+     'Southampton': 'Southampton', 'Crystal Palace': 'Crystal Palace', 'Cardiff': 'Cardiff', 'Leicester City': 'Leicester', 'Bournemouth': 'Bournemouth',
+     'Watford': 'Watford', 'Middlesbrough': 'Middlesbrough', 'Brighton': 'Brighton', 'Huddersfield Town': 'Huddersfield'}
+
+    return d[name]
+
+all_files_weather = glob.glob('../data/weather/preprocessed/*.csv')
+
+li = []
+
+for filename in all_files_weather:
+    df = pd.read_csv(filename, index_col=None, header=0)
+    li.append(df)
+
+weather_frame = pd.concat(li, axis=0, ignore_index=True)
+weather_frame['HomeTeam'] = weather_frame['HomeTeam'].apply(lambda x: convert_name_weather(x))
+weather_frame['datetime_est'] = pd.to_datetime(weather_frame['datetime_est'])
+weather_frame['datetime_est'] = weather_frame['datetime_est'].dt.normalize()
+
+weather_frame.fillna(method='ffill')
+
+main_df = main_df.merge(weather_frame, how = 'left', left_on = ['Date', 'HomeTeam'], right_on = ['datetime_est', 'HomeTeam'])
 
 
 ##########################################################
