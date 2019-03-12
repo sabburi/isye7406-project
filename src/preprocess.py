@@ -144,11 +144,17 @@ main_df = main_df.merge(weather_frame, how = 'left', left_on = ['Date', 'HomeTea
 
 
 ##########################################################
+# Rachel's Dataset Merge
+#########################################################
+
+wage_bill_df = pd.read_csv("../data/rachel_raw/Master.csv")
+main_df = main_df.merge(wage_bill_df, how='left', on=['Season', 'HomeTeam', 'AwayTeam'])
+
+
+##########################################################
 # Merge Additional Dataset X
 #########################################################
 
 # <---- Add your code here to modify main_df
-
-
 
 print(main_df.head(10))
