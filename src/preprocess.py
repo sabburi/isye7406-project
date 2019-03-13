@@ -3,7 +3,7 @@ import numpy as np
 import glob
 
 ##########################################################
-# Construct main dataframe - Marcel 
+# Construct main dataframe - Marcel
 ##########################################################
 
 main_files = glob.glob('../data/raw/E0_*.csv')
@@ -100,8 +100,6 @@ rosters_df['AwayTeam'] = rosters_df['AwayTeam'].apply(lambda x: convert_name(x))
 
 main_df = main_df.merge(rosters_df, how='left', on=['Season', 'HomeTeam', 'AwayTeam'])
 
-
-
 ##########################################################
 # Ravi's Datasets Merge
 ##########################################################
@@ -154,7 +152,7 @@ main_df = main_df.merge(wage_bill_df, how='left', on=['Season', 'HomeTeam', 'Awa
 
 ##########################################################
 # Sponsorship Data - Laura
-#########################################################   
+#########################################################
 
 #Getting and melting raw csv file
 sponsorship_data_df = pd.read_csv("../data/sponsorship_raw/SponsorshipData.csv")
@@ -182,15 +180,18 @@ trade_df = pd.read_csv("../data/MihirT_TradeData.csv")
 
 #Merge trade data with Home Team
 main_df = main_df.merge(trade_df, how='left', left_on=['Season', 'HomeTeam'], right_on = ['Season', 'Team'])
-main_df = main_df.rename(columns={'NumIn': 'Home_NumIn'}, {'NumOut': 'Home_NumOut'}, {'DepAge': 'Home_DepAge'}, {'ArrAge': 'Home_ArrAge'},
-                        {'MarketDep': 'Home_MarketDep'}, {'MarketArr': 'Home_MarketArr'}, {'Income': 'Home_Income'}, {'Expenditures': 'Home_Expenditures'})
+main_df = main_df.rename(columns={'NumIn': 'Home_NumIn', 'NumOut': 'Home_NumOut', 'DepAge': 'Home_DepAge', 'ArrAge': 'Home_ArrAge', 'MarketDep': 'Home_MarketDep', 'MarketArr': 'Home_MarketArr', 'Income': 'Home_Income', 'Expenditures': 'Home_Expenditures'})
 main_df = main_df.drop(['Team'], axis=1)
 
 #Merge trade data with Away Team
 main_df = main_df.merge(trade_df, how='left', left_on=['Season', 'AwayTeam'], right_on = ['Season', 'Team'])
-main_df = main_df.rename(columns={'NumIn': 'Away_NumIn'}, {'NumOut': 'Away_NumOut'}, {'DepAge': 'Away_DepAge'}, {'ArrAge': 'Away_ArrAge'},
-                        {'MarketDep': 'Away_MarketDep'}, {'MarketArr': 'Away_MarketArr'}, {'Income': 'Away_Income'}, {'Expenditures': 'Away_Expenditures'})
+main_df = main_df.rename(columns={'NumIn': 'Away_NumIn', 'NumOut': 'Away_NumOut', 'DepAge': 'Away_DepAge', 'ArrAge': 'Away_ArrAge', 'MarketDep': 'Away_MarketDep', 'MarketArr': 'Away_MarketArr', 'Income': 'Away_Income', 'Expenditures': 'Away_Expenditures'})
 main_df = main_df.drop(['Team'], axis=1)
 
 
 print(main_df.head(10))
+
+# Remove the 2010 season since we don't have complete data
+main_df = main_df[main_df.Season != 2010]
+
+main_df.to_csv('../data/preprocessed/football.csv', index=False)

@@ -17,3 +17,8 @@ Add your raw data to the `/data/raw` directory and then modify the `/src/preproc
 
 The idea is to have one Python script that merges all the datasets instead of 100 intermediate files. Code can also be easily merged when people are working in parallel.
 
+## Generate the Dataset
+
+We can't upload files bigger than 100MB to Github so you have to generate it locally by running the `/src/preprocess.py` script. The dataset will be generated as
+`/data/preprocessed/football.csv`.
+
