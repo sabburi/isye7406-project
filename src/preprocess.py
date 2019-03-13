@@ -175,24 +175,24 @@ main_df = main_df.drop(['Team'], axis=1)
 # Merge Trade Data - Mihir
 #########################################################
 
-def convert_name(name):
-    d = {'Chelsea': 'Chelsea', 'Bolton Wanderers': 'Bolton', 'Portsmouth': 'Portsmouth', 'Blackburn Rovers': 'Blackburn',
-     'Stoke City': 'Stoke', 'Aston Villa': 'Aston Villa', 'Wolverhampton Wanderers': 'Wolves', 'Everton': 'Everton',
-     'Manchester United': 'Man United', 'Tottenham Hotspur': 'Tottenham', 'Sunderland': 'Sunderland', 'Wigan Athletic': 'Wigan',
-     'Hull City': 'Hull', 'Burnley': 'Burnley', 'Birmingham City': 'Birmingham', 'Liverpool': 'Liverpool', 'Manchester City': 'Man City',
-     'Arsenal': 'Arsenal', 'West Ham United': 'West Ham', 'Fulham': 'Fulham', 'West Bromwich Albion': 'West Brom', 'Newcastle United': 'Newcastle',
-     'Blackpool': 'Blackpool', 'Queens Park Rangers': 'QPR', 'Swansea City': 'Swansea', 'Norwich City': 'Norwich', 'Reading': 'Reading',
-     'Southampton': 'Southampton', 'Crystal Palace': 'Crystal Palace', 'Cardiff City': 'Cardiff', 'Leicester City': 'Leicester', 'Bournemouth': 'Bournemouth',
-     'Watford': 'Watford', 'Middlesbrough': 'Middlesbrough', 'Brighton & Hove Albion': 'Brighton', 'Huddersfield Town': 'Huddersfield'}
+def convert_name2(name):
+    d = {'Chelsea': 'Chelsea', 'Bolton Wanderers': 'Bolton', 'Portsmouth FC': 'Portsmouth', 'Blackburn Rovers': 'Blackburn',
+     'Stoke City': 'Stoke', 'Aston Villa': 'Aston Villa', 'Wolverhampton Wanderers': 'Wolves', 'Everton FC': 'Everton',
+     'Manchester United': 'Man United', 'Tottenham Hotspur': 'Tottenham', 'Sunderland AFC': 'Sunderland', 'Wigan Athletic': 'Wigan',
+     'Hull City FC': 'Hull', 'Burnley FC': 'Burnley', 'Birmingham City': 'Birmingham', 'Liverpool FC': 'Liverpool', 'Manchester City': 'Man City',
+     'Arsenal FC': 'Arsenal', 'West Ham United': 'West Ham', 'Fulham FC': 'Fulham', 'West Bromwich Albion': 'West Brom', 'Newcastle United': 'Newcastle',
+     'Blackpool FC': 'Blackpool', 'Queens Park Rangers': 'QPR', 'Swansea City': 'Swansea', 'Norwich City': 'Norwich', 'Reading FC': 'Reading',
+     'Southampton FC': 'Southampton', 'Crystal Palace': 'Crystal Palace', 'Cardiff City': 'Cardiff', 'Leicester City': 'Leicester', 'Bournemouth FC': 'Bournemouth',
+     'Watford FC': 'Watford', 'Middlesbrough FC': 'Middlesbrough', 'Brighton & Hove Albion': 'Brighton', 'Huddersfield Town': 'Huddersfield'}
 
     return d[name]
 
-rosters_df = pd.read_csv("../data/MihirT_TradeData.csv")
+trade_df = pd.read_csv("../data/MihirT_TradeData.csv")
 
-rosters_df['HomeTeam'] = rosters_df['HomeTeam'].apply(lambda x: convert_name(x))
-rosters_df['AwayTeam'] = rosters_df['AwayTeam'].apply(lambda x: convert_name(x))
+trade_df['HomeTeam'] = trade_df['HomeTeam'].apply(lambda x: convert_name2(x))
+trade_df['AwayTeam'] = trade_df['AwayTeam'].apply(lambda x: convert_name2(x))
 
-main_df = main_df.merge(rosters_df, how='left', on=['Season', 'HomeTeam', 'AwayTeam'])
+main_df = main_df.merge(trade_df, how='left', on=['Season', 'HomeTeam', 'AwayTeam'])
 
 
 print(main_df.head(10))
