@@ -8,8 +8,6 @@ import glob
 
 main_files = glob.glob('../data/raw/E0_*.csv')
 
-print(main_files)
-
 dataframes = []
 start_year = 2010
 for i, file in enumerate(main_files):
@@ -20,7 +18,6 @@ for i, file in enumerate(main_files):
     dataframes.append(df)
 
 main_df = pd.concat(dataframes, sort=False)
-
 
 ##########################################################
 # Ali's Datasets Merge
@@ -188,10 +185,10 @@ main_df = main_df.merge(trade_df, how='left', left_on=['Season', 'AwayTeam'], ri
 main_df = main_df.rename(columns={'NumIn': 'Away_NumIn', 'NumOut': 'Away_NumOut', 'DepAge': 'Away_DepAge', 'ArrAge': 'Away_ArrAge', 'MarketDep': 'Away_MarketDep', 'MarketArr': 'Away_MarketArr', 'Income': 'Away_Income', 'Expenditures': 'Away_Expenditures'})
 main_df = main_df.drop(['Team'], axis=1)
 
+# Remove the 2010 season since we don't have complete data
+
+main_df = main_df[main_df['Season'] != 2010]
 
 print(main_df.head(10))
-
-# Remove the 2010 season since we don't have complete data
-main_df = main_df[main_df.Season != 2010]
 
 main_df.to_csv('../data/preprocessed/football.csv', index=False)
