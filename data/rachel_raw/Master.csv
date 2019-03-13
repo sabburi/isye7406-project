@@ -1,0 +1,3700 @@
+Season,HomeTeam,AwayTeam,HomeWageBill,AwayWageBill
+2010,Aston Villa,Wigan,80,39
+2010,Blackburn,Man City,47,133
+2010,Bolton,Sunderland,46,54
+2010,Chelsea,Hull,174,38
+2010,Everton,Arsenal,54,111
+2010,Portsmouth,Fulham,32,49
+2010,Stoke,Burnley,45,22
+2010,Wolves,West Ham,30,54
+2010,Man United,Birmingham,132,37
+2010,Tottenham,Liverpool,67,121
+2010,Sunderland,Chelsea,54,174
+2010,Wigan,Wolves,39,30
+2010,Birmingham,Portsmouth,37,32
+2010,Burnley,Man United,22,132
+2010,Hull,Tottenham,38,67
+2010,Liverpool,Stoke,121,45
+2010,Arsenal,Portsmouth,111,32
+2010,Birmingham,Stoke,37,45
+2010,Hull,Bolton,38,46
+2010,Man City,Wolves,133,30
+2010,Sunderland,Blackburn,54,47
+2010,Wigan,Man United,39,132
+2010,Burnley,Everton,22,54
+2010,Fulham,Chelsea,49,174
+2010,West Ham,Tottenham,54,67
+2010,Liverpool,Aston Villa,121,80
+2010,Blackburn,West Ham,47,54
+2010,Bolton,Liverpool,46,121
+2010,Chelsea,Burnley,174,22
+2010,Man United,Arsenal,132,111
+2010,Stoke,Sunderland,45,54
+2010,Tottenham,Birmingham,67,37
+2010,Wolves,Hull,30,38
+2010,Aston Villa,Fulham,80,49
+2010,Everton,Wigan,54,39
+2010,Portsmouth,Man City,32,133
+2010,Blackburn,Wolves,47,30
+2010,Liverpool,Burnley,121,22
+2010,Man City,Arsenal,133,111
+2010,Portsmouth,Bolton,32,46
+2010,Stoke,Chelsea,45,174
+2010,Sunderland,Hull,54,38
+2010,Tottenham,Man United,67,132
+2010,Wigan,West Ham,39,54
+2010,Birmingham,Aston Villa,37,80
+2010,Fulham,Everton,49,54
+2010,Arsenal,Wigan,111,39
+2010,Aston Villa,Portsmouth,80,32
+2010,Bolton,Stoke,46,45
+2010,Burnley,Sunderland,22,54
+2010,Hull,Birmingham,38,37
+2010,West Ham,Liverpool,54,121
+2010,Chelsea,Tottenham,174,67
+2010,Everton,Blackburn,54,47
+2010,Man United,Man City,132,133
+2010,Wolves,Fulham,30,49
+2010,Birmingham,Bolton,37,46
+2010,Blackburn,Aston Villa,47,80
+2010,Fulham,Arsenal,49,111
+2010,Liverpool,Hull,121,38
+2010,Portsmouth,Everton,32,54
+2010,Stoke,Man United,45,132
+2010,Tottenham,Burnley,67,22
+2010,Wigan,Chelsea,39,174
+2010,Sunderland,Wolves,54,30
+2010,Man City,West Ham,133,54
+2010,Bolton,Tottenham,46,67
+2010,Burnley,Birmingham,22,37
+2010,Hull,Wigan,38,39
+2010,Man United,Sunderland,132,54
+2010,Wolves,Portsmouth,30,32
+2010,Arsenal,Blackburn,111,47
+2010,Chelsea,Liverpool,174,121
+2010,Everton,Stoke,54,45
+2010,West Ham,Fulham,54,49
+2010,Aston Villa,Man City,80,133
+2010,Arsenal,Birmingham,111,37
+2010,Aston Villa,Chelsea,80,174
+2010,Everton,Wolves,54,30
+2010,Man United,Bolton,132,46
+2010,Portsmouth,Tottenham,32,67
+2010,Stoke,West Ham,45,54
+2010,Sunderland,Liverpool,54,121
+2010,Blackburn,Burnley,47,22
+2010,Wigan,Man City,39,133
+2010,Fulham,Hull,49,38
+2010,Birmingham,Sunderland,37,54
+2010,Burnley,Wigan,22,39
+2010,Chelsea,Blackburn,174,47
+2010,Hull,Portsmouth,38,32
+2010,Tottenham,Stoke,67,45
+2010,Wolves,Aston Villa,30,80
+2010,Bolton,Everton,46,54
+2010,Liverpool,Man United,121,132
+2010,Man City,Fulham,133,49
+2010,West Ham,Arsenal,54,111
+2010,Arsenal,Tottenham,111,67
+2010,Bolton,Chelsea,46,174
+2010,Burnley,Hull,22,38
+2010,Everton,Aston Villa,54,80
+2010,Fulham,Liverpool,49,121
+2010,Man United,Blackburn,132,47
+2010,Portsmouth,Wigan,32,39
+2010,Stoke,Wolves,45,30
+2010,Sunderland,West Ham,54,54
+2010,Birmingham,Man City,37,133
+2010,West Ham,Aston Villa,54,80
+2010,Aston Villa,Bolton,80,46
+2010,Blackburn,Portsmouth,47,32
+2010,Man City,Burnley,133,22
+2010,Tottenham,Sunderland,67,54
+2010,Wolves,Arsenal,30,111
+2010,Chelsea,Man United,174,132
+2010,Hull,Stoke,38,45
+2010,West Ham,Everton,54,54
+2010,Wigan,Fulham,39,49
+2010,Liverpool,Birmingham,121,37
+2010,Birmingham,Fulham,37,49
+2010,Burnley,Aston Villa,22,80
+2010,Chelsea,Wolves,174,30
+2010,Hull,West Ham,38,54
+2010,Liverpool,Man City,121,133
+2010,Man United,Everton,132,54
+2010,Sunderland,Arsenal,54,111
+2010,Bolton,Blackburn,46,47
+2010,Stoke,Portsmouth,45,32
+2010,Tottenham,Wigan,67,39
+2010,Fulham,Blackburn,49,47
+2010,Hull,Everton,38,54
+2010,Aston Villa,Tottenham,80,67
+2010,Blackburn,Stoke,47,45
+2010,Fulham,Bolton,49,46
+2010,Man City,Hull,133,38
+2010,Portsmouth,Man United,32,132
+2010,West Ham,Burnley,54,22
+2010,Wigan,Sunderland,39,54
+2010,Arsenal,Chelsea,111,174
+2010,Everton,Liverpool,54,121
+2010,Wolves,Birmingham,30,37
+2010,Arsenal,Stoke,111,45
+2010,Aston Villa,Hull,80,38
+2010,Blackburn,Liverpool,47,121
+2010,Man City,Chelsea,133,174
+2010,Portsmouth,Burnley,32,22
+2010,West Ham,Man United,54,132
+2010,Wigan,Birmingham,39,37
+2010,Wolves,Bolton,30,46
+2010,Everton,Tottenham,54,67
+2010,Fulham,Sunderland,49,54
+2010,Birmingham,West Ham,37,54
+2010,Bolton,Man City,46,133
+2010,Burnley,Fulham,22,49
+2010,Chelsea,Everton,174,54
+2010,Hull,Blackburn,38,47
+2010,Man United,Aston Villa,132,80
+2010,Stoke,Wigan,45,39
+2010,Sunderland,Portsmouth,54,32
+2010,Tottenham,Wolves,67,30
+2010,Liverpool,Arsenal,121,111
+2010,Birmingham,Blackburn,37,47
+2010,Bolton,West Ham,46,54
+2010,Man United,Wolves,132,30
+2010,Sunderland,Aston Villa,54,80
+2010,Burnley,Arsenal,22,111
+2010,Chelsea,Portsmouth,174,32
+2010,Liverpool,Wigan,121,39
+2010,Tottenham,Man City,67,133
+2010,Arsenal,Hull,111,38
+2010,Aston Villa,Stoke,80,45
+2010,Blackburn,Tottenham,47,67
+2010,Fulham,Man United,49,132
+2010,Man City,Sunderland,133,54
+2010,Portsmouth,Liverpool,32,121
+2010,Everton,Birmingham,54,37
+2010,West Ham,Chelsea,54,174
+2010,Wolves,Burnley,30,22
+2010,Birmingham,Chelsea,37,174
+2010,Burnley,Bolton,22,46
+2010,Fulham,Tottenham,49,67
+2010,Liverpool,Wolves,121,30
+2010,Man City,Stoke,133,45
+2010,Sunderland,Everton,54,54
+2010,West Ham,Portsmouth,54,32
+2010,Wigan,Blackburn,39,47
+2010,Arsenal,Aston Villa,111,80
+2010,Hull,Man United,38,132
+2010,Blackburn,Sunderland,47,54
+2010,Chelsea,Fulham,174,49
+2010,Everton,Burnley,54,22
+2010,Stoke,Birmingham,45,37
+2010,Tottenham,West Ham,67,54
+2010,Wolves,Man City,30,133
+2010,Aston Villa,Liverpool,80,121
+2010,Bolton,Hull,46,38
+2010,Man United,Wigan,132,39
+2010,Portsmouth,Arsenal,32,111
+2010,Stoke,Fulham,45,49
+2010,Arsenal,Everton,111,54
+2010,Birmingham,Man United,37,132
+2010,Man City,Blackburn,133,47
+2010,Chelsea,Sunderland,174,54
+2010,Everton,Man City,54,133
+2010,Man United,Burnley,132,22
+2010,Stoke,Liverpool,45,121
+2010,Tottenham,Hull,67,38
+2010,Wolves,Wigan,30,39
+2010,Aston Villa,West Ham,80,54
+2010,Blackburn,Fulham,47,49
+2010,Bolton,Arsenal,46,111
+2010,Arsenal,Bolton,111,46
+2010,Liverpool,Tottenham,121,67
+2010,Man United,Hull,132,38
+2010,Bolton,Burnley,46,22
+2010,Portsmouth,West Ham,32,54
+2010,Tottenham,Fulham,67,49
+2010,Wolves,Liverpool,30,121
+2010,Aston Villa,Arsenal,80,111
+2010,Blackburn,Wigan,47,39
+2010,Chelsea,Birmingham,174,37
+2010,Everton,Sunderland,54,54
+2010,Birmingham,Tottenham,37,67
+2010,Burnley,Chelsea,22,174
+2010,Fulham,Aston Villa,49,80
+2010,Hull,Wolves,38,30
+2010,Liverpool,Bolton,121,46
+2010,West Ham,Blackburn,54,47
+2010,Wigan,Everton,39,54
+2010,Arsenal,Man United,111,132
+2010,Man City,Portsmouth,133,32
+2010,Sunderland,Stoke,54,45
+2010,Hull,Chelsea,38,174
+2010,Fulham,Portsmouth,49,32
+2010,Bolton,Fulham,46,49
+2010,Burnley,West Ham,22,54
+2010,Hull,Man City,38,133
+2010,Liverpool,Everton,121,54
+2010,Man United,Portsmouth,132,32
+2010,Stoke,Blackburn,45,47
+2010,Sunderland,Wigan,54,39
+2010,Tottenham,Aston Villa,67,80
+2010,Birmingham,Wolves,37,30
+2010,Chelsea,Arsenal,174,111
+2010,Fulham,Burnley,49,22
+2010,Man City,Bolton,133,46
+2010,Portsmouth,Sunderland,32,54
+2010,Wigan,Stoke,39,45
+2010,Arsenal,Liverpool,111,121
+2010,Aston Villa,Man United,80,132
+2010,Blackburn,Hull,47,38
+2010,Everton,Chelsea,54,174
+2010,West Ham,Birmingham,54,37
+2010,Wolves,Tottenham,30,67
+2010,Stoke,Man City,45,133
+2010,Wigan,Bolton,39,46
+2010,Arsenal,Sunderland,111,54
+2010,Everton,Man United,54,132
+2010,Portsmouth,Stoke,32,45
+2010,West Ham,Hull,54,38
+2010,Wolves,Chelsea,30,174
+2010,Aston Villa,Burnley,80,22
+2010,Blackburn,Bolton,47,46
+2010,Fulham,Birmingham,49,37
+2010,Man City,Liverpool,133,121
+2010,Wigan,Tottenham,39,67
+2010,Man United,West Ham,132,54
+2010,Birmingham,Wigan,37,39
+2010,Bolton,Wolves,46,30
+2010,Burnley,Portsmouth,22,32
+2010,Chelsea,Man City,174,133
+2010,Stoke,Arsenal,45,111
+2010,Liverpool,Blackburn,121,47
+2010,Sunderland,Fulham,54,49
+2010,Tottenham,Everton,67,54
+2010,Arsenal,Burnley,111,22
+2010,West Ham,Bolton,54,46
+2010,Wolves,Man United,30,132
+2010,Everton,Hull,54,38
+2010,Wigan,Liverpool,39,121
+2010,Portsmouth,Birmingham,32,37
+2010,Sunderland,Bolton,54,46
+2010,Burnley,Stoke,22,45
+2010,Birmingham,Everton,37,54
+2010,Bolton,Wigan,46,39
+2010,Burnley,Wolves,22,30
+2010,Chelsea,West Ham,174,54
+2010,Hull,Arsenal,38,111
+2010,Stoke,Aston Villa,45,80
+2010,Tottenham,Blackburn,67,47
+2010,Man United,Fulham,132,49
+2010,Sunderland,Man City,54,133
+2010,Liverpool,Portsmouth,121,32
+2010,Wigan,Aston Villa,39,80
+2010,Arsenal,West Ham,111,54
+2010,Aston Villa,Wolves,80,30
+2010,Everton,Bolton,54,46
+2010,Portsmouth,Hull,32,38
+2010,Stoke,Tottenham,45,67
+2010,Sunderland,Birmingham,54,37
+2010,Wigan,Burnley,39,22
+2010,Blackburn,Chelsea,47,174
+2010,Fulham,Man City,49,133
+2010,Man United,Liverpool,132,121
+2010,West Ham,Wolves,54,30
+2010,Aston Villa,Sunderland,80,54
+2010,Blackburn,Birmingham,47,37
+2010,Man City,Everton,133,54
+2010,Portsmouth,Chelsea,32,174
+2010,Birmingham,Arsenal,37,111
+2010,Bolton,Man United,46,132
+2010,Chelsea,Aston Villa,174,80
+2010,Hull,Fulham,38,49
+2010,Tottenham,Portsmouth,67,32
+2010,West Ham,Stoke,54,45
+2010,Wolves,Everton,30,54
+2010,Burnley,Blackburn,22,47
+2010,Liverpool,Sunderland,121,54
+2010,Man City,Wigan,133,39
+2010,Arsenal,Wolves,111,30
+2010,Bolton,Aston Villa,46,80
+2010,Burnley,Man City,22,133
+2010,Man United,Chelsea,132,174
+2010,Portsmouth,Blackburn,32,47
+2010,Stoke,Hull,45,38
+2010,Sunderland,Tottenham,54,67
+2010,Birmingham,Liverpool,37,121
+2010,Everton,West Ham,54,54
+2010,Fulham,Wigan,49,39
+2010,Hull,Burnley,38,22
+2010,West Ham,Sunderland,54,54
+2010,Blackburn,Man United,47,132
+2010,Liverpool,Fulham,121,49
+2010,Man City,Birmingham,133,37
+2010,Wolves,Stoke,30,45
+2010,Chelsea,Bolton,174,46
+2010,Aston Villa,Everton,80,54
+2010,Tottenham,Arsenal,67,111
+2010,Wigan,Portsmouth,39,32
+2010,Birmingham,Hull,37,38
+2010,Blackburn,Everton,47,54
+2010,Fulham,Wolves,49,30
+2010,Man City,Man United,133,132
+2010,Stoke,Bolton,45,46
+2010,Sunderland,Burnley,54,22
+2010,Tottenham,Chelsea,67,174
+2010,Portsmouth,Aston Villa,32,80
+2010,Wigan,Arsenal,39,111
+2010,Liverpool,West Ham,121,54
+2010,Hull,Aston Villa,38,80
+2010,Arsenal,Man City,111,133
+2010,Bolton,Portsmouth,46,32
+2010,Hull,Sunderland,38,54
+2010,Man United,Tottenham,132,67
+2010,West Ham,Wigan,54,39
+2010,Wolves,Blackburn,30,47
+2010,Aston Villa,Birmingham,80,37
+2010,Burnley,Liverpool,22,121
+2010,Chelsea,Stoke,174,45
+2010,Everton,Fulham,54,49
+2010,Birmingham,Burnley,37,22
+2010,Man City,Aston Villa,133,80
+2010,Portsmouth,Wolves,32,30
+2010,Stoke,Everton,45,54
+2010,Tottenham,Bolton,67,46
+2010,Fulham,West Ham,49,54
+2010,Liverpool,Chelsea,121,174
+2010,Sunderland,Man United,54,132
+2010,Blackburn,Arsenal,47,111
+2010,Wigan,Hull,39,38
+2010,Fulham,Stoke,49,45
+2010,Man City,Tottenham,133,67
+2010,Arsenal,Fulham,111,49
+2010,Aston Villa,Blackburn,80,47
+2010,Bolton,Birmingham,46,37
+2010,Burnley,Tottenham,22,67
+2010,Chelsea,Wigan,174,39
+2010,Everton,Portsmouth,54,32
+2010,Hull,Liverpool,38,121
+2010,Man United,Stoke,132,45
+2010,West Ham,Man City,54,133
+2010,Wolves,Sunderland,30,54
+2011,Aston Villa,West Ham,83,55
+2011,Blackburn,Everton,50,58
+2011,Bolton,Fulham,56,58
+2011,Chelsea,West Brom,190,37
+2011,Sunderland,Birmingham,61,35
+2011,Tottenham,Man City,91,174
+2011,Wigan,Blackpool,40,14
+2011,Wolves,Stoke,38,47
+2011,Liverpool,Arsenal,135,124
+2011,Man United,Newcastle,153,54
+2011,Arsenal,Blackpool,124,14
+2011,Birmingham,Blackburn,35,50
+2011,Everton,Wolves,58,38
+2011,Stoke,Tottenham,47,91
+2011,West Brom,Sunderland,37,61
+2011,West Ham,Bolton,55,56
+2011,Wigan,Chelsea,40,190
+2011,Fulham,Man United,58,153
+2011,Newcastle,Aston Villa,54,83
+2011,Man City,Liverpool,174,135
+2011,Blackburn,Arsenal,50,124
+2011,Blackpool,Fulham,14,58
+2011,Chelsea,Stoke,190,47
+2011,Man United,West Ham,153,55
+2011,Tottenham,Wigan,91,40
+2011,Wolves,Newcastle,38,54
+2011,Aston Villa,Everton,83,58
+2011,Bolton,Birmingham,56,35
+2011,Liverpool,West Brom,135,37
+2011,Sunderland,Man City,61,174
+2011,Arsenal,Bolton,124,56
+2011,Everton,Man United,58,153
+2011,Fulham,Wolves,58,38
+2011,Man City,Blackburn,174,50
+2011,Newcastle,Blackpool,54,14
+2011,West Brom,Tottenham,37,91
+2011,West Ham,Chelsea,55,190
+2011,Wigan,Sunderland,40,61
+2011,Birmingham,Liverpool,35,135
+2011,Stoke,Aston Villa,47,83
+2011,Aston Villa,Bolton,83,56
+2011,Blackburn,Fulham,50,58
+2011,Everton,Newcastle,58,54
+2011,Stoke,West Ham,47,55
+2011,Sunderland,Arsenal,61,124
+2011,Tottenham,Wolves,91,38
+2011,West Brom,Birmingham,37,35
+2011,Chelsea,Blackpool,190,14
+2011,Man United,Liverpool,153,135
+2011,Wigan,Man City,40,174
+2011,Arsenal,West Brom,124,37
+2011,Birmingham,Wigan,35,40
+2011,Blackpool,Blackburn,14,50
+2011,Fulham,Everton,58,58
+2011,Liverpool,Sunderland,135,61
+2011,Man City,Chelsea,174,190
+2011,West Ham,Tottenham,55,91
+2011,Bolton,Man United,56,153
+2011,Newcastle,Stoke,54,47
+2011,Wolves,Aston Villa,38,83
+2011,Birmingham,Everton,35,58
+2011,Stoke,Blackburn,47,50
+2011,Sunderland,Man United,61,153
+2011,Tottenham,Aston Villa,91,83
+2011,West Brom,Bolton,37,56
+2011,West Ham,Fulham,55,58
+2011,Wigan,Wolves,40,38
+2011,Chelsea,Arsenal,190,124
+2011,Liverpool,Blackpool,135,14
+2011,Man City,Newcastle,174,54
+2011,Arsenal,Birmingham,124,35
+2011,Aston Villa,Chelsea,83,190
+2011,Bolton,Stoke,56,47
+2011,Fulham,Tottenham,58,91
+2011,Man United,West Brom,153,37
+2011,Newcastle,Wigan,54,40
+2011,Wolves,West Ham,38,55
+2011,Blackpool,Man City,14,174
+2011,Everton,Liverpool,58,135
+2011,Blackburn,Sunderland,50,61
+2011,Birmingham,Blackpool,35,14
+2011,Chelsea,Wolves,190,38
+2011,Sunderland,Aston Villa,61,83
+2011,Tottenham,Everton,91,58
+2011,West Brom,Fulham,37,58
+2011,West Ham,Newcastle,55,54
+2011,Wigan,Bolton,40,56
+2011,Liverpool,Blackburn,135,50
+2011,Man City,Arsenal,174,124
+2011,Stoke,Man United,47,153
+2011,Arsenal,West Ham,124,55
+2011,Blackburn,Chelsea,50,190
+2011,Everton,Stoke,58,47
+2011,Fulham,Wigan,58,40
+2011,Man United,Tottenham,153,91
+2011,Wolves,Man City,38,174
+2011,Aston Villa,Birmingham,83,35
+2011,Bolton,Liverpool,56,135
+2011,Newcastle,Sunderland,54,61
+2011,Blackpool,West Brom,14,37
+2011,Birmingham,West Ham,35,55
+2011,Blackburn,Wigan,50,40
+2011,Blackpool,Everton,14,58
+2011,Bolton,Tottenham,56,91
+2011,Fulham,Aston Villa,58,83
+2011,Man United,Wolves,153,38
+2011,Sunderland,Stoke,61,47
+2011,Arsenal,Newcastle,124,54
+2011,Liverpool,Chelsea,135,190
+2011,West Brom,Man City,37,174
+2011,Stoke,Birmingham,47,35
+2011,Tottenham,Sunderland,91,61
+2011,Aston Villa,Blackpool,83,14
+2011,Chelsea,Fulham,190,58
+2011,Everton,Bolton,58,56
+2011,Man City,Man United,174,153
+2011,Newcastle,Blackburn,54,50
+2011,West Ham,West Brom,55,37
+2011,Wigan,Liverpool,40,135
+2011,Wolves,Arsenal,38,124
+2011,Aston Villa,Man United,83,153
+2011,Man City,Birmingham,174,35
+2011,Newcastle,Fulham,54,58
+2011,Stoke,Liverpool,47,135
+2011,Tottenham,Blackburn,91,50
+2011,West Ham,Blackpool,55,14
+2011,Wigan,West Brom,40,37
+2011,Wolves,Bolton,38,56
+2011,Chelsea,Sunderland,190,61
+2011,Everton,Arsenal,58,124
+2011,Arsenal,Tottenham,124,91
+2011,Birmingham,Chelsea,35,190
+2011,Blackpool,Wolves,14,38
+2011,Bolton,Newcastle,56,54
+2011,Liverpool,West Ham,135,55
+2011,Man United,Wigan,153,40
+2011,West Brom,Stoke,37,47
+2011,Blackburn,Aston Villa,50,83
+2011,Fulham,Man City,58,174
+2011,Sunderland,Everton,61,58
+2011,Aston Villa,Arsenal,83,124
+2011,Bolton,Blackpool,56,14
+2011,Everton,West Brom,58,37
+2011,Fulham,Birmingham,58,35
+2011,Man United,Blackburn,153,50
+2011,Stoke,Man City,47,174
+2011,West Ham,Wigan,55,40
+2011,Wolves,Sunderland,38,61
+2011,Newcastle,Chelsea,54,190
+2011,Tottenham,Liverpool,91,135
+2011,Arsenal,Fulham,124,58
+2011,Birmingham,Tottenham,35,91
+2011,Blackburn,Wolves,50,38
+2011,Chelsea,Everton,190,58
+2011,Man City,Bolton,174,56
+2011,Wigan,Stoke,40,47
+2011,Sunderland,West Ham,61,55
+2011,West Brom,Newcastle,37,54
+2011,Liverpool,Aston Villa,135,83
+2011,Aston Villa,West Brom,83,37
+2011,Everton,Wigan,58,40
+2011,Fulham,Sunderland,58,61
+2011,Newcastle,Liverpool,54,135
+2011,Stoke,Blackpool,47,14
+2011,West Ham,Man City,55,174
+2011,Bolton,Blackburn,56,50
+2011,Tottenham,Chelsea,91,190
+2011,Wolves,Birmingham,38,35
+2011,Man United,Arsenal,153,124
+2011,Blackburn,West Ham,50,55
+2011,Sunderland,Bolton,61,56
+2011,Man City,Everton,174,58
+2011,Aston Villa,Tottenham,83,91
+2011,Blackburn,Stoke,50,47
+2011,Bolton,West Brom,56,37
+2011,Fulham,West Ham,58,55
+2011,Man United,Sunderland,153,61
+2011,Newcastle,Man City,54,174
+2011,Wolves,Wigan,38,40
+2011,Arsenal,Chelsea,124,190
+2011,Birmingham,Man United,35,153
+2011,Man City,Aston Villa,174,83
+2011,Stoke,Fulham,47,58
+2011,Sunderland,Blackpool,61,14
+2011,Tottenham,Newcastle,91,54
+2011,West Brom,Blackburn,37,50
+2011,West Ham,Everton,55,58
+2011,Chelsea,Bolton,190,56
+2011,Liverpool,Wolves,135,38
+2011,Wigan,Arsenal,40,124
+2011,Birmingham,Arsenal,35,124
+2011,Liverpool,Bolton,135,56
+2011,Man City,Blackpool,174,14
+2011,Stoke,Everton,47,58
+2011,Sunderland,Blackburn,61,50
+2011,Tottenham,Fulham,91,58
+2011,West Brom,Man United,37,153
+2011,West Ham,Wolves,55,38
+2011,Chelsea,Aston Villa,190,83
+2011,Wigan,Newcastle,40,54
+2011,Blackpool,Birmingham,14,35
+2011,Fulham,West Brom,58,37
+2011,Man United,Stoke,153,47
+2011,Arsenal,Man City,124,174
+2011,Aston Villa,Sunderland,83,61
+2011,Blackburn,Liverpool,50,135
+2011,Bolton,Wigan,56,40
+2011,Everton,Tottenham,58,91
+2011,Newcastle,West Ham,54,55
+2011,Wolves,Chelsea,38,190
+2011,Blackpool,Liverpool,14,135
+2011,Chelsea,Blackburn,190,50
+2011,Man City,Wolves,174,38
+2011,Stoke,Bolton,47,56
+2011,West Brom,Blackpool,37,14
+2011,West Ham,Arsenal,55,124
+2011,Wigan,Fulham,40,58
+2011,Birmingham,Aston Villa,35,83
+2011,Liverpool,Everton,135,58
+2011,Sunderland,Newcastle,61,54
+2011,Tottenham,Man United,91,153
+2011,Arsenal,Wigan,124,40
+2011,Aston Villa,Man City,83,174
+2011,Blackpool,Sunderland,14,61
+2011,Everton,West Ham,58,55
+2011,Fulham,Stoke,58,47
+2011,Man United,Birmingham,153,35
+2011,Newcastle,Tottenham,54,91
+2011,Wolves,Liverpool,38,135
+2011,Blackburn,West Brom,50,37
+2011,Bolton,Chelsea,56,190
+2011,Blackpool,Man United,14,153
+2011,Wigan,Aston Villa,40,83
+2011,Liverpool,Fulham,135,58
+2011,Arsenal,Everton,124,58
+2011,Man United,Aston Villa,153,83
+2011,Sunderland,Chelsea,61,190
+2011,West Brom,Wigan,37,40
+2011,Birmingham,Man City,35,174
+2011,Blackburn,Tottenham,50,91
+2011,Blackpool,West Ham,14,55
+2011,Bolton,Wolves,56,38
+2011,Fulham,Newcastle,58,54
+2011,Liverpool,Stoke,135,47
+2011,Aston Villa,Fulham,83,58
+2011,Everton,Blackpool,58,14
+2011,Man City,West Brom,174,37
+2011,Newcastle,Arsenal,54,124
+2011,Stoke,Sunderland,47,61
+2011,Tottenham,Bolton,91,56
+2011,Wigan,Blackburn,40,50
+2011,Wolves,Man United,38,153
+2011,Chelsea,Liverpool,190,135
+2011,West Ham,Birmingham,55,35
+2011,Arsenal,Wolves,124,38
+2011,Birmingham,Stoke,35,47
+2011,Blackburn,Newcastle,50,54
+2011,Blackpool,Aston Villa,14,83
+2011,Liverpool,Wigan,135,40
+2011,Man United,Man City,153,174
+2011,Sunderland,Tottenham,61,91
+2011,West Brom,West Ham,37,55
+2011,Bolton,Everton,56,58
+2011,Fulham,Chelsea,58,190
+2011,Birmingham,Newcastle,35,54
+2011,West Brom,Wolves,37,38
+2011,Blackpool,Tottenham,14,91
+2011,Arsenal,Stoke,124,47
+2011,Aston Villa,Blackburn,83,50
+2011,Everton,Sunderland,58,61
+2011,Newcastle,Bolton,54,56
+2011,Wigan,Man United,40,153
+2011,Wolves,Blackpool,38,14
+2011,Man City,Fulham,174,58
+2011,West Ham,Liverpool,55,135
+2011,Stoke,West Brom,47,37
+2011,Chelsea,Man United,190,153
+2011,Arsenal,Sunderland,124,61
+2011,Birmingham,West Brom,35,37
+2011,Bolton,Aston Villa,56,83
+2011,Fulham,Blackburn,58,50
+2011,Man City,Wigan,174,40
+2011,Newcastle,Everton,54,58
+2011,West Ham,Stoke,55,47
+2011,Liverpool,Man United,135,153
+2011,Wolves,Tottenham,38,91
+2011,Blackpool,Chelsea,14,190
+2011,Everton,Birmingham,58,35
+2011,Aston Villa,Wolves,83,38
+2011,Blackburn,Blackpool,50,14
+2011,Everton,Fulham,58,58
+2011,Man United,Bolton,153,56
+2011,Stoke,Newcastle,47,54
+2011,Tottenham,West Ham,91,55
+2011,West Brom,Arsenal,37,124
+2011,Wigan,Birmingham,40,35
+2011,Chelsea,Man City,190,174
+2011,Sunderland,Liverpool,61,135
+2011,Arsenal,Blackburn,124,50
+2011,Birmingham,Bolton,35,56
+2011,Everton,Aston Villa,58,83
+2011,Newcastle,Wolves,54,38
+2011,Stoke,Chelsea,47,190
+2011,West Brom,Liverpool,37,135
+2011,West Ham,Man United,55,153
+2011,Wigan,Tottenham,40,91
+2011,Fulham,Blackpool,58,14
+2011,Man City,Sunderland,174,61
+2011,Blackburn,Birmingham,50,35
+2011,Bolton,West Ham,56,55
+2011,Chelsea,Wigan,190,40
+2011,Man United,Fulham,153,58
+2011,Sunderland,West Brom,61,37
+2011,Tottenham,Stoke,91,47
+2011,Wolves,Everton,38,58
+2011,Aston Villa,Newcastle,83,54
+2011,Blackpool,Arsenal,14,124
+2011,Liverpool,Man City,135,174
+2011,Birmingham,Sunderland,35,61
+2011,Blackpool,Wigan,14,40
+2011,Everton,Blackburn,58,50
+2011,West Brom,Chelsea,37,190
+2011,West Ham,Aston Villa,55,83
+2011,Arsenal,Liverpool,124,135
+2011,Newcastle,Man United,54,153
+2011,Chelsea,Birmingham,190,35
+2011,Tottenham,Arsenal,91,124
+2011,Aston Villa,Stoke,83,47
+2011,Blackpool,Newcastle,14,54
+2011,Chelsea,West Ham,190,55
+2011,Liverpool,Birmingham,135,35
+2011,Man United,Everton,153,58
+2011,Sunderland,Wigan,61,40
+2011,Tottenham,West Brom,91,37
+2011,Wolves,Fulham,38,58
+2011,Bolton,Arsenal,56,124
+2011,Blackburn,Man City,50,174
+2011,Stoke,Wolves,47,38
+2011,Fulham,Bolton,58,56
+2011,Blackburn,Bolton,50,56
+2011,Blackpool,Stoke,14,47
+2011,Chelsea,Tottenham,190,91
+2011,Sunderland,Fulham,61,58
+2011,West Brom,Aston Villa,37,83
+2011,Wigan,Everton,40,58
+2011,Arsenal,Man United,124,153
+2011,Birmingham,Wolves,35,38
+2011,Liverpool,Newcastle,135,54
+2011,Man City,West Ham,174,55
+2011,Aston Villa,Wigan,83,40
+2011,Bolton,Sunderland,56,61
+2011,Everton,Man City,58,174
+2011,Newcastle,Birmingham,54,35
+2011,Tottenham,Blackpool,91,14
+2011,West Ham,Blackburn,55,50
+2011,Man United,Chelsea,153,190
+2011,Stoke,Arsenal,47,124
+2011,Wolves,West Brom,38,37
+2011,Fulham,Liverpool,58,135
+2011,Man City,Tottenham,174,91
+2011,Blackburn,Man United,50,153
+2011,Blackpool,Bolton,14,56
+2011,Sunderland,Wolves,61,38
+2011,West Brom,Everton,37,58
+2011,Arsenal,Aston Villa,124,83
+2011,Birmingham,Fulham,35,58
+2011,Chelsea,Newcastle,190,54
+2011,Liverpool,Tottenham,135,91
+2011,Wigan,West Ham,40,55
+2011,Man City,Stoke,174,47
+2011,Aston Villa,Liverpool,83,135
+2011,Bolton,Man City,56,174
+2011,Everton,Chelsea,58,190
+2011,Fulham,Arsenal,58,124
+2011,Man United,Blackpool,153,14
+2011,Newcastle,West Brom,54,37
+2011,Stoke,Wigan,47,40
+2011,Tottenham,Birmingham,91,35
+2011,West Ham,Sunderland,55,61
+2011,Wolves,Blackburn,38,50
+2012,Blackburn,Wolves,50,38
+2012,Fulham,Aston Villa,62,70
+2012,Liverpool,Sunderland,119,64
+2012,Newcastle,Arsenal,64,143
+2012,QPR,Bolton,58,55
+2012,Wigan,Norwich,38,37
+2012,Stoke,Chelsea,53,173
+2012,West Brom,Man United,50,162
+2012,Man City,Swansea,202,35
+2012,Arsenal,Liverpool,143,119
+2012,Aston Villa,Blackburn,70,50
+2012,Chelsea,West Brom,173,50
+2012,Everton,QPR,63,58
+2012,Sunderland,Newcastle,64,64
+2012,Swansea,Wigan,35,38
+2012,Bolton,Man City,55,202
+2012,Norwich,Stoke,37,53
+2012,Wolves,Fulham,38,62
+2012,Man United,Tottenham,162,90
+2012,Aston Villa,Wolves,70,38
+2012,Blackburn,Everton,50,63
+2012,Chelsea,Norwich,173,37
+2012,Liverpool,Bolton,119,55
+2012,Swansea,Sunderland,35,64
+2012,Wigan,QPR,38,58
+2012,Man United,Arsenal,162,143
+2012,Newcastle,Fulham,64,62
+2012,Tottenham,Man City,90,202
+2012,West Brom,Stoke,50,53
+2012,Arsenal,Swansea,143,35
+2012,Bolton,Man United,55,162
+2012,Everton,Aston Villa,63,70
+2012,Man City,Wigan,202,38
+2012,Stoke,Liverpool,53,119
+2012,Sunderland,Chelsea,64,173
+2012,Wolves,Tottenham,38,90
+2012,Fulham,Blackburn,62,50
+2012,Norwich,West Brom,37,50
+2012,QPR,Newcastle,58,64
+2012,Aston Villa,Newcastle,70,64
+2012,Blackburn,Arsenal,50,143
+2012,Bolton,Norwich,55,37
+2012,Everton,Wigan,63,38
+2012,Swansea,West Brom,35,50
+2012,Wolves,QPR,38,58
+2012,Fulham,Man City,62,202
+2012,Man United,Chelsea,162,173
+2012,Sunderland,Stoke,64,53
+2012,Tottenham,Liverpool,90,119
+2012,Arsenal,Bolton,143,55
+2012,Chelsea,Swansea,173,35
+2012,Liverpool,Wolves,119,38
+2012,Man City,Everton,202,63
+2012,Newcastle,Blackburn,64,50
+2012,Stoke,Man United,53,162
+2012,West Brom,Fulham,50,62
+2012,Wigan,Tottenham,38,90
+2012,QPR,Aston Villa,58,70
+2012,Norwich,Sunderland,37,64
+2012,Aston Villa,Wigan,70,38
+2012,Blackburn,Man City,50,202
+2012,Everton,Liverpool,63,119
+2012,Man United,Norwich,162,37
+2012,Sunderland,West Brom,64,50
+2012,Wolves,Newcastle,38,64
+2012,Bolton,Chelsea,55,173
+2012,Fulham,QPR,62,58
+2012,Swansea,Stoke,35,53
+2012,Tottenham,Arsenal,90,143
+2012,Chelsea,Everton,173,63
+2012,Liverpool,Man United,119,162
+2012,Man City,Aston Villa,202,70
+2012,Norwich,Swansea,37,35
+2012,QPR,Blackburn,58,50
+2012,Stoke,Fulham,53,62
+2012,Wigan,Bolton,38,55
+2012,Arsenal,Sunderland,143,64
+2012,Newcastle,Tottenham,64,90
+2012,West Brom,Wolves,50,38
+2012,Aston Villa,West Brom,70,50
+2012,Bolton,Sunderland,55,64
+2012,Liverpool,Norwich,119,37
+2012,Newcastle,Wigan,64,38
+2012,Wolves,Swansea,38,35
+2012,Arsenal,Stoke,143,53
+2012,Blackburn,Tottenham,50,90
+2012,Fulham,Everton,62,63
+2012,Man United,Man City,162,202
+2012,QPR,Chelsea,58,173
+2012,Chelsea,Arsenal,173,143
+2012,Everton,Man United,63,162
+2012,Man City,Wolves,202,38
+2012,Norwich,Blackburn,37,50
+2012,Sunderland,Aston Villa,64,70
+2012,Swansea,Bolton,35,55
+2012,West Brom,Liverpool,50,119
+2012,Wigan,Fulham,38,62
+2012,Tottenham,QPR,90,58
+2012,Stoke,Newcastle,53,64
+2012,Arsenal,West Brom,143,50
+2012,Aston Villa,Norwich,70,37
+2012,Blackburn,Chelsea,50,173
+2012,Liverpool,Swansea,119,35
+2012,Man United,Sunderland,162,64
+2012,Newcastle,Everton,64,63
+2012,QPR,Man City,58,202
+2012,Bolton,Stoke,55,53
+2012,Fulham,Tottenham,62,90
+2012,Wolves,Wigan,38,38
+2012,Everton,Wolves,63,38
+2012,Man City,Newcastle,202,64
+2012,Norwich,Arsenal,37,143
+2012,Stoke,QPR,53,58
+2012,Sunderland,Fulham,64,62
+2012,Swansea,Man United,35,162
+2012,West Brom,Bolton,50,55
+2012,Wigan,Blackburn,38,50
+2012,Chelsea,Liverpool,173,119
+2012,Tottenham,Aston Villa,90,70
+2012,Arsenal,Fulham,143,62
+2012,Bolton,Everton,55,63
+2012,Chelsea,Wolves,173,38
+2012,Man United,Newcastle,162,64
+2012,Norwich,QPR,37,58
+2012,Stoke,Blackburn,53,50
+2012,Sunderland,Wigan,64,38
+2012,West Brom,Tottenham,50,90
+2012,Liverpool,Man City,119,202
+2012,Swansea,Aston Villa,35,70
+2012,Aston Villa,Man United,70,162
+2012,Blackburn,Swansea,50,35
+2012,Man City,Norwich,202,37
+2012,Newcastle,Chelsea,64,173
+2012,QPR,West Brom,58,50
+2012,Tottenham,Bolton,90,55
+2012,Wigan,Arsenal,38,143
+2012,Everton,Stoke,63,53
+2012,Wolves,Sunderland,38,64
+2012,Fulham,Liverpool,62,119
+2012,Arsenal,Everton,143,63
+2012,Bolton,Aston Villa,55,70
+2012,Liverpool,QPR,119,58
+2012,Man United,Wolves,162,38
+2012,Norwich,Newcastle,37,64
+2012,Swansea,Fulham,35,62
+2012,West Brom,Wigan,50,38
+2012,Stoke,Tottenham,53,90
+2012,Sunderland,Blackburn,64,50
+2012,Chelsea,Man City,173,202
+2012,Blackburn,West Brom,50,50
+2012,Everton,Norwich,63,37
+2012,Fulham,Bolton,62,55
+2012,Newcastle,Swansea,64,35
+2012,Wigan,Chelsea,38,173
+2012,Wolves,Stoke,38,53
+2012,Aston Villa,Liverpool,70,119
+2012,Man City,Arsenal,202,143
+2012,QPR,Man United,58,162
+2012,Tottenham,Sunderland,90,64
+2012,Blackburn,Bolton,50,55
+2012,Wolves,Norwich,38,37
+2012,Aston Villa,Arsenal,70,143
+2012,Everton,Swansea,63,35
+2012,Fulham,Man United,62,162
+2012,Man City,Stoke,202,53
+2012,Newcastle,West Brom,64,50
+2012,QPR,Sunderland,58,64
+2012,Wigan,Liverpool,38,119
+2012,Tottenham,Chelsea,90,173
+2012,Bolton,Newcastle,55,64
+2012,Chelsea,Fulham,173,62
+2012,Liverpool,Blackburn,119,50
+2012,Man United,Wigan,162,38
+2012,Stoke,Aston Villa,53,70
+2012,Sunderland,Everton,64,63
+2012,West Brom,Man City,50,202
+2012,Arsenal,Wolves,143,38
+2012,Norwich,Tottenham,37,90
+2012,Swansea,QPR,35,58
+2012,Liverpool,Newcastle,119,64
+2012,Arsenal,QPR,143,58
+2012,Bolton,Wolves,55,38
+2012,Chelsea,Aston Villa,173,70
+2012,Man United,Blackburn,162,50
+2012,Norwich,Fulham,37,62
+2012,Stoke,Wigan,53,38
+2012,Swansea,Tottenham,35,90
+2012,Sunderland,Man City,64,202
+2012,West Brom,Everton,50,63
+2012,Aston Villa,Swansea,70,35
+2012,Blackburn,Stoke,50,53
+2012,Fulham,Arsenal,62,143
+2012,QPR,Norwich,58,37
+2012,Wolves,Chelsea,38,173
+2012,Man City,Liverpool,202,119
+2012,Tottenham,West Brom,90,50
+2012,Wigan,Sunderland,38,64
+2012,Everton,Bolton,63,55
+2012,Newcastle,Man United,64,162
+2012,Tottenham,Everton,90,63
+2012,Aston Villa,Everton,70,63
+2012,Blackburn,Fulham,50,62
+2012,Chelsea,Sunderland,173,64
+2012,Liverpool,Stoke,119,53
+2012,Man United,Bolton,162,55
+2012,Tottenham,Wolves,90,38
+2012,West Brom,Norwich,50,37
+2012,Newcastle,QPR,64,58
+2012,Swansea,Arsenal,35,143
+2012,Wigan,Man City,38,202
+2012,Bolton,Liverpool,55,119
+2012,Everton,Blackburn,63,50
+2012,Fulham,Newcastle,62,64
+2012,Norwich,Chelsea,37,173
+2012,QPR,Wigan,58,38
+2012,Stoke,West Brom,53,50
+2012,Sunderland,Swansea,64,35
+2012,Wolves,Aston Villa,38,70
+2012,Arsenal,Man United,143,162
+2012,Man City,Tottenham,202,90
+2012,Everton,Man City,63,202
+2012,Man United,Stoke,162,53
+2012,Swansea,Chelsea,35,173
+2012,Tottenham,Wigan,90,38
+2012,Wolves,Liverpool,38,119
+2012,Aston Villa,QPR,70,58
+2012,Blackburn,Newcastle,50,64
+2012,Bolton,Arsenal,55,143
+2012,Fulham,West Brom,62,50
+2012,Sunderland,Norwich,64,37
+2012,Arsenal,Blackburn,143,50
+2012,Man City,Fulham,202,62
+2012,Norwich,Bolton,37,55
+2012,QPR,Wolves,58,38
+2012,Stoke,Sunderland,53,64
+2012,West Brom,Swansea,50,35
+2012,Wigan,Everton,38,63
+2012,Chelsea,Man United,173,162
+2012,Newcastle,Aston Villa,64,70
+2012,Liverpool,Tottenham,119,90
+2012,Blackburn,QPR,50,58
+2012,Bolton,Wigan,55,38
+2012,Everton,Chelsea,63,173
+2012,Fulham,Stoke,62,53
+2012,Man United,Liverpool,162,119
+2012,Sunderland,Arsenal,64,143
+2012,Swansea,Norwich,35,37
+2012,Tottenham,Newcastle,90,64
+2012,Aston Villa,Man City,70,202
+2012,Wolves,West Brom,38,50
+2012,Chelsea,Bolton,173,55
+2012,Man City,Blackburn,202,50
+2012,Newcastle,Wolves,64,38
+2012,QPR,Fulham,58,62
+2012,West Brom,Sunderland,50,64
+2012,Wigan,Aston Villa,38,70
+2012,Arsenal,Tottenham,143,90
+2012,Norwich,Man United,37,162
+2012,Stoke,Swansea,53,35
+2012,Blackburn,Aston Villa,50,70
+2012,Liverpool,Arsenal,119,143
+2012,Man City,Bolton,202,55
+2012,QPR,Everton,58,63
+2012,Stoke,Norwich,53,37
+2012,West Brom,Chelsea,50,173
+2012,Wigan,Swansea,38,35
+2012,Fulham,Wolves,62,38
+2012,Newcastle,Sunderland,64,64
+2012,Tottenham,Man United,90,162
+2012,Aston Villa,Fulham,70,62
+2012,Bolton,QPR,55,58
+2012,Chelsea,Stoke,173,53
+2012,Everton,Tottenham,63,90
+2012,Sunderland,Liverpool,64,119
+2012,Wolves,Blackburn,38,50
+2012,Man United,West Brom,162,50
+2012,Norwich,Wigan,37,38
+2012,Swansea,Man City,35,202
+2012,Arsenal,Newcastle,143,64
+2012,Liverpool,Everton,119,63
+2012,Fulham,Swansea,62,35
+2012,Wigan,West Brom,38,50
+2012,Newcastle,Norwich,64,37
+2012,Wolves,Man United,38,162
+2012,Blackburn,Sunderland,50,64
+2012,Everton,Arsenal,63,143
+2012,Man City,Chelsea,202,173
+2012,QPR,Liverpool,58,119
+2012,Tottenham,Stoke,90,53
+2012,Arsenal,Aston Villa,143,70
+2012,Bolton,Blackburn,55,50
+2012,Chelsea,Tottenham,173,90
+2012,Liverpool,Wigan,119,38
+2012,Norwich,Wolves,37,38
+2012,Stoke,Man City,53,202
+2012,Sunderland,QPR,64,58
+2012,Swansea,Everton,35,63
+2012,West Brom,Newcastle,50,64
+2012,Man United,Fulham,162,62
+2012,Aston Villa,Chelsea,70,173
+2012,Everton,West Brom,63,50
+2012,Fulham,Norwich,62,37
+2012,Man City,Sunderland,202,64
+2012,QPR,Arsenal,58,143
+2012,Wigan,Stoke,38,53
+2012,Wolves,Bolton,38,55
+2012,Newcastle,Liverpool,64,119
+2012,Tottenham,Swansea,90,35
+2012,Blackburn,Man United,50,162
+2012,Swansea,Newcastle,35,64
+2012,Bolton,Fulham,55,62
+2012,Chelsea,Wigan,173,38
+2012,Liverpool,Aston Villa,119,70
+2012,Norwich,Everton,37,63
+2012,Stoke,Wolves,53,38
+2012,Sunderland,Tottenham,64,90
+2012,West Brom,Blackburn,50,50
+2012,Arsenal,Man City,143,202
+2012,Man United,QPR,162,58
+2012,Aston Villa,Stoke,70,53
+2012,Everton,Sunderland,63,64
+2012,Fulham,Chelsea,62,173
+2012,Newcastle,Bolton,64,55
+2012,Tottenham,Norwich,90,37
+2012,Blackburn,Liverpool,50,119
+2012,Man City,West Brom,202,50
+2012,QPR,Swansea,58,35
+2012,Wigan,Man United,38,162
+2012,Wolves,Arsenal,38,143
+2012,Norwich,Man City,37,202
+2012,Sunderland,Wolves,64,38
+2012,Swansea,Blackburn,35,50
+2012,West Brom,QPR,50,58
+2012,Man United,Aston Villa,162,70
+2012,Arsenal,Wigan,143,38
+2012,Arsenal,Chelsea,143,173
+2012,Aston Villa,Sunderland,70,64
+2012,Blackburn,Norwich,50,37
+2012,Bolton,Swansea,55,35
+2012,Fulham,Wigan,62,38
+2012,Newcastle,Stoke,64,53
+2012,QPR,Tottenham,58,90
+2012,Liverpool,West Brom,119,50
+2012,Man United,Everton,162,63
+2012,Wolves,Man City,38,202
+2012,Aston Villa,Bolton,70,55
+2012,Everton,Fulham,63,62
+2012,Norwich,Liverpool,37,119
+2012,Stoke,Arsenal,53,143
+2012,Sunderland,Bolton,64,55
+2012,Swansea,Wolves,35,38
+2012,West Brom,Aston Villa,50,70
+2012,Wigan,Newcastle,38,64
+2012,Chelsea,QPR,173,58
+2012,Tottenham,Blackburn,90,50
+2012,Man City,Man United,202,162
+2012,Liverpool,Fulham,119,62
+2012,Stoke,Everton,53,63
+2012,Bolton,Tottenham,55,90
+2012,Chelsea,Newcastle,173,64
+2012,Arsenal,Norwich,143,37
+2012,Aston Villa,Tottenham,70,90
+2012,Bolton,West Brom,55,50
+2012,Fulham,Sunderland,62,64
+2012,Man United,Swansea,162,35
+2012,Newcastle,Man City,64,202
+2012,QPR,Stoke,58,53
+2012,Wolves,Everton,38,63
+2012,Blackburn,Wigan,50,38
+2012,Liverpool,Chelsea,119,173
+2012,Chelsea,Blackburn,173,50
+2012,Everton,Newcastle,63,64
+2012,Man City,QPR,202,58
+2012,Norwich,Aston Villa,37,70
+2012,Stoke,Bolton,53,55
+2012,Sunderland,Man United,64,162
+2012,Swansea,Liverpool,35,119
+2012,Tottenham,Fulham,90,62
+2012,West Brom,Arsenal,50,143
+2012,Wigan,Wolves,38,38
+2013,Arsenal,Sunderland,154,58
+2013,Fulham,Norwich,67,51
+2013,Newcastle,Tottenham,62,96
+2013,QPR,Swansea,78,49
+2013,Reading,Stoke,46,60
+2013,West Brom,Liverpool,54,132
+2013,West Ham,Aston Villa,56,72
+2013,Man City,Southampton,233,47
+2013,Wigan,Chelsea,44,179
+2013,Everton,Man United,63,181
+2013,Chelsea,Reading,179,46
+2013,Aston Villa,Everton,72,63
+2013,Chelsea,Newcastle,179,62
+2013,Man United,Fulham,181,67
+2013,Norwich,QPR,51,78
+2013,Southampton,Wigan,47,44
+2013,Swansea,West Ham,49,56
+2013,Tottenham,West Brom,96,54
+2013,Liverpool,Man City,132,233
+2013,Stoke,Arsenal,60,154
+2013,Man City,QPR,233,78
+2013,Swansea,Sunderland,49,58
+2013,Tottenham,Norwich,96,51
+2013,West Brom,Everton,54,63
+2013,West Ham,Fulham,56,67
+2013,Wigan,Stoke,44,60
+2013,Liverpool,Arsenal,132,154
+2013,Newcastle,Aston Villa,62,72
+2013,Southampton,Man United,47,181
+2013,Arsenal,Southampton,154,47
+2013,Aston Villa,Swansea,72,49
+2013,Fulham,West Brom,67,54
+2013,Man United,Wigan,181,44
+2013,Norwich,West Ham,51,56
+2013,QPR,Chelsea,78,179
+2013,Stoke,Man City,60,233
+2013,Sunderland,Liverpool,58,132
+2013,Reading,Tottenham,46,96
+2013,Everton,Newcastle,63,62
+2013,Chelsea,Stoke,179,60
+2013,Southampton,Aston Villa,47,72
+2013,Swansea,Everton,49,63
+2013,West Brom,Reading,54,46
+2013,West Ham,Sunderland,56,58
+2013,Wigan,Fulham,44,67
+2013,Liverpool,Man United,132,181
+2013,Man City,Arsenal,233,154
+2013,Newcastle,Norwich,62,51
+2013,Tottenham,QPR,96,78
+2013,Arsenal,Chelsea,154,179
+2013,Everton,Southampton,63,47
+2013,Fulham,Man City,67,233
+2013,Man United,Tottenham,181,96
+2013,Norwich,Liverpool,51,132
+2013,Reading,Newcastle,46,62
+2013,Stoke,Swansea,60,49
+2013,Sunderland,Wigan,58,44
+2013,Aston Villa,West Brom,72,54
+2013,QPR,West Ham,78,56
+2013,Chelsea,Norwich,179,51
+2013,Man City,Sunderland,233,58
+2013,Swansea,Reading,49,46
+2013,West Brom,QPR,54,78
+2013,West Ham,Arsenal,56,154
+2013,Wigan,Everton,44,63
+2013,Liverpool,Stoke,132,60
+2013,Newcastle,Man United,62,181
+2013,Southampton,Fulham,47,67
+2013,Tottenham,Aston Villa,96,72
+2013,Fulham,Aston Villa,67,72
+2013,Liverpool,Reading,132,46
+2013,Man United,Stoke,181,60
+2013,Norwich,Arsenal,51,154
+2013,Swansea,Wigan,49,44
+2013,Tottenham,Chelsea,96,179
+2013,West Brom,Man City,54,233
+2013,West Ham,Southampton,56,47
+2013,QPR,Everton,78,63
+2013,Sunderland,Newcastle,58,62
+2013,Arsenal,QPR,154,78
+2013,Aston Villa,Norwich,72,51
+2013,Man City,Swansea,233,49
+2013,Reading,Fulham,46,67
+2013,Stoke,Sunderland,60,58
+2013,Wigan,West Ham,44,56
+2013,Chelsea,Man United,179,181
+2013,Everton,Liverpool,63,132
+2013,Newcastle,West Brom,62,54
+2013,Southampton,Tottenham,47,96
+2013,Fulham,Everton,67,63
+2013,Man United,Arsenal,181,154
+2013,Norwich,Stoke,51,60
+2013,Sunderland,Aston Villa,58,72
+2013,Swansea,Chelsea,49,179
+2013,Tottenham,Wigan,96,44
+2013,West Ham,Man City,56,233
+2013,Liverpool,Newcastle,132,62
+2013,QPR,Reading,78,46
+2013,West Brom,Southampton,54,47
+2013,Arsenal,Fulham,154,67
+2013,Aston Villa,Man United,72,181
+2013,Everton,Sunderland,63,58
+2013,Reading,Norwich,46,51
+2013,Southampton,Swansea,47,49
+2013,Stoke,QPR,60,78
+2013,Wigan,West Brom,44,54
+2013,Chelsea,Liverpool,179,132
+2013,Man City,Tottenham,233,96
+2013,Newcastle,West Ham,62,56
+2013,Arsenal,Tottenham,154,96
+2013,Liverpool,Wigan,132,44
+2013,Man City,Aston Villa,233,72
+2013,Newcastle,Swansea,62,49
+2013,Norwich,Man United,51,181
+2013,QPR,Southampton,78,47
+2013,Reading,Everton,46,63
+2013,West Brom,Chelsea,54,179
+2013,Fulham,Sunderland,67,58
+2013,West Ham,Stoke,56,60
+2013,Aston Villa,Arsenal,72,154
+2013,Everton,Norwich,63,51
+2013,Man United,QPR,181,78
+2013,Stoke,Fulham,60,67
+2013,Sunderland,West Brom,58,54
+2013,Wigan,Reading,44,46
+2013,Chelsea,Man City,179,233
+2013,Southampton,Newcastle,47,62
+2013,Swansea,Liverpool,49,132
+2013,Tottenham,West Ham,96,56
+2013,Aston Villa,Reading,72,46
+2013,Sunderland,QPR,58,78
+2013,Chelsea,Fulham,179,67
+2013,Everton,Arsenal,63,154
+2013,Man United,West Ham,181,56
+2013,Southampton,Norwich,47,51
+2013,Stoke,Newcastle,60,62
+2013,Swansea,West Brom,49,54
+2013,Tottenham,Liverpool,96,132
+2013,Wigan,Man City,44,233
+2013,Arsenal,Swansea,154,49
+2013,Fulham,Tottenham,67,96
+2013,Liverpool,Southampton,132,47
+2013,Man City,Everton,233,63
+2013,QPR,Aston Villa,78,72
+2013,Reading,Man United,46,181
+2013,West Brom,Stoke,54,60
+2013,West Ham,Chelsea,56,179
+2013,Norwich,Sunderland,51,58
+2013,Newcastle,Wigan,62,44
+2013,Arsenal,West Brom,154,54
+2013,Aston Villa,Stoke,72,60
+2013,Southampton,Reading,47,46
+2013,Sunderland,Chelsea,58,179
+2013,Swansea,Norwich,49,51
+2013,Wigan,QPR,44,78
+2013,Everton,Tottenham,63,96
+2013,Man City,Man United,233,181
+2013,West Ham,Liverpool,56,132
+2013,Fulham,Newcastle,67,62
+2013,Sunderland,Reading,58,46
+2013,Liverpool,Aston Villa,132,72
+2013,Man United,Sunderland,181,58
+2013,Newcastle,Man City,62,233
+2013,Norwich,Wigan,51,44
+2013,QPR,Fulham,78,67
+2013,Stoke,Everton,60,63
+2013,Tottenham,Swansea,96,49
+2013,West Brom,West Ham,54,56
+2013,Reading,Arsenal,46,154
+2013,Liverpool,Fulham,132,67
+2013,Man City,Reading,233,46
+2013,Newcastle,QPR,62,78
+2013,Southampton,Sunderland,47,58
+2013,Tottenham,Stoke,96,60
+2013,West Brom,Norwich,54,51
+2013,West Ham,Everton,56,63
+2013,Wigan,Arsenal,44,154
+2013,Chelsea,Aston Villa,179,72
+2013,Swansea,Man United,49,181
+2013,Aston Villa,Tottenham,72,96
+2013,Everton,Wigan,63,44
+2013,Fulham,Southampton,67,47
+2013,Man United,Newcastle,181,62
+2013,Norwich,Chelsea,51,179
+2013,QPR,West Brom,78,54
+2013,Reading,Swansea,46,49
+2013,Stoke,Liverpool,60,132
+2013,Sunderland,Man City,58,233
+2013,Arsenal,Newcastle,154,62
+2013,Aston Villa,Wigan,72,44
+2013,Fulham,Swansea,67,49
+2013,Man United,West Brom,181,54
+2013,Norwich,Man City,51,233
+2013,Reading,West Ham,46,56
+2013,Stoke,Southampton,60,47
+2013,Sunderland,Tottenham,58,96
+2013,Everton,Chelsea,63,179
+2013,QPR,Liverpool,78,132
+2013,Man City,Stoke,233,60
+2013,Southampton,Arsenal,47,154
+2013,Swansea,Aston Villa,49,72
+2013,Tottenham,Reading,96,46
+2013,West Brom,Fulham,54,67
+2013,West Ham,Norwich,56,51
+2013,Wigan,Man United,44,181
+2013,Chelsea,QPR,179,78
+2013,Liverpool,Sunderland,132,58
+2013,Newcastle,Everton,62,63
+2013,Aston Villa,Southampton,72,47
+2013,Everton,Swansea,63,49
+2013,Fulham,Wigan,67,44
+2013,Norwich,Newcastle,51,62
+2013,QPR,Tottenham,78,96
+2013,Reading,West Brom,46,54
+2013,Stoke,Chelsea,60,179
+2013,Sunderland,West Ham,58,56
+2013,Arsenal,Man City,154,233
+2013,Man United,Liverpool,181,132
+2013,Chelsea,Southampton,179,47
+2013,Liverpool,Norwich,132,51
+2013,Man City,Fulham,233,67
+2013,Newcastle,Reading,62,46
+2013,Swansea,Stoke,49,60
+2013,West Brom,Aston Villa,54,72
+2013,West Ham,QPR,56,78
+2013,Wigan,Sunderland,44,58
+2013,Chelsea,Arsenal,179,154
+2013,Tottenham,Man United,96,181
+2013,Southampton,Everton,47,63
+2013,Arsenal,West Ham,154,56
+2013,Aston Villa,Newcastle,72,62
+2013,QPR,Man City,78,233
+2013,Stoke,Wigan,60,44
+2013,Sunderland,Swansea,58,49
+2013,Arsenal,Liverpool,154,132
+2013,Everton,West Brom,63,54
+2013,Fulham,West Ham,67,56
+2013,Man United,Southampton,181,47
+2013,Norwich,Tottenham,51,96
+2013,Reading,Chelsea,46,179
+2013,Arsenal,Stoke,154,60
+2013,Everton,Aston Villa,63,72
+2013,Fulham,Man United,67,181
+2013,Newcastle,Chelsea,62,179
+2013,QPR,Norwich,78,51
+2013,Reading,Sunderland,46,58
+2013,West Ham,Swansea,56,49
+2013,Wigan,Southampton,44,47
+2013,Man City,Liverpool,233,132
+2013,West Brom,Tottenham,54,96
+2013,Chelsea,Wigan,179,44
+2013,Norwich,Fulham,51,67
+2013,Southampton,Man City,47,233
+2013,Stoke,Reading,60,46
+2013,Sunderland,Arsenal,58,154
+2013,Swansea,QPR,49,78
+2013,Tottenham,Newcastle,96,62
+2013,Aston Villa,West Ham,72,56
+2013,Man United,Everton,181,63
+2013,Liverpool,West Brom,132,54
+2013,Liverpool,Swansea,132,49
+2013,Arsenal,Aston Villa,154,72
+2013,Fulham,Stoke,67,60
+2013,Norwich,Everton,51,63
+2013,QPR,Man United,78,181
+2013,Reading,Wigan,46,44
+2013,West Brom,Sunderland,54,58
+2013,Man City,Chelsea,233,179
+2013,Newcastle,Southampton,62,47
+2013,West Ham,Tottenham,56,96
+2013,Chelsea,West Brom,179,54
+2013,Everton,Reading,63,46
+2013,Man United,Norwich,181,51
+2013,Southampton,QPR,47,78
+2013,Stoke,West Ham,60,56
+2013,Sunderland,Fulham,58,67
+2013,Swansea,Newcastle,49,62
+2013,Wigan,Liverpool,44,132
+2013,Tottenham,Arsenal,96,154
+2013,Aston Villa,Man City,72,233
+2013,Norwich,Southampton,51,47
+2013,QPR,Sunderland,78,58
+2013,Reading,Aston Villa,46,72
+2013,West Brom,Swansea,54,49
+2013,Liverpool,Tottenham,132,96
+2013,Newcastle,Stoke,62,60
+2013,Aston Villa,QPR,72,78
+2013,Everton,Man City,63,233
+2013,Man United,Reading,181,46
+2013,Southampton,Liverpool,47,132
+2013,Stoke,West Brom,60,54
+2013,Swansea,Arsenal,49,154
+2013,Chelsea,West Ham,179,56
+2013,Sunderland,Norwich,58,51
+2013,Tottenham,Fulham,96,67
+2013,Wigan,Newcastle,44,62
+2013,Arsenal,Reading,154,46
+2013,Everton,Stoke,63,60
+2013,Man City,Newcastle,233,62
+2013,Southampton,Chelsea,47,179
+2013,Sunderland,Man United,58,181
+2013,Swansea,Tottenham,49,96
+2013,West Ham,West Brom,56,54
+2013,Wigan,Norwich,44,51
+2013,Aston Villa,Liverpool,72,132
+2013,Fulham,QPR,67,78
+2013,Norwich,Swansea,51,49
+2013,Reading,Southampton,46,47
+2013,Stoke,Aston Villa,60,72
+2013,West Brom,Arsenal,54,154
+2013,Chelsea,Sunderland,179,58
+2013,Liverpool,West Ham,132,56
+2013,Newcastle,Fulham,62,67
+2013,QPR,Wigan,78,44
+2013,Tottenham,Everton,96,63
+2013,Man United,Man City,181,233
+2013,Arsenal,Norwich,154,51
+2013,Aston Villa,Fulham,72,67
+2013,Everton,QPR,63,78
+2013,Reading,Liverpool,46,132
+2013,Southampton,West Ham,47,56
+2013,Newcastle,Sunderland,62,58
+2013,Stoke,Man United,60,181
+2013,Arsenal,Everton,154,63
+2013,Fulham,Chelsea,67,179
+2013,Man City,Wigan,233,44
+2013,West Ham,Man United,56,181
+2013,Fulham,Arsenal,67,154
+2013,Norwich,Reading,51,46
+2013,QPR,Stoke,78,60
+2013,Sunderland,Everton,58,63
+2013,Swansea,Southampton,49,47
+2013,West Brom,Newcastle,54,62
+2013,West Ham,Wigan,56,44
+2013,Liverpool,Chelsea,132,179
+2013,Tottenham,Man City,96,233
+2013,Man United,Aston Villa,181,72
+2013,Everton,Fulham,63,67
+2013,Man City,West Ham,233,56
+2013,Newcastle,Liverpool,62,132
+2013,Southampton,West Brom,47,54
+2013,Stoke,Norwich,60,51
+2013,Wigan,Tottenham,44,96
+2013,Arsenal,Man United,154,181
+2013,Chelsea,Swansea,179,49
+2013,Reading,QPR,46,78
+2013,Aston Villa,Sunderland,72,58
+2013,Fulham,Reading,67,46
+2013,Norwich,Aston Villa,51,72
+2013,QPR,Arsenal,78,154
+2013,Swansea,Man City,49,233
+2013,Tottenham,Southampton,96,47
+2013,West Brom,Wigan,54,44
+2013,West Ham,Newcastle,56,62
+2013,Liverpool,Everton,132,63
+2013,Man United,Chelsea,181,179
+2013,Sunderland,Stoke,58,60
+2013,Man City,West Brom,233,54
+2013,Wigan,Swansea,44,49
+2013,Chelsea,Tottenham,179,96
+2013,Aston Villa,Chelsea,72,179
+2013,Everton,West Ham,63,56
+2013,Fulham,Liverpool,67,132
+2013,Man United,Swansea,181,49
+2013,Norwich,West Brom,51,54
+2013,QPR,Newcastle,78,62
+2013,Stoke,Tottenham,60,96
+2013,Sunderland,Southampton,58,47
+2013,Arsenal,Wigan,154,44
+2013,Reading,Man City,46,233
+2013,Chelsea,Everton,179,63
+2013,Liverpool,QPR,132,78
+2013,Man City,Norwich,233,51
+2013,Newcastle,Arsenal,62,154
+2013,Southampton,Stoke,47,60
+2013,Swansea,Fulham,49,67
+2013,Tottenham,Sunderland,96,58
+2013,West Brom,Man United,54,181
+2013,West Ham,Reading,56,46
+2013,Wigan,Aston Villa,44,72
+2014,Arsenal,Aston Villa,166,69
+2014,Liverpool,Stoke,144,61
+2014,Norwich,Everton,54,69
+2014,Sunderland,Fulham,70,69
+2014,Swansea,Man United,63,215
+2014,West Brom,Southampton,65,63
+2014,West Ham,Cardiff,64,53
+2014,Chelsea,Hull,192,43
+2014,Crystal Palace,Tottenham,46,100
+2014,Man City,Newcastle,205,78
+2014,Chelsea,Aston Villa,192,69
+2014,Aston Villa,Liverpool,69,144
+2014,Everton,West Brom,69,65
+2014,Fulham,Arsenal,69,166
+2014,Hull,Norwich,43,54
+2014,Newcastle,West Ham,78,64
+2014,Southampton,Sunderland,63,70
+2014,Stoke,Crystal Palace,61,46
+2014,Cardiff,Man City,53,205
+2014,Tottenham,Swansea,100,63
+2014,Man United,Chelsea,215,192
+2014,Cardiff,Everton,53,69
+2014,Crystal Palace,Sunderland,46,70
+2014,Man City,Hull,205,43
+2014,Newcastle,Fulham,78,69
+2014,Norwich,Southampton,54,63
+2014,West Ham,Stoke,64,61
+2014,Arsenal,Tottenham,166,100
+2014,Liverpool,Man United,144,215
+2014,West Brom,Swansea,65,63
+2014,Aston Villa,Newcastle,69,78
+2014,Everton,Chelsea,69,192
+2014,Fulham,West Brom,69,65
+2014,Hull,Cardiff,43,53
+2014,Man United,Crystal Palace,215,46
+2014,Stoke,Man City,61,205
+2014,Sunderland,Arsenal,70,166
+2014,Tottenham,Norwich,100,54
+2014,Southampton,West Ham,63,64
+2014,Swansea,Liverpool,63,144
+2014,Chelsea,Fulham,192,69
+2014,Liverpool,Southampton,144,63
+2014,Newcastle,Hull,78,43
+2014,Norwich,Aston Villa,54,69
+2014,West Brom,Sunderland,65,70
+2014,West Ham,Everton,64,69
+2014,Arsenal,Stoke,166,61
+2014,Cardiff,Tottenham,53,100
+2014,Crystal Palace,Swansea,46,63
+2014,Man City,Man United,205,215
+2014,Aston Villa,Man City,69,205
+2014,Fulham,Cardiff,69,53
+2014,Hull,West Ham,43,64
+2014,Man United,West Brom,215,65
+2014,Southampton,Crystal Palace,63,46
+2014,Swansea,Arsenal,63,166
+2014,Tottenham,Chelsea,100,192
+2014,Stoke,Norwich,61,54
+2014,Sunderland,Liverpool,70,144
+2014,Everton,Newcastle,69,78
+2014,Cardiff,Newcastle,53,78
+2014,Fulham,Stoke,69,61
+2014,Hull,Aston Villa,43,69
+2014,Liverpool,Crystal Palace,144,46
+2014,Man City,Everton,205,69
+2014,Sunderland,Man United,70,215
+2014,Norwich,Chelsea,54,192
+2014,Southampton,Swansea,63,63
+2014,Tottenham,West Ham,100,64
+2014,West Brom,Arsenal,65,166
+2014,Arsenal,Norwich,166,54
+2014,Chelsea,Cardiff,192,53
+2014,Everton,Hull,69,43
+2014,Man United,Southampton,215,63
+2014,Newcastle,Liverpool,78,144
+2014,Stoke,West Brom,61,65
+2014,Swansea,Sunderland,63,70
+2014,West Ham,Man City,64,205
+2014,Aston Villa,Tottenham,69,100
+2014,Crystal Palace,Fulham,46,69
+2014,Aston Villa,Everton,69,69
+2014,Crystal Palace,Arsenal,46,166
+2014,Liverpool,West Brom,144,65
+2014,Man United,Stoke,215,61
+2014,Norwich,Cardiff,54,53
+2014,Southampton,Fulham,63,69
+2014,Chelsea,Man City,192,205
+2014,Sunderland,Newcastle,70,78
+2014,Swansea,West Ham,63,64
+2014,Tottenham,Hull,100,43
+2014,Arsenal,Liverpool,166,144
+2014,Fulham,Man United,69,215
+2014,Hull,Sunderland,43,70
+2014,Man City,Norwich,205,54
+2014,Newcastle,Chelsea,78,192
+2014,Stoke,Southampton,61,63
+2014,West Brom,Crystal Palace,65,46
+2014,West Ham,Aston Villa,64,69
+2014,Cardiff,Swansea,53,63
+2014,Everton,Tottenham,69,100
+2014,Aston Villa,Cardiff,69,53
+2014,Chelsea,West Brom,192,65
+2014,Crystal Palace,Everton,46,69
+2014,Liverpool,Fulham,144,69
+2014,Norwich,West Ham,54,64
+2014,Southampton,Hull,63,43
+2014,Man United,Arsenal,215,166
+2014,Sunderland,Man City,70,205
+2014,Swansea,Stoke,63,61
+2014,Tottenham,Newcastle,100,78
+2014,Arsenal,Southampton,166,63
+2014,Everton,Liverpool,69,144
+2014,Fulham,Swansea,69,63
+2014,Hull,Crystal Palace,43,46
+2014,Newcastle,Norwich,78,54
+2014,Stoke,Sunderland,61,70
+2014,West Ham,Chelsea,64,192
+2014,Cardiff,Man United,53,215
+2014,Man City,Tottenham,205,100
+2014,West Brom,Aston Villa,65,69
+2014,Aston Villa,Sunderland,69,70
+2014,Cardiff,Arsenal,53,166
+2014,Everton,Stoke,69,61
+2014,Newcastle,West Brom,78,65
+2014,Norwich,Crystal Palace,54,46
+2014,West Ham,Fulham,64,69
+2014,Chelsea,Southampton,192,63
+2014,Hull,Liverpool,43,144
+2014,Man City,Swansea,205,63
+2014,Tottenham,Man United,100,215
+2014,Crystal Palace,West Ham,46,64
+2014,Arsenal,Hull,166,43
+2014,Fulham,Tottenham,69,100
+2014,Liverpool,Norwich,144,54
+2014,Man United,Everton,215,69
+2014,Southampton,Aston Villa,63,69
+2014,Stoke,Cardiff,61,53
+2014,Sunderland,Chelsea,70,192
+2014,Swansea,Newcastle,63,78
+2014,West Brom,Man City,65,205
+2014,Crystal Palace,Cardiff,46,53
+2014,Liverpool,West Ham,144,64
+2014,Man United,Newcastle,215,78
+2014,Southampton,Man City,63,205
+2014,Stoke,Chelsea,61,192
+2014,Sunderland,Tottenham,70,100
+2014,West Brom,Norwich,65,54
+2014,Arsenal,Everton,166,69
+2014,Fulham,Aston Villa,69,69
+2014,Swansea,Hull,63,43
+2014,Cardiff,West Brom,53,65
+2014,Chelsea,Crystal Palace,192,46
+2014,Everton,Fulham,69,69
+2014,Hull,Stoke,43,61
+2014,Man City,Arsenal,205,166
+2014,Newcastle,Southampton,78,63
+2014,West Ham,Sunderland,64,70
+2014,Aston Villa,Man United,69,215
+2014,Norwich,Swansea,54,63
+2014,Tottenham,Liverpool,100,144
+2014,Crystal Palace,Newcastle,46,78
+2014,Fulham,Man City,69,205
+2014,Liverpool,Cardiff,144,53
+2014,Man United,West Ham,215,64
+2014,Stoke,Aston Villa,61,69
+2014,Sunderland,Norwich,70,54
+2014,West Brom,Hull,65,43
+2014,Southampton,Tottenham,63,100
+2014,Swansea,Everton,63,69
+2014,Arsenal,Chelsea,166,192
+2014,Aston Villa,Crystal Palace,69,46
+2014,Cardiff,Southampton,53,63
+2014,Chelsea,Swansea,192,63
+2014,Everton,Sunderland,69,70
+2014,Hull,Man United,43,215
+2014,Man City,Liverpool,205,144
+2014,Newcastle,Stoke,78,61
+2014,Norwich,Fulham,54,69
+2014,Tottenham,West Brom,100,65
+2014,West Ham,Arsenal,64,166
+2014,Aston Villa,Swansea,69,63
+2014,Cardiff,Sunderland,53,70
+2014,Hull,Fulham,43,69
+2014,Man City,Crystal Palace,205,46
+2014,Norwich,Man United,54,215
+2014,West Ham,West Brom,64,65
+2014,Chelsea,Liverpool,192,144
+2014,Everton,Southampton,69,63
+2014,Newcastle,Arsenal,78,166
+2014,Tottenham,Stoke,100,61
+2014,Arsenal,Cardiff,166,53
+2014,Crystal Palace,Norwich,46,54
+2014,Fulham,West Ham,69,64
+2014,Liverpool,Hull,144,43
+2014,Man United,Tottenham,215,100
+2014,Southampton,Chelsea,63,192
+2014,Stoke,Everton,61,69
+2014,Sunderland,Aston Villa,70,69
+2014,Swansea,Man City,63,205
+2014,West Brom,Newcastle,65,78
+2014,Cardiff,West Ham,53,64
+2014,Everton,Norwich,69,54
+2014,Fulham,Sunderland,69,70
+2014,Hull,Chelsea,43,192
+2014,Man United,Swansea,215,63
+2014,Southampton,West Brom,63,65
+2014,Tottenham,Crystal Palace,100,46
+2014,Newcastle,Man City,78,205
+2014,Stoke,Liverpool,61,144
+2014,Aston Villa,Arsenal,69,166
+2014,Arsenal,Fulham,166,69
+2014,Crystal Palace,Stoke,46,61
+2014,Liverpool,Aston Villa,144,69
+2014,Man City,Cardiff,205,53
+2014,Norwich,Hull,54,43
+2014,Sunderland,Southampton,70,63
+2014,West Ham,Newcastle,64,78
+2014,Chelsea,Man United,192,215
+2014,Swansea,Tottenham,63,100
+2014,West Brom,Everton,65,69
+2014,Crystal Palace,Hull,46,43
+2014,Liverpool,Everton,144,69
+2014,Man United,Cardiff,215,53
+2014,Norwich,Newcastle,54,78
+2014,Southampton,Arsenal,63,166
+2014,Swansea,Fulham,63,69
+2014,Aston Villa,West Brom,69,65
+2014,Chelsea,West Ham,192,64
+2014,Sunderland,Stoke,70,61
+2014,Tottenham,Man City,100,205
+2014,Cardiff,Norwich,53,54
+2014,Everton,Aston Villa,69,69
+2014,Fulham,Southampton,69,63
+2014,Hull,Tottenham,43,100
+2014,Newcastle,Sunderland,78,70
+2014,Stoke,Man United,61,215
+2014,West Ham,Swansea,64,63
+2014,Arsenal,Crystal Palace,166,46
+2014,West Brom,Liverpool,65,144
+2014,Man City,Chelsea,205,192
+2014,Aston Villa,West Ham,69,64
+2014,Chelsea,Newcastle,192,78
+2014,Crystal Palace,West Brom,46,65
+2014,Liverpool,Arsenal,144,166
+2014,Norwich,Man City,54,205
+2014,Southampton,Stoke,63,61
+2014,Sunderland,Hull,70,43
+2014,Swansea,Cardiff,63,53
+2014,Man United,Fulham,215,69
+2014,Tottenham,Everton,100,69
+2014,Cardiff,Aston Villa,53,69
+2014,Hull,Southampton,43,63
+2014,West Brom,Chelsea,65,192
+2014,West Ham,Norwich,64,54
+2014,Arsenal,Man United,166,215
+2014,Fulham,Liverpool,69,144
+2014,Newcastle,Tottenham,78,100
+2014,Stoke,Swansea,61,63
+2014,Arsenal,Sunderland,166,70
+2014,Cardiff,Hull,53,43
+2014,Chelsea,Everton,192,69
+2014,Crystal Palace,Man United,46,215
+2014,Man City,Stoke,205,61
+2014,West Brom,Fulham,65,69
+2014,West Ham,Southampton,64,63
+2014,Liverpool,Swansea,144,63
+2014,Newcastle,Aston Villa,78,69
+2014,Norwich,Tottenham,54,100
+2014,Everton,West Ham,69,64
+2014,Fulham,Chelsea,69,192
+2014,Hull,Newcastle,43,78
+2014,Southampton,Liverpool,63,144
+2014,Stoke,Arsenal,61,166
+2014,Aston Villa,Norwich,69,54
+2014,Swansea,Crystal Palace,63,46
+2014,Tottenham,Cardiff,100,53
+2014,Cardiff,Fulham,53,69
+2014,Chelsea,Tottenham,192,100
+2014,Crystal Palace,Southampton,46,63
+2014,Norwich,Stoke,54,61
+2014,West Brom,Man United,65,215
+2014,Aston Villa,Chelsea,69,192
+2014,Everton,Cardiff,69,53
+2014,Fulham,Newcastle,69,78
+2014,Hull,Man City,43,205
+2014,Southampton,Norwich,63,54
+2014,Stoke,West Ham,61,64
+2014,Sunderland,Crystal Palace,70,46
+2014,Swansea,West Brom,63,65
+2014,Man United,Liverpool,215,144
+2014,Tottenham,Arsenal,100,166
+2014,Cardiff,Liverpool,53,144
+2014,Chelsea,Arsenal,192,166
+2014,Everton,Swansea,69,63
+2014,Hull,West Brom,43,65
+2014,Man City,Fulham,205,69
+2014,Newcastle,Crystal Palace,78,46
+2014,Norwich,Sunderland,54,70
+2014,West Ham,Man United,64,215
+2014,Aston Villa,Stoke,69,61
+2014,Tottenham,Southampton,100,63
+2014,Arsenal,Swansea,166,63
+2014,Man United,Man City,215,205
+2014,Newcastle,Everton,78,69
+2014,Liverpool,Sunderland,144,70
+2014,West Ham,Hull,64,43
+2014,Arsenal,Man City,166,205
+2014,Crystal Palace,Chelsea,46,192
+2014,Man United,Aston Villa,215,69
+2014,Southampton,Newcastle,63,78
+2014,Stoke,Hull,61,43
+2014,Swansea,Norwich,63,54
+2014,West Brom,Cardiff,65,53
+2014,Fulham,Everton,69,69
+2014,Liverpool,Tottenham,144,100
+2014,Sunderland,West Ham,70,64
+2014,Aston Villa,Fulham,69,69
+2014,Cardiff,Crystal Palace,53,46
+2014,Chelsea,Stoke,192,61
+2014,Hull,Swansea,43,63
+2014,Man City,Southampton,205,63
+2014,Newcastle,Man United,78,215
+2014,Norwich,West Brom,54,65
+2014,Everton,Arsenal,69,166
+2014,West Ham,Liverpool,64,144
+2014,Tottenham,Sunderland,100,70
+2014,Crystal Palace,Aston Villa,46,69
+2014,Fulham,Norwich,69,54
+2014,Southampton,Cardiff,63,53
+2014,Stoke,Newcastle,61,78
+2014,Sunderland,Everton,70,69
+2014,West Brom,Tottenham,65,100
+2014,Liverpool,Man City,144,205
+2014,Swansea,Chelsea,63,192
+2014,Arsenal,West Ham,166,64
+2014,Everton,Crystal Palace,69,46
+2014,Man City,Sunderland,205,70
+2014,Aston Villa,Southampton,69,63
+2014,Cardiff,Stoke,53,61
+2014,Chelsea,Sunderland,192,70
+2014,Newcastle,Swansea,78,63
+2014,Tottenham,Fulham,100,69
+2014,West Ham,Crystal Palace,64,46
+2014,Everton,Man United,69,215
+2014,Hull,Arsenal,43,166
+2014,Norwich,Liverpool,54,144
+2014,Man City,West Brom,205,65
+2014,Fulham,Hull,69,43
+2014,Man United,Norwich,215,54
+2014,Southampton,Everton,63,69
+2014,Stoke,Tottenham,61,100
+2014,Swansea,Aston Villa,63,69
+2014,West Brom,West Ham,65,64
+2014,Crystal Palace,Man City,46,205
+2014,Liverpool,Chelsea,144,192
+2014,Sunderland,Cardiff,70,53
+2014,Arsenal,Newcastle,166,78
+2014,Aston Villa,Hull,69,43
+2014,Everton,Man City,69,205
+2014,Man United,Sunderland,215,70
+2014,Newcastle,Cardiff,78,53
+2014,Stoke,Fulham,61,69
+2014,Swansea,Southampton,63,63
+2014,West Ham,Tottenham,64,100
+2014,Arsenal,West Brom,166,65
+2014,Chelsea,Norwich,192,54
+2014,Crystal Palace,Liverpool,46,144
+2014,Man United,Hull,215,43
+2014,Man City,Aston Villa,205,69
+2014,Sunderland,West Brom,70,65
+2014,Cardiff,Chelsea,53,192
+2014,Fulham,Crystal Palace,69,46
+2014,Hull,Everton,43,69
+2014,Liverpool,Newcastle,144,78
+2014,Man City,West Ham,205,64
+2014,Norwich,Arsenal,54,166
+2014,Southampton,Man United,63,215
+2014,Sunderland,Swansea,70,63
+2014,Tottenham,Aston Villa,100,69
+2014,West Brom,Stoke,65,61
+2015,Arsenal,Crystal Palace,192,68
+2015,Leicester,Everton,57,78
+2015,Man United,Swansea,203,83
+2015,QPR,Hull,73,56
+2015,Stoke,Aston Villa,67,84
+2015,West Brom,Sunderland,70,77
+2015,West Ham,Tottenham,73,101
+2015,Liverpool,Southampton,166,80
+2015,Newcastle,Man City,65,194
+2015,Burnley,Chelsea,29,217
+2015,Aston Villa,Newcastle,84,65
+2015,Chelsea,Leicester,217,57
+2015,Crystal Palace,West Ham,68,73
+2015,Everton,Arsenal,78,192
+2015,Southampton,West Brom,80,70
+2015,Swansea,Burnley,83,29
+2015,Hull,Stoke,56,67
+2015,Sunderland,Man United,77,203
+2015,Tottenham,QPR,101,73
+2015,Man City,Liverpool,194,166
+2015,Burnley,Man United,29,203
+2015,Everton,Chelsea,78,217
+2015,Man City,Stoke,194,67
+2015,Newcastle,Crystal Palace,65,68
+2015,QPR,Sunderland,73,77
+2015,Swansea,West Brom,83,70
+2015,West Ham,Southampton,73,80
+2015,Aston Villa,Hull,84,56
+2015,Leicester,Arsenal,57,192
+2015,Tottenham,Liverpool,101,166
+2015,Arsenal,Man City,192,194
+2015,Chelsea,Swansea,217,83
+2015,Crystal Palace,Burnley,68,29
+2015,Liverpool,Aston Villa,166,84
+2015,Southampton,Newcastle,80,65
+2015,Stoke,Leicester,67,57
+2015,Sunderland,Tottenham,77,101
+2015,West Brom,Everton,70,78
+2015,Man United,QPR,203,73
+2015,Hull,West Ham,56,73
+2015,Aston Villa,Arsenal,84,192
+2015,Burnley,Sunderland,29,77
+2015,Newcastle,Hull,65,56
+2015,QPR,Stoke,73,67
+2015,Swansea,Southampton,83,80
+2015,West Ham,Liverpool,73,166
+2015,Everton,Crystal Palace,78,68
+2015,Leicester,Man United,57,203
+2015,Man City,Chelsea,194,217
+2015,Tottenham,West Brom,101,70
+2015,Arsenal,Tottenham,192,101
+2015,Chelsea,Aston Villa,217,84
+2015,Crystal Palace,Leicester,68,57
+2015,Hull,Man City,56,194
+2015,Liverpool,Everton,166,78
+2015,Man United,West Ham,203,73
+2015,Southampton,QPR,80,73
+2015,Sunderland,Swansea,77,83
+2015,West Brom,Burnley,70,29
+2015,Stoke,Newcastle,67,65
+2015,Aston Villa,Man City,84,194
+2015,Hull,Crystal Palace,56,68
+2015,Leicester,Burnley,57,29
+2015,Liverpool,West Brom,166,70
+2015,Sunderland,Stoke,77,67
+2015,Swansea,Newcastle,83,65
+2015,Chelsea,Arsenal,217,192
+2015,Man United,Everton,203,78
+2015,Tottenham,Southampton,101,80
+2015,West Ham,QPR,73,73
+2015,Arsenal,Hull,192,56
+2015,Burnley,West Ham,29,73
+2015,Crystal Palace,Chelsea,68,217
+2015,Everton,Aston Villa,78,84
+2015,Man City,Tottenham,194,101
+2015,Newcastle,Leicester,65,57
+2015,Southampton,Sunderland,80,77
+2015,QPR,Liverpool,73,166
+2015,Stoke,Swansea,67,83
+2015,West Brom,Man United,70,203
+2015,Liverpool,Hull,166,56
+2015,Southampton,Stoke,80,67
+2015,Sunderland,Arsenal,77,192
+2015,Swansea,Leicester,83,57
+2015,West Brom,Crystal Palace,70,68
+2015,West Ham,Man City,73,194
+2015,Burnley,Everton,29,78
+2015,Man United,Chelsea,203,217
+2015,Tottenham,Newcastle,101,65
+2015,QPR,Aston Villa,73,84
+2015,Arsenal,Burnley,192,29
+2015,Chelsea,QPR,217,73
+2015,Everton,Swansea,78,83
+2015,Hull,Southampton,56,80
+2015,Leicester,West Brom,57,70
+2015,Newcastle,Liverpool,65,166
+2015,Stoke,West Ham,67,73
+2015,Aston Villa,Tottenham,84,101
+2015,Man City,Man United,194,203
+2015,Crystal Palace,Sunderland,68,77
+2015,Burnley,Hull,29,56
+2015,Liverpool,Chelsea,166,217
+2015,Man United,Crystal Palace,203,68
+2015,QPR,Man City,73,194
+2015,Southampton,Leicester,80,57
+2015,West Ham,Aston Villa,73,84
+2015,Sunderland,Everton,77,78
+2015,Swansea,Arsenal,83,192
+2015,Tottenham,Stoke,101,67
+2015,West Brom,Newcastle,70,65
+2015,Arsenal,Man United,192,203
+2015,Chelsea,West Brom,217,70
+2015,Everton,West Ham,78,73
+2015,Leicester,Sunderland,57,77
+2015,Man City,Swansea,194,83
+2015,Newcastle,QPR,65,73
+2015,Stoke,Burnley,67,29
+2015,Crystal Palace,Liverpool,68,166
+2015,Hull,Tottenham,56,101
+2015,Aston Villa,Southampton,84,80
+2015,Burnley,Aston Villa,29,84
+2015,Liverpool,Stoke,166,67
+2015,Man United,Hull,203,56
+2015,QPR,Leicester,73,57
+2015,Sunderland,Chelsea,77,217
+2015,Swansea,Crystal Palace,83,68
+2015,West Brom,Arsenal,70,192
+2015,West Ham,Newcastle,73,65
+2015,Southampton,Man City,80,194
+2015,Tottenham,Everton,101,78
+2015,Burnley,Newcastle,29,65
+2015,Crystal Palace,Aston Villa,68,84
+2015,Leicester,Liverpool,57,166
+2015,Man United,Stoke,203,67
+2015,Swansea,QPR,83,73
+2015,West Brom,West Ham,70,73
+2015,Arsenal,Southampton,192,80
+2015,Chelsea,Tottenham,217,101
+2015,Everton,Hull,78,56
+2015,Sunderland,Man City,77,194
+2015,Hull,West Brom,56,70
+2015,Liverpool,Sunderland,166,77
+2015,Man City,Everton,194,78
+2015,Newcastle,Chelsea,65,217
+2015,QPR,Burnley,73,29
+2015,Stoke,Arsenal,67,192
+2015,Tottenham,Crystal Palace,101,68
+2015,Aston Villa,Leicester,84,57
+2015,West Ham,Swansea,73,83
+2015,Southampton,Man United,80,203
+2015,Arsenal,Newcastle,192,65
+2015,Burnley,Southampton,29,80
+2015,Chelsea,Hull,217,56
+2015,Crystal Palace,Stoke,68,67
+2015,Leicester,Man City,57,194
+2015,Sunderland,West Ham,77,73
+2015,West Brom,Aston Villa,70,84
+2015,Man United,Liverpool,203,166
+2015,Swansea,Tottenham,83,101
+2015,Everton,QPR,78,73
+2015,Aston Villa,Man United,84,203
+2015,Hull,Swansea,56,83
+2015,Man City,Crystal Palace,194,68
+2015,QPR,West Brom,73,70
+2015,Southampton,Everton,80,78
+2015,Tottenham,Burnley,101,29
+2015,West Ham,Leicester,73,57
+2015,Liverpool,Arsenal,166,192
+2015,Newcastle,Sunderland,65,77
+2015,Stoke,Chelsea,67,217
+2015,Arsenal,QPR,192,73
+2015,Burnley,Liverpool,29,166
+2015,Chelsea,West Ham,217,73
+2015,Crystal Palace,Southampton,68,80
+2015,Everton,Stoke,78,67
+2015,Leicester,Tottenham,57,101
+2015,Man United,Newcastle,203,65
+2015,Sunderland,Hull,77,56
+2015,Swansea,Aston Villa,83,84
+2015,West Brom,Man City,70,194
+2015,Aston Villa,Sunderland,84,77
+2015,Hull,Leicester,56,57
+2015,Man City,Burnley,194,29
+2015,Newcastle,Everton,65,78
+2015,QPR,Crystal Palace,73,68
+2015,Southampton,Chelsea,80,217
+2015,Stoke,West Brom,67,70
+2015,Tottenham,Man United,101,203
+2015,West Ham,Arsenal,73,192
+2015,Liverpool,Swansea,166,83
+2015,Aston Villa,Crystal Palace,84,68
+2015,Hull,Everton,56,78
+2015,Liverpool,Leicester,166,57
+2015,Man City,Sunderland,194,77
+2015,Newcastle,Burnley,65,29
+2015,QPR,Swansea,73,83
+2015,Southampton,Arsenal,80,192
+2015,Stoke,Man United,67,203
+2015,Tottenham,Chelsea,101,217
+2015,West Ham,West Brom,73,70
+2015,Burnley,QPR,29,73
+2015,Chelsea,Newcastle,217,65
+2015,Crystal Palace,Tottenham,68,101
+2015,Everton,Man City,78,194
+2015,Leicester,Aston Villa,57,84
+2015,Sunderland,Liverpool,77,166
+2015,Swansea,West Ham,83,73
+2015,West Brom,Hull,70,56
+2015,Arsenal,Stoke,192,67
+2015,Man United,Southampton,203,80
+2015,Aston Villa,Liverpool,84,166
+2015,Burnley,Crystal Palace,29,68
+2015,Leicester,Stoke,57,67
+2015,Newcastle,Southampton,65,80
+2015,QPR,Man United,73,203
+2015,Swansea,Chelsea,83,217
+2015,Tottenham,Sunderland,101,77
+2015,Man City,Arsenal,194,192
+2015,West Ham,Hull,73,56
+2015,Everton,West Brom,78,70
+2015,Chelsea,Man City,217,194
+2015,Crystal Palace,Everton,68,78
+2015,Hull,Newcastle,56,65
+2015,Liverpool,West Ham,166,73
+2015,Man United,Leicester,203,57
+2015,Stoke,QPR,67,73
+2015,Sunderland,Burnley,77,29
+2015,West Brom,Tottenham,70,101
+2015,Arsenal,Aston Villa,192,84
+2015,Southampton,Swansea,80,83
+2015,Aston Villa,Chelsea,84,217
+2015,Everton,Liverpool,78,166
+2015,Leicester,Crystal Palace,57,68
+2015,Man City,Hull,194,56
+2015,QPR,Southampton,73,80
+2015,Swansea,Sunderland,83,77
+2015,Tottenham,Arsenal,101,192
+2015,Burnley,West Brom,29,70
+2015,Newcastle,Stoke,65,67
+2015,West Ham,Man United,73,203
+2015,Arsenal,Leicester,192,57
+2015,Hull,Aston Villa,56,84
+2015,Liverpool,Tottenham,166,101
+2015,Sunderland,QPR,77,73
+2015,Chelsea,Everton,217,78
+2015,Crystal Palace,Newcastle,68,65
+2015,Man United,Burnley,203,29
+2015,Southampton,West Ham,80,73
+2015,Stoke,Man City,67,194
+2015,West Brom,Swansea,70,83
+2015,Aston Villa,Stoke,84,67
+2015,Chelsea,Burnley,217,29
+2015,Crystal Palace,Arsenal,68,192
+2015,Hull,QPR,56,73
+2015,Man City,Newcastle,194,65
+2015,Sunderland,West Brom,77,70
+2015,Swansea,Man United,83,203
+2015,Everton,Leicester,78,57
+2015,Southampton,Liverpool,80,166
+2015,Tottenham,West Ham,101,73
+2015,Burnley,Swansea,29,83
+2015,Man United,Sunderland,203,77
+2015,Newcastle,Aston Villa,65,84
+2015,Stoke,Hull,67,56
+2015,West Brom,Southampton,70,80
+2015,West Ham,Crystal Palace,73,68
+2015,Arsenal,Everton,192,78
+2015,Liverpool,Man City,166,194
+2015,Aston Villa,West Brom,84,70
+2015,Hull,Sunderland,56,77
+2015,Southampton,Crystal Palace,80,68
+2015,Liverpool,Burnley,166,29
+2015,Man City,Leicester,194,57
+2015,Newcastle,Man United,65,203
+2015,QPR,Arsenal,73,192
+2015,Stoke,Everton,67,78
+2015,Tottenham,Swansea,101,83
+2015,West Ham,Chelsea,73,217
+2015,QPR,Tottenham,73,101
+2015,Arsenal,West Ham,192,73
+2015,Burnley,Man City,29,194
+2015,Crystal Palace,QPR,68,73
+2015,Leicester,Hull,57,56
+2015,Sunderland,Aston Villa,77,84
+2015,West Brom,Stoke,70,67
+2015,Chelsea,Southampton,217,80
+2015,Everton,Newcastle,78,65
+2015,Man United,Tottenham,203,101
+2015,Swansea,Liverpool,83,166
+2015,Aston Villa,Swansea,84,83
+2015,Man City,West Brom,194,70
+2015,Newcastle,Arsenal,65,192
+2015,Southampton,Burnley,80,29
+2015,Stoke,Crystal Palace,67,68
+2015,Tottenham,Leicester,101,57
+2015,West Ham,Sunderland,73,77
+2015,Hull,Chelsea,56,217
+2015,Liverpool,Man United,166,203
+2015,QPR,Everton,73,78
+2015,Arsenal,Liverpool,192,166
+2015,Chelsea,Stoke,217,67
+2015,Everton,Southampton,78,80
+2015,Leicester,West Ham,57,73
+2015,Man United,Aston Villa,203,84
+2015,Swansea,Hull,83,56
+2015,West Brom,QPR,70,73
+2015,Burnley,Tottenham,29,101
+2015,Sunderland,Newcastle,77,65
+2015,Crystal Palace,Man City,68,194
+2015,Aston Villa,QPR,84,73
+2015,Burnley,Arsenal,29,192
+2015,Southampton,Hull,80,56
+2015,Sunderland,Crystal Palace,77,68
+2015,Swansea,Everton,83,78
+2015,Tottenham,Aston Villa,101,84
+2015,West Brom,Leicester,70,57
+2015,West Ham,Stoke,73,67
+2015,Man United,Man City,203,194
+2015,QPR,Chelsea,73,217
+2015,Liverpool,Newcastle,166,65
+2015,Chelsea,Man United,217,203
+2015,Crystal Palace,West Brom,68,70
+2015,Everton,Burnley,78,29
+2015,Leicester,Swansea,57,83
+2015,Stoke,Southampton,67,80
+2015,Man City,West Ham,194,73
+2015,Newcastle,Tottenham,65,101
+2015,Burnley,Leicester,29,57
+2015,Crystal Palace,Hull,68,56
+2015,Man City,Aston Villa,194,84
+2015,Newcastle,Swansea,65,83
+2015,QPR,West Ham,73,73
+2015,Southampton,Tottenham,80,101
+2015,Stoke,Sunderland,67,77
+2015,West Brom,Liverpool,70,166
+2015,Arsenal,Chelsea,192,217
+2015,Everton,Man United,78,203
+2015,Hull,Liverpool,56,166
+2015,Leicester,Chelsea,57,217
+2015,Aston Villa,Everton,84,78
+2015,Leicester,Newcastle,57,65
+2015,Liverpool,QPR,166,73
+2015,Man United,West Brom,203,70
+2015,Sunderland,Southampton,77,80
+2015,Swansea,Stoke,83,67
+2015,West Ham,Burnley,73,29
+2015,Chelsea,Crystal Palace,217,68
+2015,Tottenham,Man City,101,194
+2015,Hull,Arsenal,56,192
+2015,Aston Villa,West Ham,84,73
+2015,Crystal Palace,Man United,68,203
+2015,Everton,Sunderland,78,77
+2015,Hull,Burnley,56,29
+2015,Leicester,Southampton,57,80
+2015,Newcastle,West Brom,65,70
+2015,Stoke,Tottenham,67,101
+2015,Chelsea,Liverpool,217,166
+2015,Man City,QPR,194,73
+2015,Arsenal,Swansea,192,83
+2015,Burnley,Stoke,29,67
+2015,Liverpool,Crystal Palace,166,68
+2015,QPR,Newcastle,73,65
+2015,Southampton,Aston Villa,80,84
+2015,Sunderland,Leicester,77,57
+2015,Tottenham,Hull,101,56
+2015,West Ham,Everton,73,78
+2015,Man United,Arsenal,203,192
+2015,Swansea,Man City,83,194
+2015,West Brom,Chelsea,70,217
+2015,Arsenal,Sunderland,192,77
+2015,Arsenal,West Brom,192,70
+2015,Aston Villa,Burnley,84,29
+2015,Chelsea,Sunderland,217,77
+2015,Crystal Palace,Swansea,68,83
+2015,Everton,Tottenham,78,101
+2015,Hull,Man United,56,203
+2015,Leicester,QPR,57,73
+2015,Man City,Southampton,194,80
+2015,Newcastle,West Ham,65,73
+2015,Stoke,Liverpool,67,166
+2016,Bournemouth,Aston Villa,60,93
+2016,Chelsea,Swansea,224,82
+2016,Everton,Watford,84,58
+2016,Leicester,Sunderland,80,84
+2016,Man United,Tottenham,232,100
+2016,Norwich,Crystal Palace,67,81
+2016,Arsenal,West Ham,195,85
+2016,Newcastle,Southampton,75,85
+2016,Stoke,Liverpool,82,208
+2016,West Brom,Man City,74,198
+2016,Aston Villa,Man United,93,232
+2016,Southampton,Everton,85,84
+2016,Sunderland,Norwich,84,67
+2016,Swansea,Newcastle,82,75
+2016,Tottenham,Stoke,100,82
+2016,Watford,West Brom,58,74
+2016,West Ham,Leicester,85,80
+2016,Crystal Palace,Arsenal,81,195
+2016,Man City,Chelsea,198,224
+2016,Liverpool,Bournemouth,208,60
+2016,Crystal Palace,Aston Villa,81,93
+2016,Leicester,Tottenham,80,100
+2016,Man United,Newcastle,232,75
+2016,Norwich,Stoke,67,82
+2016,Sunderland,Swansea,84,82
+2016,West Ham,Bournemouth,85,60
+2016,Everton,Man City,84,198
+2016,Watford,Southampton,58,85
+2016,West Brom,Chelsea,74,224
+2016,Arsenal,Liverpool,195,208
+2016,Aston Villa,Sunderland,93,84
+2016,Bournemouth,Leicester,60,80
+2016,Chelsea,Crystal Palace,224,81
+2016,Liverpool,West Ham,208,85
+2016,Man City,Watford,198,58
+2016,Newcastle,Arsenal,75,195
+2016,Stoke,West Brom,82,74
+2016,Tottenham,Everton,100,84
+2016,Southampton,Norwich,85,67
+2016,Swansea,Man United,82,232
+2016,Arsenal,Stoke,195,82
+2016,Crystal Palace,Man City,81,198
+2016,Everton,Chelsea,84,224
+2016,Man United,Liverpool,232,208
+2016,Norwich,Bournemouth,67,60
+2016,Watford,Swansea,58,82
+2016,West Brom,Southampton,74,85
+2016,Leicester,Aston Villa,80,93
+2016,Sunderland,Tottenham,84,100
+2016,West Ham,Newcastle,85,75
+2016,Aston Villa,West Brom,93,74
+2016,Bournemouth,Sunderland,60,84
+2016,Chelsea,Arsenal,224,195
+2016,Man City,West Ham,198,85
+2016,Newcastle,Watford,75,58
+2016,Stoke,Leicester,82,80
+2016,Swansea,Everton,82,84
+2016,Liverpool,Norwich,208,67
+2016,Southampton,Man United,85,232
+2016,Tottenham,Crystal Palace,100,81
+2016,Leicester,Arsenal,80,195
+2016,Liverpool,Aston Villa,208,93
+2016,Man United,Sunderland,232,84
+2016,Newcastle,Chelsea,75,224
+2016,Southampton,Swansea,85,82
+2016,Stoke,Bournemouth,82,60
+2016,Tottenham,Man City,100,198
+2016,West Ham,Norwich,85,67
+2016,Watford,Crystal Palace,58,81
+2016,West Brom,Everton,74,84
+2016,Aston Villa,Stoke,93,82
+2016,Bournemouth,Watford,60,58
+2016,Chelsea,Southampton,224,85
+2016,Crystal Palace,West Brom,81,74
+2016,Man City,Newcastle,198,75
+2016,Norwich,Leicester,67,80
+2016,Sunderland,West Ham,84,85
+2016,Arsenal,Man United,195,232
+2016,Everton,Liverpool,84,208
+2016,Swansea,Tottenham,82,100
+2016,Chelsea,Aston Villa,224,93
+2016,Crystal Palace,West Ham,81,85
+2016,Everton,Man United,84,232
+2016,Man City,Bournemouth,198,60
+2016,Southampton,Leicester,85,80
+2016,Tottenham,Liverpool,100,208
+2016,Watford,Arsenal,58,195
+2016,West Brom,Sunderland,74,84
+2016,Newcastle,Norwich,75,67
+2016,Swansea,Stoke,82,82
+2016,Arsenal,Everton,195,84
+2016,Aston Villa,Swansea,93,82
+2016,Leicester,Crystal Palace,80,81
+2016,Norwich,West Brom,67,74
+2016,Stoke,Watford,82,58
+2016,West Ham,Chelsea,85,224
+2016,Bournemouth,Tottenham,60,100
+2016,Liverpool,Southampton,208,85
+2016,Man United,Man City,232,198
+2016,Sunderland,Newcastle,84,75
+2016,Chelsea,Liverpool,224,208
+2016,Crystal Palace,Man United,81,232
+2016,Man City,Norwich,198,67
+2016,Newcastle,Stoke,75,82
+2016,Swansea,Arsenal,82,195
+2016,Watford,West Ham,58,85
+2016,West Brom,Leicester,74,80
+2016,Everton,Sunderland,84,84
+2016,Southampton,Bournemouth,85,60
+2016,Tottenham,Aston Villa,100,93
+2016,Bournemouth,Newcastle,60,75
+2016,Leicester,Watford,80,58
+2016,Man United,West Brom,232,74
+2016,Norwich,Swansea,67,82
+2016,Stoke,Chelsea,82,224
+2016,Sunderland,Southampton,84,85
+2016,West Ham,Everton,85,84
+2016,Arsenal,Tottenham,195,100
+2016,Aston Villa,Man City,93,198
+2016,Liverpool,Crystal Palace,208,81
+2016,Chelsea,Norwich,224,67
+2016,Everton,Aston Villa,84,93
+2016,Man City,Liverpool,198,208
+2016,Newcastle,Leicester,75,80
+2016,Southampton,Stoke,85,82
+2016,Swansea,Bournemouth,82,60
+2016,Watford,Man United,58,232
+2016,West Brom,Arsenal,74,195
+2016,Tottenham,West Ham,100,85
+2016,Crystal Palace,Sunderland,81,84
+2016,Aston Villa,Watford,93,58
+2016,Bournemouth,Everton,60,84
+2016,Crystal Palace,Newcastle,81,75
+2016,Leicester,Man United,80,232
+2016,Man City,Southampton,198,85
+2016,Sunderland,Stoke,84,82
+2016,Liverpool,Swansea,208,82
+2016,Norwich,Arsenal,67,195
+2016,Tottenham,Chelsea,100,224
+2016,West Ham,West Brom,85,74
+2016,Arsenal,Sunderland,195,84
+2016,Chelsea,Bournemouth,224,60
+2016,Man United,West Ham,232,85
+2016,Southampton,Aston Villa,85,93
+2016,Stoke,Man City,82,198
+2016,Swansea,Leicester,82,80
+2016,Watford,Norwich,58,67
+2016,West Brom,Tottenham,74,100
+2016,Newcastle,Liverpool,75,208
+2016,Everton,Crystal Palace,84,81
+2016,Bournemouth,Man United,60,232
+2016,Crystal Palace,Southampton,81,85
+2016,Man City,Swansea,198,82
+2016,Norwich,Everton,67,84
+2016,Sunderland,Watford,84,58
+2016,West Ham,Stoke,85,82
+2016,Aston Villa,Arsenal,93,195
+2016,Liverpool,West Brom,208,74
+2016,Tottenham,Newcastle,100,75
+2016,Leicester,Chelsea,80,224
+2016,Chelsea,Sunderland,224,84
+2016,Everton,Leicester,84,80
+2016,Man United,Norwich,232,67
+2016,Newcastle,Aston Villa,75,93
+2016,Southampton,Tottenham,85,100
+2016,Stoke,Crystal Palace,82,81
+2016,West Brom,Bournemouth,74,60
+2016,Swansea,West Ham,82,85
+2016,Watford,Liverpool,58,208
+2016,Arsenal,Man City,195,198
+2016,Aston Villa,West Ham,93,85
+2016,Bournemouth,Crystal Palace,60,81
+2016,Chelsea,Watford,224,58
+2016,Liverpool,Leicester,208,80
+2016,Man City,Sunderland,198,84
+2016,Newcastle,Everton,75,84
+2016,Southampton,Arsenal,85,195
+2016,Stoke,Man United,82,232
+2016,Swansea,West Brom,82,74
+2016,Tottenham,Norwich,100,67
+2016,Arsenal,Bournemouth,195,60
+2016,Crystal Palace,Swansea,81,82
+2016,Everton,Stoke,84,82
+2016,Man United,Chelsea,232,224
+2016,Norwich,Aston Villa,67,93
+2016,Watford,Tottenham,58,100
+2016,West Brom,Newcastle,74,75
+2016,West Ham,Southampton,85,85
+2016,Leicester,Man City,80,198
+2016,Sunderland,Liverpool,84,208
+2016,Arsenal,Newcastle,195,75
+2016,Leicester,Bournemouth,80,60
+2016,Man United,Swansea,232,82
+2016,Norwich,Southampton,67,85
+2016,Sunderland,Aston Villa,84,93
+2016,Watford,Man City,58,198
+2016,West Brom,Stoke,74,82
+2016,West Ham,Liverpool,85,208
+2016,Crystal Palace,Chelsea,81,224
+2016,Everton,Tottenham,84,100
+2016,Aston Villa,Crystal Palace,93,81
+2016,Bournemouth,West Ham,60,85
+2016,Newcastle,Man United,75,232
+2016,Chelsea,West Brom,224,74
+2016,Liverpool,Arsenal,208,195
+2016,Man City,Everton,198,84
+2016,Southampton,Watford,85,58
+2016,Stoke,Norwich,82,67
+2016,Swansea,Sunderland,82,84
+2016,Tottenham,Leicester,100,80
+2016,Aston Villa,Leicester,93,80
+2016,Bournemouth,Norwich,60,67
+2016,Chelsea,Everton,224,84
+2016,Man City,Crystal Palace,198,81
+2016,Newcastle,West Ham,75,85
+2016,Southampton,West Brom,85,74
+2016,Tottenham,Sunderland,100,84
+2016,Liverpool,Man United,208,232
+2016,Stoke,Arsenal,82,195
+2016,Swansea,Watford,82,58
+2016,Crystal Palace,Tottenham,81,100
+2016,Leicester,Stoke,80,82
+2016,Man United,Southampton,232,85
+2016,Norwich,Liverpool,67,208
+2016,Sunderland,Bournemouth,84,60
+2016,Watford,Newcastle,58,75
+2016,West Brom,Aston Villa,74,93
+2016,West Ham,Man City,85,198
+2016,Arsenal,Chelsea,195,224
+2016,Everton,Swansea,84,82
+2016,Arsenal,Southampton,195,85
+2016,Crystal Palace,Bournemouth,81,60
+2016,Leicester,Liverpool,80,208
+2016,Man United,Stoke,232,82
+2016,Norwich,Tottenham,67,100
+2016,Sunderland,Man City,84,198
+2016,West Brom,Swansea,74,82
+2016,West Ham,Aston Villa,85,93
+2016,Everton,Newcastle,84,75
+2016,Watford,Chelsea,58,224
+2016,Aston Villa,Norwich,93,67
+2016,Liverpool,Sunderland,208,84
+2016,Man City,Leicester,198,80
+2016,Newcastle,West Brom,75,74
+2016,Southampton,West Ham,85,85
+2016,Stoke,Everton,82,84
+2016,Swansea,Crystal Palace,82,81
+2016,Tottenham,Watford,100,58
+2016,Bournemouth,Arsenal,60,195
+2016,Chelsea,Man United,224,232
+2016,Bournemouth,Stoke,60,82
+2016,Chelsea,Newcastle,224,75
+2016,Crystal Palace,Watford,81,58
+2016,Everton,West Brom,84,74
+2016,Norwich,West Ham,67,85
+2016,Sunderland,Man United,84,232
+2016,Swansea,Southampton,82,85
+2016,Arsenal,Leicester,195,80
+2016,Aston Villa,Liverpool,93,208
+2016,Man City,Tottenham,198,100
+2016,Leicester,Norwich,80,67
+2016,Southampton,Chelsea,85,224
+2016,Stoke,Aston Villa,82,93
+2016,Watford,Bournemouth,58,60
+2016,West Brom,Crystal Palace,74,81
+2016,West Ham,Sunderland,85,84
+2016,Tottenham,Swansea,100,82
+2016,Man United,Arsenal,232,195
+2016,Aston Villa,Everton,93,84
+2016,Bournemouth,Southampton,60,85
+2016,Leicester,West Brom,80,74
+2016,Norwich,Chelsea,67,224
+2016,Sunderland,Crystal Palace,84,81
+2016,Arsenal,Swansea,195,82
+2016,Liverpool,Man City,208,198
+2016,Man United,Watford,232,58
+2016,Stoke,Newcastle,82,75
+2016,West Ham,Tottenham,85,100
+2016,Chelsea,Stoke,224,82
+2016,Everton,West Ham,84,85
+2016,Man City,Aston Villa,198,93
+2016,Newcastle,Bournemouth,75,60
+2016,Southampton,Sunderland,85,84
+2016,Swansea,Norwich,82,67
+2016,Tottenham,Arsenal,100,195
+2016,Watford,Leicester,58,80
+2016,Crystal Palace,Liverpool,81,208
+2016,West Brom,Man United,74,232
+2016,Bournemouth,Swansea,60,82
+2016,Norwich,Man City,67,198
+2016,Stoke,Southampton,82,85
+2016,Aston Villa,Tottenham,93,100
+2016,Leicester,Newcastle,80,75
+2016,Chelsea,West Ham,224,85
+2016,Crystal Palace,Leicester,81,80
+2016,Everton,Arsenal,84,195
+2016,Swansea,Aston Villa,82,93
+2016,Watford,Stoke,58,82
+2016,West Brom,Norwich,74,67
+2016,Man City,Man United,198,232
+2016,Newcastle,Sunderland,75,84
+2016,Southampton,Liverpool,85,208
+2016,Tottenham,Bournemouth,100,60
+2016,Arsenal,Watford,195,58
+2016,Aston Villa,Chelsea,93,224
+2016,Bournemouth,Man City,60,198
+2016,Liverpool,Tottenham,208,100
+2016,Norwich,Newcastle,67,75
+2016,Stoke,Swansea,82,82
+2016,Sunderland,West Brom,84,74
+2016,West Ham,Crystal Palace,85,81
+2016,Leicester,Southampton,80,85
+2016,Man United,Everton,232,84
+2016,Aston Villa,Bournemouth,93,60
+2016,Crystal Palace,Norwich,81,67
+2016,Man City,West Brom,198,74
+2016,Southampton,Newcastle,85,75
+2016,Swansea,Chelsea,82,224
+2016,Watford,Everton,58,84
+2016,West Ham,Arsenal,85,195
+2016,Liverpool,Stoke,208,82
+2016,Sunderland,Leicester,84,80
+2016,Tottenham,Man United,100,232
+2016,Crystal Palace,Everton,81,84
+2016,Chelsea,Man City,224,198
+2016,Everton,Southampton,84,85
+2016,Man United,Aston Villa,232,93
+2016,Newcastle,Swansea,75,82
+2016,Norwich,Sunderland,67,84
+2016,West Brom,Watford,74,58
+2016,Arsenal,Crystal Palace,195,81
+2016,Bournemouth,Liverpool,60,208
+2016,Leicester,West Ham,80,85
+2016,Stoke,Tottenham,82,100
+2016,Newcastle,Man City,75,198
+2016,Liverpool,Everton,208,84
+2016,Man United,Crystal Palace,232,81
+2016,West Ham,Watford,85,58
+2016,Arsenal,West Brom,195,74
+2016,Aston Villa,Southampton,93,85
+2016,Bournemouth,Chelsea,60,224
+2016,Liverpool,Newcastle,208,75
+2016,Man City,Stoke,198,82
+2016,Leicester,Swansea,80,82
+2016,Sunderland,Arsenal,84,195
+2016,Tottenham,West Brom,100,74
+2016,Arsenal,Norwich,195,67
+2016,Everton,Bournemouth,84,60
+2016,Newcastle,Crystal Palace,75,81
+2016,Stoke,Sunderland,82,84
+2016,Watford,Aston Villa,58,93
+2016,West Brom,West Ham,74,85
+2016,Man United,Leicester,232,80
+2016,Southampton,Man City,85,198
+2016,Swansea,Liverpool,82,208
+2016,Chelsea,Tottenham,224,100
+2016,Aston Villa,Newcastle,93,75
+2016,Bournemouth,West Brom,60,74
+2016,Crystal Palace,Stoke,81,82
+2016,Leicester,Everton,80,84
+2016,Norwich,Man United,67,232
+2016,Sunderland,Chelsea,84,224
+2016,West Ham,Swansea,85,82
+2016,Liverpool,Watford,208,58
+2016,Man City,Arsenal,198,195
+2016,Tottenham,Southampton,100,85
+2016,West Ham,Man United,85,232
+2016,Liverpool,Chelsea,208,224
+2016,Norwich,Watford,67,58
+2016,Sunderland,Everton,84,84
+2016,Arsenal,Aston Villa,195,93
+2016,Chelsea,Leicester,224,80
+2016,Everton,Norwich,84,67
+2016,Newcastle,Tottenham,75,100
+2016,Southampton,Crystal Palace,85,81
+2016,Stoke,West Ham,82,85
+2016,Swansea,Man City,82,198
+2016,Watford,Sunderland,58,84
+2016,West Brom,Liverpool,74,208
+2016,Man United,Bournemouth,232,60
+2017,Burnley,Swansea,61,99
+2017,Crystal Palace,West Brom,81,79
+2017,Everton,Tottenham,105,127
+2017,Hull,Leicester,61,113
+2017,Man City,Sunderland,264,85
+2017,Middlesbrough,Stoke,65,85
+2017,Southampton,Watford,113,76
+2017,Arsenal,Liverpool,199,208
+2017,Bournemouth,Man United,72,264
+2017,Chelsea,West Ham,220,95
+2017,Man United,Southampton,264,113
+2017,Burnley,Liverpool,61,208
+2017,Leicester,Arsenal,113,199
+2017,Stoke,Man City,85,264
+2017,Swansea,Hull,99,61
+2017,Tottenham,Crystal Palace,127,81
+2017,Watford,Chelsea,76,220
+2017,West Brom,Everton,79,105
+2017,Sunderland,Middlesbrough,85,65
+2017,West Ham,Bournemouth,95,72
+2017,Chelsea,Burnley,220,61
+2017,Crystal Palace,Bournemouth,81,72
+2017,Everton,Stoke,105,85
+2017,Hull,Man United,61,264
+2017,Leicester,Swansea,113,99
+2017,Southampton,Sunderland,113,85
+2017,Tottenham,Liverpool,127,208
+2017,Watford,Arsenal,76,199
+2017,Man City,West Ham,264,95
+2017,West Brom,Middlesbrough,79,65
+2017,Arsenal,Southampton,199,113
+2017,Bournemouth,West Brom,72,79
+2017,Burnley,Hull,61,61
+2017,Liverpool,Leicester,208,113
+2017,Man United,Man City,264,264
+2017,Middlesbrough,Crystal Palace,65,81
+2017,Stoke,Tottenham,85,127
+2017,West Ham,Watford,95,76
+2017,Swansea,Chelsea,99,220
+2017,Sunderland,Everton,85,105
+2017,Chelsea,Liverpool,220,208
+2017,Everton,Middlesbrough,105,65
+2017,Hull,Arsenal,61,199
+2017,Leicester,Burnley,113,61
+2017,Man City,Bournemouth,264,72
+2017,West Brom,West Ham,79,95
+2017,Crystal Palace,Stoke,81,85
+2017,Southampton,Swansea,113,99
+2017,Tottenham,Sunderland,127,85
+2017,Watford,Man United,76,264
+2017,Arsenal,Chelsea,199,220
+2017,Bournemouth,Everton,72,105
+2017,Liverpool,Hull,208,61
+2017,Man United,Leicester,264,113
+2017,Middlesbrough,Tottenham,65,127
+2017,Stoke,West Brom,85,79
+2017,Sunderland,Crystal Palace,85,81
+2017,Swansea,Man City,99,264
+2017,West Ham,Southampton,95,113
+2017,Burnley,Watford,61,76
+2017,Everton,Crystal Palace,105,81
+2017,Hull,Chelsea,61,220
+2017,Sunderland,West Brom,85,79
+2017,Swansea,Liverpool,99,208
+2017,Watford,Bournemouth,76,72
+2017,West Ham,Middlesbrough,95,65
+2017,Burnley,Arsenal,61,199
+2017,Leicester,Southampton,113,113
+2017,Man United,Stoke,264,85
+2017,Tottenham,Man City,127,264
+2017,Arsenal,Swansea,199,99
+2017,Bournemouth,Hull,72,61
+2017,Chelsea,Leicester,220,113
+2017,Crystal Palace,West Ham,81,95
+2017,Man City,Everton,264,105
+2017,Stoke,Sunderland,85,85
+2017,West Brom,Tottenham,79,127
+2017,Middlesbrough,Watford,65,76
+2017,Southampton,Burnley,113,61
+2017,Liverpool,Man United,208,264
+2017,Arsenal,Middlesbrough,199,65
+2017,Bournemouth,Tottenham,72,127
+2017,Burnley,Everton,61,105
+2017,Hull,Stoke,61,85
+2017,Leicester,Crystal Palace,113,81
+2017,Liverpool,West Brom,208,79
+2017,Swansea,Watford,99,76
+2017,West Ham,Sunderland,95,85
+2017,Chelsea,Man United,220,264
+2017,Man City,Southampton,264,113
+2017,Crystal Palace,Liverpool,81,208
+2017,Man United,Burnley,264,61
+2017,Middlesbrough,Bournemouth,65,72
+2017,Sunderland,Arsenal,85,199
+2017,Tottenham,Leicester,127,113
+2017,Watford,Hull,76,61
+2017,West Brom,Man City,79,264
+2017,Everton,West Ham,105,95
+2017,Southampton,Chelsea,113,220
+2017,Stoke,Swansea,85,99
+2017,Bournemouth,Sunderland,72,85
+2017,Burnley,Crystal Palace,61,81
+2017,Chelsea,Everton,220,105
+2017,Man City,Middlesbrough,264,65
+2017,West Ham,Stoke,95,85
+2017,Arsenal,Tottenham,199,127
+2017,Hull,Southampton,61,113
+2017,Leicester,West Brom,113,79
+2017,Liverpool,Watford,208,76
+2017,Swansea,Man United,99,264
+2017,Crystal Palace,Man City,81,264
+2017,Everton,Swansea,105,99
+2017,Man United,Arsenal,264,199
+2017,Southampton,Liverpool,113,208
+2017,Stoke,Bournemouth,85,72
+2017,Sunderland,Hull,85,61
+2017,Tottenham,West Ham,127,95
+2017,Watford,Leicester,76,113
+2017,Middlesbrough,Chelsea,65,220
+2017,West Brom,Burnley,79,61
+2017,Burnley,Man City,61,264
+2017,Chelsea,Tottenham,220,127
+2017,Hull,West Brom,61,79
+2017,Leicester,Middlesbrough,113,65
+2017,Liverpool,Sunderland,208,85
+2017,Swansea,Crystal Palace,99,81
+2017,Arsenal,Bournemouth,199,72
+2017,Man United,West Ham,264,95
+2017,Southampton,Everton,113,105
+2017,Watford,Stoke,76,85
+2017,Crystal Palace,Southampton,81,113
+2017,Man City,Chelsea,264,220
+2017,Stoke,Burnley,85,61
+2017,Sunderland,Leicester,85,113
+2017,Tottenham,Swansea,127,99
+2017,West Brom,Watford,79,76
+2017,West Ham,Arsenal,95,199
+2017,Bournemouth,Liverpool,72,208
+2017,Everton,Man United,105,264
+2017,Middlesbrough,Hull,65,61
+2017,Arsenal,Stoke,199,85
+2017,Burnley,Bournemouth,61,72
+2017,Hull,Crystal Palace,61,81
+2017,Leicester,Man City,113,264
+2017,Swansea,Sunderland,99,85
+2017,Watford,Everton,76,105
+2017,Chelsea,West Brom,220,79
+2017,Liverpool,West Ham,208,95
+2017,Man United,Tottenham,264,127
+2017,Southampton,Middlesbrough,113,65
+2017,Bournemouth,Leicester,72,113
+2017,Everton,Arsenal,105,199
+2017,Crystal Palace,Man United,81,264
+2017,Man City,Watford,264,76
+2017,Middlesbrough,Liverpool,65,208
+2017,Stoke,Southampton,85,113
+2017,Sunderland,Chelsea,85,220
+2017,Tottenham,Hull,127,61
+2017,West Brom,Swansea,79,99
+2017,West Ham,Burnley,95,61
+2017,Crystal Palace,Chelsea,81,220
+2017,Middlesbrough,Swansea,65,99
+2017,Stoke,Leicester,85,113
+2017,Sunderland,Watford,85,76
+2017,West Brom,Man United,79,264
+2017,West Ham,Hull,95,61
+2017,Bournemouth,Southampton,72,113
+2017,Man City,Arsenal,264,199
+2017,Tottenham,Burnley,127,61
+2017,Everton,Liverpool,105,208
+2017,Arsenal,West Brom,199,79
+2017,Burnley,Middlesbrough,61,65
+2017,Chelsea,Bournemouth,220,72
+2017,Hull,Man City,61,264
+2017,Leicester,Everton,113,105
+2017,Man United,Sunderland,264,85
+2017,Swansea,West Ham,99,95
+2017,Watford,Crystal Palace,76,81
+2017,Liverpool,Stoke,208,85
+2017,Southampton,Tottenham,113,127
+2017,Hull,Everton,61,105
+2017,Burnley,Sunderland,61,85
+2017,Chelsea,Stoke,220,85
+2017,Leicester,West Ham,113,95
+2017,Liverpool,Man City,208,264
+2017,Man United,Middlesbrough,264,65
+2017,Southampton,West Brom,113,79
+2017,Swansea,Bournemouth,99,72
+2017,Arsenal,Crystal Palace,199,81
+2017,Watford,Tottenham,76,127
+2017,Everton,Southampton,105,113
+2017,Man City,Burnley,264,61
+2017,Middlesbrough,Leicester,65,113
+2017,Sunderland,Liverpool,85,208
+2017,West Brom,Hull,79,61
+2017,West Ham,Man United,95,264
+2017,Bournemouth,Arsenal,72,199
+2017,Crystal Palace,Swansea,81,99
+2017,Stoke,Watford,85,76
+2017,Tottenham,Chelsea,127,220
+2017,Burnley,Southampton,61,113
+2017,Hull,Bournemouth,61,72
+2017,Leicester,Chelsea,113,220
+2017,Sunderland,Stoke,85,85
+2017,Swansea,Arsenal,99,199
+2017,Tottenham,West Brom,127,79
+2017,Watford,Middlesbrough,76,65
+2017,West Ham,Crystal Palace,95,81
+2017,Everton,Man City,105,264
+2017,Man United,Liverpool,264,208
+2017,Bournemouth,Watford,72,76
+2017,Crystal Palace,Everton,81,105
+2017,Liverpool,Swansea,208,99
+2017,Man City,Tottenham,264,127
+2017,Middlesbrough,West Ham,65,95
+2017,Stoke,Man United,85,264
+2017,West Brom,Sunderland,79,85
+2017,Arsenal,Burnley,199,61
+2017,Chelsea,Hull,220,61
+2017,Southampton,Leicester,113,113
+2017,Arsenal,Watford,199,76
+2017,Bournemouth,Crystal Palace,72,81
+2017,Burnley,Leicester,61,113
+2017,Liverpool,Chelsea,208,220
+2017,Middlesbrough,West Brom,65,79
+2017,Sunderland,Tottenham,85,127
+2017,Swansea,Southampton,99,113
+2017,Man United,Hull,264,61
+2017,Stoke,Everton,85,105
+2017,West Ham,Man City,95,264
+2017,Chelsea,Arsenal,220,199
+2017,Crystal Palace,Sunderland,81,85
+2017,Everton,Bournemouth,105,72
+2017,Hull,Liverpool,61,208
+2017,Southampton,West Ham,113,95
+2017,Tottenham,Middlesbrough,127,65
+2017,Watford,Burnley,76,61
+2017,West Brom,Stoke,79,85
+2017,Leicester,Man United,113,264
+2017,Man City,Swansea,264,99
+2017,Arsenal,Hull,199,61
+2017,Liverpool,Tottenham,208,127
+2017,Man United,Watford,264,76
+2017,Middlesbrough,Everton,65,105
+2017,Stoke,Crystal Palace,85,81
+2017,Sunderland,Southampton,85,113
+2017,West Ham,West Brom,95,79
+2017,Burnley,Chelsea,61,220
+2017,Swansea,Leicester,99,113
+2017,Bournemouth,Man City,72,264
+2017,Chelsea,Swansea,220,99
+2017,Crystal Palace,Middlesbrough,81,65
+2017,Everton,Sunderland,105,85
+2017,Hull,Burnley,61,61
+2017,Watford,West Ham,76,95
+2017,West Brom,Bournemouth,79,72
+2017,Tottenham,Stoke,127,85
+2017,Leicester,Liverpool,113,208
+2017,Leicester,Hull,113,61
+2017,Liverpool,Arsenal,208,199
+2017,Man United,Bournemouth,264,72
+2017,Stoke,Middlesbrough,85,65
+2017,Swansea,Burnley,99,61
+2017,Watford,Southampton,76,113
+2017,West Brom,Crystal Palace,79,81
+2017,Sunderland,Man City,85,264
+2017,Tottenham,Everton,127,105
+2017,West Ham,Chelsea,95,220
+2017,Man City,Stoke,264,85
+2017,Bournemouth,West Ham,72,95
+2017,Everton,West Brom,105,79
+2017,Hull,Swansea,61,99
+2017,Liverpool,Burnley,208,61
+2017,Bournemouth,Swansea,72,99
+2017,Crystal Palace,Watford,81,76
+2017,Everton,Hull,105,61
+2017,Stoke,Chelsea,85,220
+2017,Sunderland,Burnley,85,61
+2017,West Brom,Arsenal,79,199
+2017,West Ham,Leicester,95,113
+2017,Man City,Liverpool,264,208
+2017,Middlesbrough,Man United,65,264
+2017,Tottenham,Southampton,127,113
+2017,Burnley,Tottenham,61,127
+2017,Chelsea,Crystal Palace,220,81
+2017,Hull,West Ham,61,95
+2017,Leicester,Stoke,113,85
+2017,Liverpool,Everton,208,105
+2017,Man United,West Brom,264,79
+2017,Southampton,Bournemouth,113,72
+2017,Watford,Sunderland,76,85
+2017,Arsenal,Man City,199,264
+2017,Swansea,Middlesbrough,99,65
+2017,Burnley,Stoke,61,85
+2017,Leicester,Sunderland,113,85
+2017,Man United,Everton,264,105
+2017,Watford,West Brom,76,79
+2017,Arsenal,West Ham,199,95
+2017,Chelsea,Man City,220,264
+2017,Hull,Middlesbrough,61,65
+2017,Liverpool,Bournemouth,208,72
+2017,Southampton,Crystal Palace,113,81
+2017,Swansea,Tottenham,99,127
+2017,Bournemouth,Chelsea,72,220
+2017,Man City,Hull,264,61
+2017,Middlesbrough,Burnley,65,61
+2017,Stoke,Liverpool,85,208
+2017,Tottenham,Watford,127,76
+2017,West Brom,Southampton,79,113
+2017,West Ham,Swansea,95,99
+2017,Everton,Leicester,105,113
+2017,Sunderland,Man United,85,264
+2017,Crystal Palace,Arsenal,81,199
+2017,Crystal Palace,Leicester,81,113
+2017,Everton,Burnley,105,61
+2017,Southampton,Man City,113,264
+2017,Stoke,Hull,85,61
+2017,Sunderland,West Ham,85,95
+2017,Tottenham,Bournemouth,127,72
+2017,Watford,Swansea,76,99
+2017,Man United,Chelsea,264,220
+2017,West Brom,Liverpool,79,208
+2017,Middlesbrough,Arsenal,65,199
+2017,Bournemouth,Middlesbrough,72,65
+2017,Hull,Watford,61,76
+2017,Swansea,Stoke,99,85
+2017,West Ham,Everton,95,105
+2017,Burnley,Man United,61,264
+2017,Liverpool,Crystal Palace,208,81
+2017,Chelsea,Southampton,220,113
+2017,Arsenal,Leicester,199,113
+2017,Crystal Palace,Tottenham,81,127
+2017,Middlesbrough,Sunderland,65,85
+2017,Man City,Man United,264,264
+2017,Crystal Palace,Burnley,81,61
+2017,Southampton,Hull,113,61
+2017,Stoke,West Ham,85,95
+2017,Sunderland,Bournemouth,85,72
+2017,West Brom,Leicester,79,113
+2017,Everton,Chelsea,105,220
+2017,Man United,Swansea,264,99
+2017,Middlesbrough,Man City,65,264
+2017,Tottenham,Arsenal,127,199
+2017,Watford,Liverpool,76,208
+2017,West Ham,Tottenham,95,127
+2017,Bournemouth,Stoke,72,85
+2017,Burnley,West Brom,61,79
+2017,Hull,Sunderland,61,85
+2017,Leicester,Watford,113,76
+2017,Man City,Crystal Palace,264,81
+2017,Swansea,Everton,99,105
+2017,Arsenal,Man United,199,264
+2017,Liverpool,Southampton,208,113
+2017,Chelsea,Middlesbrough,220,65
+2017,Southampton,Arsenal,113,199
+2017,Everton,Watford,105,76
+2017,West Brom,Chelsea,79,220
+2017,Bournemouth,Burnley,72,61
+2017,Man City,Leicester,264,113
+2017,Middlesbrough,Southampton,65,113
+2017,Stoke,Arsenal,85,199
+2017,Sunderland,Swansea,85,99
+2017,Crystal Palace,Hull,81,61
+2017,Tottenham,Man United,127,264
+2017,West Ham,Liverpool,95,208
+2017,Chelsea,Watford,220,76
+2017,Arsenal,Sunderland,199,85
+2017,Man City,West Brom,264,79
+2017,Southampton,Man United,113,264
+2017,Leicester,Tottenham,113,127
+2017,Arsenal,Everton,199,105
+2017,Burnley,West Ham,61,95
+2017,Chelsea,Sunderland,220,85
+2017,Hull,Tottenham,61,127
+2017,Leicester,Bournemouth,113,72
+2017,Liverpool,Middlesbrough,208,65
+2017,Man United,Crystal Palace,264,81
+2017,Southampton,Stoke,113,85
+2017,Swansea,West Brom,99,79
+2017,Watford,Man City,76,264
+2018,Arsenal,Leicester,121,60
+2018,Brighton,Man City,39,128
+2018,Chelsea,Burnley,114,37
+2018,Crystal Palace,Huddersfield,66,30
+2018,Everton,Stoke,79,52
+2018,Southampton,Swansea,64,43
+2018,Watford,Liverpool,45,86
+2018,West Brom,Bournemouth,58,44
+2018,Man United,West Ham,147,74
+2018,Newcastle,Tottenham,46,79
+2018,Bournemouth,Watford,44,45
+2018,Burnley,West Brom,37,58
+2018,Leicester,Brighton,60,39
+2018,Liverpool,Crystal Palace,86,66
+2018,Southampton,West Ham,64,74
+2018,Stoke,Arsenal,52,121
+2018,Swansea,Man United,43,147
+2018,Huddersfield,Newcastle,30,46
+2018,Tottenham,Chelsea,79,114
+2018,Man City,Everton,128,79
+2018,Bournemouth,Man City,44,128
+2018,Crystal Palace,Swansea,66,43
+2018,Huddersfield,Southampton,30,64
+2018,Man United,Leicester,147,60
+2018,Newcastle,West Ham,46,74
+2018,Watford,Brighton,45,39
+2018,Chelsea,Everton,114,79
+2018,Liverpool,Arsenal,86,121
+2018,Tottenham,Burnley,79,37
+2018,West Brom,Stoke,58,52
+2018,Arsenal,Bournemouth,121,44
+2018,Brighton,West Brom,39,58
+2018,Everton,Tottenham,79,79
+2018,Leicester,Chelsea,60,114
+2018,Man City,Liverpool,128,86
+2018,Southampton,Watford,64,45
+2018,Stoke,Man United,52,147
+2018,Burnley,Crystal Palace,37,66
+2018,Swansea,Newcastle,43,46
+2018,West Ham,Huddersfield,74,30
+2018,Bournemouth,Brighton,44,39
+2018,Crystal Palace,Southampton,66,64
+2018,Huddersfield,Leicester,30,60
+2018,Liverpool,Burnley,86,37
+2018,Newcastle,Stoke,46,52
+2018,Tottenham,Swansea,79,43
+2018,Watford,Man City,45,128
+2018,West Brom,West Ham,58,74
+2018,Chelsea,Arsenal,114,121
+2018,Man United,Everton,147,79
+2018,Burnley,Huddersfield,37,30
+2018,Everton,Bournemouth,79,44
+2018,Leicester,Liverpool,60,86
+2018,Man City,Crystal Palace,128,66
+2018,Southampton,Man United,64,147
+2018,Stoke,Chelsea,52,114
+2018,Swansea,Watford,43,45
+2018,West Ham,Tottenham,74,79
+2018,Brighton,Newcastle,39,46
+2018,Arsenal,West Brom,121,58
+2018,Bournemouth,Leicester,44,60
+2018,Chelsea,Man City,114,128
+2018,Huddersfield,Tottenham,30,79
+2018,Man United,Crystal Palace,147,66
+2018,Stoke,Southampton,52,64
+2018,West Brom,Watford,58,45
+2018,West Ham,Swansea,74,43
+2018,Arsenal,Brighton,121,39
+2018,Everton,Burnley,79,37
+2018,Newcastle,Liverpool,46,86
+2018,Burnley,West Ham,37,74
+2018,Crystal Palace,Chelsea,66,114
+2018,Liverpool,Man United,86,147
+2018,Man City,Stoke,128,52
+2018,Swansea,Huddersfield,43,30
+2018,Tottenham,Bournemouth,79,44
+2018,Watford,Arsenal,45,121
+2018,Brighton,Everton,39,79
+2018,Southampton,Newcastle,64,46
+2018,Leicester,West Brom,60,58
+2018,West Ham,Brighton,74,39
+2018,Chelsea,Watford,114,45
+2018,Huddersfield,Man United,30,147
+2018,Man City,Burnley,128,37
+2018,Newcastle,Crystal Palace,46,66
+2018,Southampton,West Brom,64,58
+2018,Stoke,Bournemouth,52,44
+2018,Swansea,Leicester,43,60
+2018,Everton,Arsenal,79,121
+2018,Tottenham,Liverpool,79,86
+2018,Arsenal,Swansea,121,43
+2018,Bournemouth,Chelsea,44,114
+2018,Crystal Palace,West Ham,66,74
+2018,Liverpool,Huddersfield,86,30
+2018,Man United,Tottenham,147,79
+2018,Watford,Stoke,45,52
+2018,West Brom,Man City,58,128
+2018,Brighton,Southampton,39,64
+2018,Leicester,Everton,60,79
+2018,Burnley,Newcastle,37,46
+2018,Huddersfield,West Brom,30,58
+2018,Newcastle,Bournemouth,46,44
+2018,Southampton,Burnley,64,37
+2018,Stoke,Leicester,52,60
+2018,Swansea,Brighton,43,39
+2018,West Ham,Liverpool,74,86
+2018,Chelsea,Man United,114,147
+2018,Everton,Watford,79,45
+2018,Man City,Arsenal,128,121
+2018,Tottenham,Crystal Palace,79,66
+2018,Arsenal,Tottenham,121,79
+2018,Bournemouth,Huddersfield,44,30
+2018,Burnley,Swansea,37,43
+2018,Crystal Palace,Everton,66,79
+2018,Leicester,Man City,60,128
+2018,Liverpool,Southampton,86,64
+2018,Man United,Newcastle,147,46
+2018,West Brom,Chelsea,58,114
+2018,Watford,West Ham,45,74
+2018,Brighton,Stoke,39,52
+2018,West Ham,Leicester,74,60
+2018,Crystal Palace,Stoke,66,52
+2018,Liverpool,Chelsea,86,114
+2018,Man United,Brighton,147,39
+2018,Newcastle,Watford,46,45
+2018,Swansea,Bournemouth,43,44
+2018,Tottenham,West Brom,79,58
+2018,Burnley,Arsenal,37,121
+2018,Huddersfield,Man City,30,128
+2018,Southampton,Everton,64,79
+2018,Brighton,Crystal Palace,39,66
+2018,Leicester,Tottenham,60,79
+2018,Watford,Man United,45,147
+2018,West Brom,Newcastle,58,46
+2018,Arsenal,Huddersfield,121,30
+2018,Bournemouth,Burnley,44,37
+2018,Chelsea,Swansea,114,43
+2018,Everton,West Ham,79,74
+2018,Man City,Southampton,128,64
+2018,Stoke,Liverpool,52,86
+2018,Arsenal,Man United,121,147
+2018,Brighton,Liverpool,39,86
+2018,Chelsea,Newcastle,114,46
+2018,Everton,Huddersfield,79,30
+2018,Leicester,Burnley,60,37
+2018,Stoke,Swansea,52,43
+2018,Watford,Tottenham,45,79
+2018,West Brom,Crystal Palace,58,66
+2018,Bournemouth,Southampton,44,64
+2018,Man City,West Ham,128,74
+2018,Burnley,Watford,37,45
+2018,Crystal Palace,Bournemouth,66,44
+2018,Huddersfield,Brighton,30,39
+2018,Newcastle,Leicester,46,60
+2018,Swansea,West Brom,43,58
+2018,Tottenham,Stoke,79,52
+2018,West Ham,Chelsea,74,114
+2018,Liverpool,Everton,86,79
+2018,Man United,Man City,147,128
+2018,Southampton,Arsenal,64,121
+2018,Burnley,Stoke,37,52
+2018,Crystal Palace,Watford,66,45
+2018,Huddersfield,Chelsea,30,114
+2018,Liverpool,West Brom,86,58
+2018,Man United,Bournemouth,147,44
+2018,Newcastle,Everton,46,79
+2018,Southampton,Leicester,64,60
+2018,Swansea,Man City,43,128
+2018,Tottenham,Brighton,79,39
+2018,West Ham,Arsenal,74,121
+2018,Arsenal,Newcastle,121,46
+2018,Brighton,Burnley,39,37
+2018,Chelsea,Southampton,114,64
+2018,Leicester,Crystal Palace,60,66
+2018,Man City,Tottenham,128,79
+2018,Stoke,West Ham,52,74
+2018,Watford,Huddersfield,45,30
+2018,Bournemouth,Liverpool,44,86
+2018,West Brom,Man United,58,147
+2018,Everton,Swansea,79,43
+2018,Arsenal,Liverpool,121,86
+2018,Brighton,Watford,39,45
+2018,Burnley,Tottenham,37,79
+2018,Everton,Chelsea,79,114
+2018,Leicester,Man United,60,147
+2018,Man City,Bournemouth,128,44
+2018,Southampton,Huddersfield,64,30
+2018,Stoke,West Brom,52,58
+2018,Swansea,Crystal Palace,43,66
+2018,West Ham,Newcastle,74,46
+2018,Bournemouth,West Ham,44,74
+2018,Chelsea,Brighton,114,39
+2018,Huddersfield,Stoke,30,52
+2018,Liverpool,Swansea,86,43
+2018,Man United,Burnley,147,37
+2018,Tottenham,Southampton,79,64
+2018,Watford,Leicester,45,60
+2018,West Brom,Everton,58,79
+2018,Newcastle,Man City,46,128
+2018,Crystal Palace,Arsenal,66,121
+2018,Bournemouth,Everton,44,79
+2018,Chelsea,Stoke,114,52
+2018,Huddersfield,Burnley,30,37
+2018,Liverpool,Leicester,86,60
+2018,Man United,Southampton,147,64
+2018,Newcastle,Brighton,46,39
+2018,Watford,Swansea,45,43
+2018,Crystal Palace,Man City,66,128
+2018,West Brom,Arsenal,58,121
+2018,Brighton,Bournemouth,39,44
+2018,Burnley,Liverpool,37,86
+2018,Everton,Man United,79,147
+2018,Leicester,Huddersfield,60,30
+2018,Stoke,Newcastle,52,46
+2018,Man City,Watford,128,45
+2018,Southampton,Crystal Palace,64,66
+2018,Swansea,Tottenham,43,79
+2018,West Ham,West Brom,74,58
+2018,Arsenal,Chelsea,121,114
+2018,Tottenham,West Ham,79,74
+2018,Chelsea,Leicester,114,60
+2018,Crystal Palace,Burnley,66,37
+2018,Huddersfield,West Ham,30,74
+2018,Newcastle,Swansea,46,43
+2018,Tottenham,Everton,79,79
+2018,Watford,Southampton,45,64
+2018,West Brom,Brighton,58,39
+2018,Bournemouth,Arsenal,44,121
+2018,Liverpool,Man City,86,128
+2018,Man United,Stoke,147,52
+2018,Arsenal,Crystal Palace,121,66
+2018,Brighton,Chelsea,39,114
+2018,Burnley,Man United,37,147
+2018,Everton,West Brom,79,58
+2018,Leicester,Watford,60,45
+2018,Man City,Newcastle,128,46
+2018,Stoke,Huddersfield,52,30
+2018,West Ham,Bournemouth,74,44
+2018,Southampton,Tottenham,64,79
+2018,Swansea,Liverpool,43,86
+2018,Huddersfield,Liverpool,30,86
+2018,Swansea,Arsenal,43,121
+2018,West Ham,Crystal Palace,74,66
+2018,Chelsea,Bournemouth,114,44
+2018,Everton,Leicester,79,60
+2018,Man City,West Brom,128,58
+2018,Newcastle,Burnley,46,37
+2018,Southampton,Brighton,64,39
+2018,Stoke,Watford,52,45
+2018,Tottenham,Man United,79,147
+2018,Arsenal,Everton,121,79
+2018,Bournemouth,Stoke,44,52
+2018,Brighton,West Ham,39,74
+2018,Burnley,Man City,37,128
+2018,Leicester,Swansea,60,43
+2018,Man United,Huddersfield,147,30
+2018,West Brom,Southampton,58,64
+2018,Crystal Palace,Newcastle,66,46
+2018,Liverpool,Tottenham,86,79
+2018,Watford,Chelsea,45,114
+2018,Everton,Crystal Palace,79,66
+2018,Man City,Leicester,128,60
+2018,Stoke,Brighton,52,39
+2018,Swansea,Burnley,43,37
+2018,Tottenham,Arsenal,79,121
+2018,West Ham,Watford,74,45
+2018,Huddersfield,Bournemouth,30,44
+2018,Newcastle,Man United,46,147
+2018,Southampton,Liverpool,64,86
+2018,Chelsea,West Brom,114,58
+2018,Bournemouth,Newcastle,44,46
+2018,Brighton,Swansea,39,43
+2018,Burnley,Southampton,37,64
+2018,Leicester,Stoke,60,52
+2018,Liverpool,West Ham,86,74
+2018,Watford,Everton,45,79
+2018,West Brom,Huddersfield,58,30
+2018,Crystal Palace,Tottenham,66,79
+2018,Man United,Chelsea,147,114
+2018,Arsenal,Man City,121,128
+2018,Burnley,Everton,37,79
+2018,Leicester,Bournemouth,60,44
+2018,Liverpool,Newcastle,86,46
+2018,Southampton,Stoke,64,52
+2018,Swansea,West Ham,43,74
+2018,Tottenham,Huddersfield,79,30
+2018,Watford,West Brom,45,58
+2018,Brighton,Arsenal,39,121
+2018,Man City,Chelsea,128,114
+2018,Crystal Palace,Man United,66,147
+2018,Chelsea,Crystal Palace,114,66
+2018,Everton,Brighton,79,39
+2018,Huddersfield,Swansea,30,43
+2018,Man United,Liverpool,147,86
+2018,Newcastle,Southampton,46,64
+2018,West Brom,Leicester,58,60
+2018,West Ham,Burnley,74,37
+2018,Arsenal,Watford,121,45
+2018,Bournemouth,Tottenham,44,79
+2018,Stoke,Man City,52,128
+2018,Bournemouth,West Brom,44,58
+2018,Huddersfield,Crystal Palace,30,66
+2018,Liverpool,Watford,86,45
+2018,Stoke,Everton,52,79
+2018,Brighton,Leicester,39,60
+2018,Crystal Palace,Liverpool,66,86
+2018,Everton,Man City,79,128
+2018,Man United,Swansea,147,43
+2018,Newcastle,Huddersfield,46,30
+2018,Watford,Bournemouth,45,44
+2018,West Brom,Burnley,58,37
+2018,West Ham,Southampton,74,64
+2018,Arsenal,Stoke,121,52
+2018,Chelsea,Tottenham,114,79
+2018,Bournemouth,Crystal Palace,44,66
+2018,Brighton,Huddersfield,39,30
+2018,Everton,Liverpool,79,86
+2018,Leicester,Newcastle,60,46
+2018,Man City,Man United,128,147
+2018,Stoke,Tottenham,52,79
+2018,Watford,Burnley,45,37
+2018,West Brom,Swansea,58,43
+2018,Arsenal,Southampton,121,64
+2018,Chelsea,West Ham,114,74
+2018,Burnley,Leicester,37,60
+2018,Crystal Palace,Brighton,66,39
+2018,Huddersfield,Watford,30,45
+2018,Liverpool,Bournemouth,86,44
+2018,Southampton,Chelsea,64,114
+2018,Swansea,Everton,43,79
+2018,Tottenham,Man City,79,128
+2018,Man United,West Brom,147,58
+2018,Newcastle,Arsenal,46,121
+2018,West Ham,Stoke,74,52
+2018,Brighton,Tottenham,39,79
+2018,Bournemouth,Man United,44,147
+2018,Burnley,Chelsea,37,114
+2018,Leicester,Southampton,60,64
+2018,Watford,Crystal Palace,45,66
+2018,West Brom,Liverpool,58,86
+2018,Arsenal,West Ham,121,74
+2018,Man City,Swansea,128,43
+2018,Stoke,Burnley,52,37
+2018,Everton,Newcastle,79,46
+2018,Burnley,Brighton,37,39
+2018,Crystal Palace,Leicester,66,60
+2018,Huddersfield,Everton,30,79
+2018,Liverpool,Stoke,86,52
+2018,Newcastle,West Brom,46,58
+2018,Southampton,Bournemouth,64,44
+2018,Swansea,Chelsea,43,114
+2018,Man United,Arsenal,147,121
+2018,West Ham,Man City,74,128
+2018,Tottenham,Watford,79,45
+2018,Brighton,Man United,39,147
+2018,Bournemouth,Swansea,44,43
+2018,Everton,Southampton,79,64
+2018,Leicester,West Ham,60,74
+2018,Stoke,Crystal Palace,52,66
+2018,Watford,Newcastle,45,46
+2018,West Brom,Tottenham,58,79
+2018,Arsenal,Burnley,121,37
+2018,Chelsea,Liverpool,114,86
+2018,Man City,Huddersfield,128,30
+2018,Swansea,Southampton,43,64
+2018,Chelsea,Huddersfield,114,30
+2018,Leicester,Arsenal,60,121
+2018,Man City,Brighton,128,39
+2018,Tottenham,Newcastle,79,46
+2018,West Ham,Man United,74,147
+2018,Burnley,Bournemouth,37,44
+2018,Crystal Palace,West Brom,66,58
+2018,Huddersfield,Arsenal,30,121
+2018,Liverpool,Brighton,86,39
+2018,Man United,Watford,147,45
+2018,Newcastle,Chelsea,46,114
+2018,Southampton,Man City,64,128
+2018,Swansea,Stoke,43,52
+2018,Tottenham,Leicester,79,60
+2018,West Ham,Everton,74,79
+2019,Man United,Leicester,149,80
+2019,Bournemouth,Cardiff,42,26
+2019,Fulham,Crystal Palace,42,70
+2019,Huddersfield,Chelsea,32,125
+2019,Newcastle,Tottenham,43,86
+2019,Watford,Brighton,51,39
+2019,Wolves,Everton,39,84
+2019,Arsenal,Man City,128,144
+2019,Liverpool,West Ham,122,85
+2019,Southampton,Burnley,70,42
+2019,Cardiff,Newcastle,26,43
+2019,Chelsea,Arsenal,125,128
+2019,Everton,Southampton,84,70
+2019,Leicester,Wolves,80,39
+2019,Tottenham,Fulham,86,42
+2019,West Ham,Bournemouth,85,42
+2019,Brighton,Man United,39,149
+2019,Burnley,Watford,42,51
+2019,Man City,Huddersfield,144,32
+2019,Crystal Palace,Liverpool,70,122
+2019,Arsenal,West Ham,128,85
+2019,Bournemouth,Everton,42,84
+2019,Huddersfield,Cardiff,32,26
+2019,Liverpool,Brighton,122,39
+2019,Southampton,Leicester,70,80
+2019,Wolves,Man City,39,144
+2019,Fulham,Burnley,42,42
+2019,Newcastle,Chelsea,43,125
+2019,Watford,Crystal Palace,51,70
+2019,Man United,Tottenham,149,86
+2019,Brighton,Fulham,39,42
+2019,Chelsea,Bournemouth,125,42
+2019,Crystal Palace,Southampton,70,70
+2019,Everton,Huddersfield,84,32
+2019,Leicester,Liverpool,80,122
+2019,Man City,Newcastle,144,43
+2019,West Ham,Wolves,85,39
+2019,Burnley,Man United,42,149
+2019,Cardiff,Arsenal,26,128
+2019,Watford,Tottenham,51,86
+2019,Bournemouth,Leicester,42,80
+2019,Chelsea,Cardiff,125,26
+2019,Huddersfield,Crystal Palace,32,70
+2019,Man City,Fulham,144,42
+2019,Newcastle,Arsenal,43,128
+2019,Tottenham,Liverpool,86,122
+2019,Watford,Man United,51,149
+2019,Everton,West Ham,84,85
+2019,Wolves,Burnley,39,42
+2019,Southampton,Brighton,70,39
+2019,Brighton,Tottenham,39,86
+2019,Burnley,Bournemouth,42,42
+2019,Cardiff,Man City,26,144
+2019,Crystal Palace,Newcastle,70,43
+2019,Fulham,Watford,42,51
+2019,Leicester,Huddersfield,80,32
+2019,Liverpool,Southampton,122,70
+2019,Man United,Wolves,149,39
+2019,Arsenal,Everton,128,84
+2019,West Ham,Chelsea,85,125
+2019,Arsenal,Watford,128,51
+2019,Chelsea,Liverpool,125,122
+2019,Everton,Fulham,84,42
+2019,Huddersfield,Tottenham,32,86
+2019,Man City,Brighton,144,39
+2019,Newcastle,Leicester,43,80
+2019,West Ham,Man United,85,149
+2019,Wolves,Southampton,39,70
+2019,Cardiff,Burnley,26,42
+2019,Bournemouth,Crystal Palace,42,70
+2019,Brighton,West Ham,39,85
+2019,Burnley,Huddersfield,42,32
+2019,Crystal Palace,Wolves,70,39
+2019,Leicester,Everton,80,84
+2019,Man United,Newcastle,149,43
+2019,Tottenham,Cardiff,86,26
+2019,Watford,Bournemouth,51,42
+2019,Fulham,Arsenal,42,128
+2019,Liverpool,Man City,122,144
+2019,Southampton,Chelsea,70,125
+2019,Bournemouth,Southampton,42,70
+2019,Cardiff,Fulham,26,42
+2019,Chelsea,Man United,125,149
+2019,Huddersfield,Liverpool,32,122
+2019,Man City,Burnley,144,42
+2019,Newcastle,Brighton,43,39
+2019,West Ham,Tottenham,85,86
+2019,Wolves,Watford,39,51
+2019,Everton,Crystal Palace,84,70
+2019,Arsenal,Leicester,128,80
+2019,Brighton,Wolves,39,39
+2019,Fulham,Bournemouth,42,42
+2019,Leicester,West Ham,80,85
+2019,Liverpool,Cardiff,122,26
+2019,Southampton,Newcastle,70,43
+2019,Watford,Huddersfield,51,32
+2019,Burnley,Chelsea,42,125
+2019,Crystal Palace,Arsenal,70,128
+2019,Man United,Everton,149,84
+2019,Tottenham,Man City,86,144
+2019,Arsenal,Liverpool,128,122
+2019,Bournemouth,Man United,42,149
+2019,Cardiff,Leicester,26,80
+2019,Everton,Brighton,84,39
+2019,Newcastle,Watford,43,51
+2019,West Ham,Burnley,85,42
+2019,Wolves,Tottenham,39,86
+2019,Chelsea,Crystal Palace,125,70
+2019,Man City,Southampton,144,70
+2019,Huddersfield,Fulham,32,42
+2019,Cardiff,Brighton,26,39
+2019,Crystal Palace,Tottenham,70,86
+2019,Huddersfield,West Ham,32,85
+2019,Leicester,Burnley,80,42
+2019,Newcastle,Bournemouth,43,42
+2019,Southampton,Watford,70,51
+2019,Arsenal,Wolves,128,39
+2019,Chelsea,Everton,125,84
+2019,Liverpool,Fulham,122,42
+2019,Man City,Man United,144,149
+2019,Brighton,Leicester,39,80
+2019,Everton,Cardiff,84,26
+2019,Fulham,Southampton,42,70
+2019,Man United,Crystal Palace,149,70
+2019,Tottenham,Chelsea,86,125
+2019,Watford,Liverpool,51,122
+2019,West Ham,Man City,85,144
+2019,Bournemouth,Arsenal,42,128
+2019,Wolves,Huddersfield,39,32
+2019,Burnley,Newcastle,42,43
+2019,Cardiff,Wolves,26,39
+2019,Crystal Palace,Burnley,70,42
+2019,Huddersfield,Brighton,32,39
+2019,Leicester,Watford,80,51
+2019,Man City,Bournemouth,144,42
+2019,Newcastle,West Ham,43,85
+2019,Southampton,Man United,70,149
+2019,Arsenal,Tottenham,128,86
+2019,Chelsea,Fulham,125,42
+2019,Liverpool,Everton,122,84
+2019,Bournemouth,Huddersfield,42,32
+2019,Brighton,Crystal Palace,39,70
+2019,Watford,Man City,51,144
+2019,West Ham,Cardiff,85,26
+2019,Burnley,Liverpool,42,122
+2019,Everton,Newcastle,84,43
+2019,Fulham,Leicester,42,80
+2019,Man United,Arsenal,149,128
+2019,Tottenham,Southampton,86,70
+2019,Wolves,Chelsea,39,125
+2019,Arsenal,Huddersfield,128,32
+2019,Bournemouth,Liverpool,42,122
+2019,Burnley,Brighton,42,39
+2019,Cardiff,Southampton,26,70
+2019,Chelsea,Man City,125,144
+2019,Leicester,Tottenham,80,86
+2019,Man United,Fulham,149,42
+2019,West Ham,Crystal Palace,85,70
+2019,Newcastle,Wolves,43,39
+2019,Everton,Watford,84,51
+2019,Crystal Palace,Leicester,70,80
+2019,Fulham,West Ham,42,85
+2019,Huddersfield,Newcastle,32,43
+2019,Man City,Everton,144,84
+2019,Tottenham,Burnley,86,42
+2019,Watford,Cardiff,51,26
+2019,Wolves,Bournemouth,39,42
+2019,Brighton,Chelsea,39,125
+2019,Liverpool,Man United,122,149
+2019,Southampton,Arsenal,70,128
+2019,Wolves,Liverpool,39,122
+2019,Arsenal,Burnley,128,42
+2019,Bournemouth,Brighton,42,39
+2019,Cardiff,Man United,26,149
+2019,Chelsea,Leicester,125,80
+2019,Huddersfield,Southampton,32,70
+2019,Man City,Crystal Palace,144,70
+2019,Newcastle,Fulham,43,42
+2019,West Ham,Watford,85,51
+2019,Everton,Tottenham,84,86
+2019,Brighton,Arsenal,39,128
+2019,Burnley,Everton,42,84
+2019,Crystal Palace,Cardiff,70,26
+2019,Fulham,Wolves,42,39
+2019,Leicester,Man City,80,144
+2019,Liverpool,Newcastle,122,43
+2019,Man United,Huddersfield,149,32
+2019,Tottenham,Bournemouth,86,42
+2019,Watford,Chelsea,51,125
+2019,Southampton,West Ham,70,85
+2019,Brighton,Everton,39,84
+2019,Fulham,Huddersfield,42,32
+2019,Leicester,Cardiff,80,26
+2019,Liverpool,Arsenal,122,128
+2019,Tottenham,Wolves,86,39
+2019,Watford,Newcastle,51,43
+2019,Burnley,West Ham,42,85
+2019,Crystal Palace,Chelsea,70,125
+2019,Man United,Bournemouth,149,42
+2019,Southampton,Man City,70,144
+2019,Arsenal,Fulham,128,42
+2019,Cardiff,Tottenham,26,86
+2019,Everton,Leicester,84,80
+2019,Bournemouth,Watford,42,51
+2019,Chelsea,Southampton,125,70
+2019,Huddersfield,Burnley,32,42
+2019,Newcastle,Man United,43,149
+2019,West Ham,Brighton,85,39
+2019,Wolves,Crystal Palace,39,70
+2019,Man City,Liverpool,144,122
+2019,Brighton,Liverpool,39,122
+2019,Burnley,Fulham,42,42
+2019,Cardiff,Huddersfield,26,32
+2019,Chelsea,Newcastle,125,43
+2019,Crystal Palace,Watford,70,51
+2019,Leicester,Southampton,80,70
+2019,West Ham,Arsenal,85,128
+2019,Everton,Bournemouth,84,42
+2019,Tottenham,Man United,86,149
+2019,Man City,Wolves,144,39
+2019,Arsenal,Chelsea,128,125
+2019,Bournemouth,West Ham,42,85
+2019,Liverpool,Crystal Palace,122,70
+2019,Man United,Brighton,149,39
+2019,Newcastle,Cardiff,43,26
+2019,Southampton,Everton,70,84
+2019,Watford,Burnley,51,42
+2019,Wolves,Leicester,39,80
+2019,Fulham,Tottenham,42,86
+2019,Huddersfield,Man City,32,144
+2019,Arsenal,Cardiff,128,26
+2019,Fulham,Brighton,42,39
+2019,Huddersfield,Everton,32,84
+2019,Man United,Burnley,149,42
+2019,Newcastle,Man City,43,144
+2019,Wolves,West Ham,39,85
+2019,Bournemouth,Chelsea,42,125
+2019,Liverpool,Leicester,122,80
+2019,Southampton,Crystal Palace,70,70
+2019,Tottenham,Watford,86,51
+2019,Brighton,Watford,39,51
+2019,Burnley,Southampton,42,70
+2019,Cardiff,Bournemouth,26,42
+2019,Chelsea,Huddersfield,125,32
+2019,Crystal Palace,Fulham,70,42
+2019,Everton,Wolves,84,39
+2019,Tottenham,Newcastle,86,43
+2019,Leicester,Man United,80,149
+2019,Man City,Arsenal,144,128
+2019,West Ham,Liverpool,85,122
+2019,Everton,Man City,84,144
+2019,Brighton,Burnley,39,42
+2019,Crystal Palace,West Ham,70,85
+2019,Fulham,Man United,42,149
+2019,Huddersfield,Arsenal,32,128
+2019,Liverpool,Bournemouth,122,42
+2019,Southampton,Cardiff,70,26
+2019,Watford,Everton,51,84
+2019,Man City,Chelsea,144,125
+2019,Tottenham,Leicester,86,80
+2019,Wolves,Newcastle,39,43
+2019,Cardiff,Watford,26,51
+2019,West Ham,Fulham,85,42
+2019,Bournemouth,Wolves,42,39
+2019,Burnley,Tottenham,42,86
+2019,Leicester,Crystal Palace,80,70
+2019,Newcastle,Huddersfield,43,32
+2019,Arsenal,Southampton,128,70
+2019,Man United,Liverpool,149,122
+2019,Cardiff,Everton,26,84
+2019,Huddersfield,Wolves,32,39
+2019,Leicester,Brighton,80,39
+2019,Newcastle,Burnley,43,42
+2019,Arsenal,Bournemouth,128,42
+2019,Chelsea,Tottenham,125,86
+2019,Crystal Palace,Man United,70,149
+2019,Liverpool,Watford,122,51
+2019,Man City,West Ham,144,85
+2019,Southampton,Fulham,70,42
