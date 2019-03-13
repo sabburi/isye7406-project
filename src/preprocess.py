@@ -175,6 +175,9 @@ main_df = main_df.drop(['Team'], axis=1)
 
 trade_df = pd.read_csv("../data/MihirT_TradeData.csv")
 
+#Converting season to integer for merging purposes
+trade_df['Season'] = trade_df['Season'].astype(int)
+
 #Merge trade data with Home Team
 main_df = main_df.merge(trade_df, how='left', left_on=['Season', 'HomeTeam'], right_on = ['Season', 'Team'])
 main_df = main_df.rename(columns={'NumIn': 'Home_NumIn', 'NumOut': 'Home_NumOut', 'DepAge': 'Home_DepAge', 'ArrAge': 'Home_ArrAge', 'MarketDep': 'Home_MarketDep', 'MarketArr': 'Home_MarketArr', 'Income': 'Home_Income', 'Expenditures': 'Home_Expenditures'})
