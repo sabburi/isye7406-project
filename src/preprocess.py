@@ -3,7 +3,7 @@ import numpy as np
 import glob
 
 ##########################################################
-# Construct main dataframe
+# Construct main dataframe - Marcel 
 ##########################################################
 
 main_files = glob.glob('../data/raw/E0_*.csv')
@@ -150,6 +150,26 @@ main_df = main_df.merge(weather_frame, how = 'left', left_on = ['Date', 'HomeTea
 wage_bill_df = pd.read_csv("../data/rachel_raw/Master.csv")
 main_df = main_df.merge(wage_bill_df, how='left', on=['Season', 'HomeTeam', 'AwayTeam'])
 
+##########################################################
+# Sponsorship Data - Laura
+#########################################################   
+
+#Getting and melting raw csv file
+sponsorship_data_df = pd.read_csv("../data/sponsorship_raw/SponsorshipData.csv")
+sponsorship_data_df = pd.melt(sponsorship_data_df, id_vars=["Team"], var_name="Season", value_name="SponsorshipAmount")
+
+#Converting season to integer for merging purposes
+sponsorship_data_df['Season'] = sponsorship_data_df['Season'].astype(int)
+
+#Merge sponsorhip with Home Team
+main_df = main_df.merge(sponsorship_data_df, how='left', left_on=['Season', 'HomeTeam'], right_on = ['Season', 'Team'])
+main_df = main_df.rename(columns={'SponsorshipAmount': 'SponsorshipAmount_HomeTeam'})
+main_df = main_df.drop(['Team'], axis=1)
+
+#Merge sponsorship with Away Team
+main_df = main_df.merge(sponsorship_data_df, how='left', left_on=['Season', 'AwayTeam'], right_on = ['Season', 'Team'])
+main_df = main_df.rename(columns={'SponsorshipAmount': 'SponsorshipAmount_AwayTeam'})
+main_df = main_df.drop(['Team'], axis=1)
 
 ##########################################################
 # Merge Additional Dataset X
