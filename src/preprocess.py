@@ -11,11 +11,12 @@ main_files = glob.glob('../data/raw/E0_*.csv')
 print(main_files)
 
 dataframes = []
-#start_year = 2010
+start_year = 2010
 for i, file in enumerate(main_files):
     df = pd.read_csv(file, sep=',', index_col=None, header=0, error_bad_lines=False, parse_dates=[1], dayfirst=True)
     year = file.split(".csv")[0].split("E0_")[-1]
-    df['Season'] = np.zeros((df['Div'].values.shape[0])) + int(year)
+    #df['Season'] = np.zeros((df['Div'].values.shape[0])) + int(year)
+    df['Season'] = start_year + i
     dataframes.append(df)
 
 main_df = pd.concat(dataframes, sort=False)
@@ -33,7 +34,8 @@ ali_frames = []
 for i, file in enumerate(ali_files):
     data = pd.read_csv(file, sep = ',')
     year = file.split(".csv")[0].split("/")[-1]
-    df['Season'] = np.zeros((df['Div'].values.shape[0])) + int(year)
+    #data['Season'] = np.zeros((data['Div'].values.shape[0])) + int(year)
+    data['Season'] = start_year + i
     # Drop the last row
     data.drop(data.tail(1).index,inplace=True)
     ali_frames.append(data)
