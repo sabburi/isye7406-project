@@ -182,12 +182,12 @@ trade_df = pd.read_csv("../data/MihirT_TradeData.csv")
 
 #Merge trade data with Home Team
 main_df = main_df.merge(trade_df, how='left', left_on=['Season', 'HomeTeam'], right_on = ['Season', 'Team'])
-main_df = main_df.rename(columns={'NumIn': 'Home_NumIn'}, {'NumOut': 'Home_NumOut'}, {'DepAge': 'Home_DepAge'}, {'ArrAge': 'Home_ArrAge'}, {'MarketDep': 'Home_MarketDep'}, {'MarketArr': 'Home_MarketArr'}, {'Income': 'Home_Income'}, {'Expenditures': 'Home_Expenditures'})
+main_df = main_df.rename(columns={'NumIn': 'Home_NumIn', 'NumOut': 'Home_NumOut', 'DepAge': 'Home_DepAge', 'ArrAge': 'Home_ArrAge', 'MarketDep': 'Home_MarketDep', 'MarketArr': 'Home_MarketArr', 'Income': 'Home_Income', 'Expenditures': 'Home_Expenditures'})
 main_df = main_df.drop(['Team'], axis=1)
 
 #Merge trade data with Away Team
 main_df = main_df.merge(trade_df, how='left', left_on=['Season', 'AwayTeam'], right_on = ['Season', 'Team'])
-main_df = main_df.rename(columns={'NumIn': 'Away_NumIn'}, {'NumOut': 'Away_NumOut'}, {'DepAge': 'Away_DepAge'}, {'ArrAge': 'Away_ArrAge'}, {'MarketDep': 'Away_MarketDep'}, {'MarketArr': 'Away_MarketArr'}, {'Income': 'Away_Income'}, {'Expenditures': 'Away_Expenditures'})
+main_df = main_df.rename(columns={'NumIn': 'Away_NumIn', 'NumOut': 'Away_NumOut', 'DepAge': 'Away_DepAge', 'ArrAge': 'Away_ArrAge', 'MarketDep': 'Away_MarketDep', 'MarketArr': 'Away_MarketArr', 'Income': 'Away_Income', 'Expenditures': 'Away_Expenditures'})
 main_df = main_df.drop(['Team'], axis=1)
 
 
