@@ -174,9 +174,27 @@ main_df = main_df.rename(columns={'SponsorshipAmount': 'SponsorshipAmount_AwayTe
 main_df = main_df.drop(['Team'], axis=1)
 
 ##########################################################
-# Merge Additional Dataset X
+# Merge Trade Data - Mihir
 #########################################################
 
-# <---- Add your code here to modify main_df
+def convert_name2(name):
+    d = {'Chelsea': 'Chelsea', 'Bolton Wanderers': 'Bolton', 'Portsmouth FC': 'Portsmouth', 'Blackburn Rovers': 'Blackburn',
+     'Stoke City': 'Stoke', 'Aston Villa': 'Aston Villa', 'Wolverhampton Wanderers': 'Wolves', 'Everton FC': 'Everton',
+     'Manchester United': 'Man United', 'Tottenham Hotspur': 'Tottenham', 'Sunderland AFC': 'Sunderland', 'Wigan Athletic': 'Wigan',
+     'Hull City FC': 'Hull', 'Burnley FC': 'Burnley', 'Birmingham City': 'Birmingham', 'Liverpool FC': 'Liverpool', 'Manchester City': 'Man City',
+     'Arsenal FC': 'Arsenal', 'West Ham United': 'West Ham', 'Fulham FC': 'Fulham', 'West Bromwich Albion': 'West Brom', 'Newcastle United': 'Newcastle',
+     'Blackpool FC': 'Blackpool', 'Queens Park Rangers': 'QPR', 'Swansea City': 'Swansea', 'Norwich City': 'Norwich', 'Reading FC': 'Reading',
+     'Southampton FC': 'Southampton', 'Crystal Palace': 'Crystal Palace', 'Cardiff City': 'Cardiff', 'Leicester City': 'Leicester', 'Bournemouth FC': 'Bournemouth',
+     'Watford FC': 'Watford', 'Middlesbrough FC': 'Middlesbrough', 'Brighton & Hove Albion': 'Brighton', 'Huddersfield Town': 'Huddersfield'}
+
+    return d[name]
+
+trade_df = pd.read_csv("../data/MihirT_TradeData.csv")
+
+trade_df['HomeTeam'] = trade_df['HomeTeam'].apply(lambda x: convert_name2(x))
+trade_df['AwayTeam'] = trade_df['AwayTeam'].apply(lambda x: convert_name2(x))
+
+main_df = main_df.merge(trade_df, how='left', on=['Season', 'HomeTeam', 'AwayTeam'])
+
 
 print(main_df.head(10))
