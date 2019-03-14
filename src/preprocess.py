@@ -156,13 +156,22 @@ main_df = main_df.merge(wage_bill_df, how='left', on=['Season', 'HomeTeam', 'Awa
 ##########################################################
 # Sponsorship Data - Laura
 #########################################################
-'''
+
 #Getting and melting raw csv file
 sponsorship_data_df = pd.read_csv("../data/sponsorship_raw/SponsorshipData.csv")
 sponsorship_data_df = pd.melt(sponsorship_data_df, id_vars=["Team"], var_name="Season", value_name="SponsorshipAmount")
 
-#Converting season to integer for merging purposes
+#Converting to integer and float type
 sponsorship_data_df['Season'] = sponsorship_data_df['Season'].astype(int)
+sponsorship_data_df['SponsorshipAmount'] = sponsorship_data_df['SponsorshipAmount'].astype(float)
+
+#Inputing NaN values
+sponsorship_data_df = sponsorship_data_df.replace(0, np.NaN)
+means_df = sponsorship_data_df.groupby('Team')['SponsorshipAmount'].mean()
+sponsorship_data_df = sponsorship_data_df.merge(means_df, how='left', left_on=['Team'], right_on = ['Team'])
+sponsorship_data_df['SponsorshipAmount_x'].fillna(sponsorship_data_df['SponsorshipAmount_y'],inplace=True)
+sponsorship_data_df = sponsorship_data_df.drop(['SponsorshipAmount_y'],axis=1)
+sponsorship_data_df = sponsorship_data_df.rename(columns={'SponsorshipAmount_x': 'SponsorshipAmount'})
 
 #Merge sponsorhip with Home Team
 main_df = main_df.merge(sponsorship_data_df, how='left', left_on=['Season', 'HomeTeam'], right_on = ['Season', 'Team'])
@@ -173,7 +182,7 @@ main_df = main_df.drop(['Team'], axis=1)
 main_df = main_df.merge(sponsorship_data_df, how='left', left_on=['Season', 'AwayTeam'], right_on = ['Season', 'Team'])
 main_df = main_df.rename(columns={'SponsorshipAmount': 'SponsorshipAmount_AwayTeam'})
 main_df = main_df.drop(['Team'], axis=1)
-'''
+
 ##########################################################
 # Merge Trade Data - Mihir
 #########################################################
