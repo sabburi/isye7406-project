@@ -18,7 +18,7 @@ for i, file in enumerate(main_files):
     dataframes.append(df)
 
 main_df = pd.concat(dataframes, sort=False)
-cols_to_drop = list(main_merged.columns[26:])
+cols_to_drop = list(main.columns[26:])
 main_df = main_df.drop(columns=cols_to_drop).dropna()
 ##########################################################
 # Ali's Datasets Merge
