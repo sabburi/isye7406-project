@@ -18,10 +18,11 @@ for i, file in enumerate(main_files):
     dataframes.append(df)
 
 main_df = pd.concat(dataframes, sort=False)
-
+main_df = main_df.drop(columns=cols_to_drop).dropna()
 ##########################################################
 # Ali's Datasets Merge
 ##########################################################
+'''
 ali_files = glob.glob('../data/ali_raw/201*.csv')
 
 print(ali_files)
@@ -73,11 +74,11 @@ main_df = main_df.merge(ali_df, how = 'left', left_on = ['Season', 'HomeTeam'], 
 main_df = main_df.merge(ali_df, how = 'left', left_on = ['Season', 'AwayTeam'], right_on = ['Season', 'Home_Name'], suffixes = ("_Home", "_Away"))
 
 main_df = main_df.drop(columns = ["Home_Name_Home", "Home_Name_Away"])
-
+'''
 ##########################################################
 # Anu's Datasets Merge
 ##########################################################
-
+'''
 def convert_name(name):
     d = {'Chelsea': 'Chelsea', 'Bolton Wanderers': 'Bolton', 'Portsmouth': 'Portsmouth', 'Blackburn Rovers': 'Blackburn',
      'Stoke City': 'Stoke', 'Aston Villa': 'Aston Villa', 'Wolverhampton Wanderers': 'Wolves', 'Everton': 'Everton',
@@ -96,18 +97,19 @@ rosters_df['HomeTeam'] = rosters_df['HomeTeam'].apply(lambda x: convert_name(x))
 rosters_df['AwayTeam'] = rosters_df['AwayTeam'].apply(lambda x: convert_name(x))
 
 main_df = main_df.merge(rosters_df, how='left', on=['Season', 'HomeTeam', 'AwayTeam'])
-
+'''
 ##########################################################
 # Ravi's Datasets Merge
 ##########################################################
+'''
 google_trends_df = pd.read_csv("../data/ravi/google_trends.csv")
 main_df = main_df.merge(google_trends_df, how='left', on=['Season', 'HomeTeam', 'AwayTeam'])
 
-
+'''
 ##########################################################
 # Merge Additional Dataset Weather - Orestis
 #########################################################
-
+'''
 def convert_name_weather(name):
     # Convert names for the weather data
 
@@ -138,19 +140,19 @@ weather_frame['datetime_est'] = weather_frame['datetime_est'].dt.normalize()
 weather_frame.fillna(method='ffill')
 
 main_df = main_df.merge(weather_frame, how = 'left', left_on = ['Date', 'HomeTeam'], right_on = ['datetime_est', 'HomeTeam'])
-
+'''
 
 ##########################################################
 # Rachel's Dataset Merge
 #########################################################
-
+'''
 wage_bill_df = pd.read_csv("../data/rachel_raw/Master.csv")
 main_df = main_df.merge(wage_bill_df, how='left', on=['Season', 'HomeTeam', 'AwayTeam'])
-
+'''
 ##########################################################
 # Sponsorship Data - Laura
 #########################################################
-
+'''
 #Getting and melting raw csv file
 sponsorship_data_df = pd.read_csv("../data/sponsorship_raw/SponsorshipData.csv")
 sponsorship_data_df = pd.melt(sponsorship_data_df, id_vars=["Team"], var_name="Season", value_name="SponsorshipAmount")
@@ -167,11 +169,11 @@ main_df = main_df.drop(['Team'], axis=1)
 main_df = main_df.merge(sponsorship_data_df, how='left', left_on=['Season', 'AwayTeam'], right_on = ['Season', 'Team'])
 main_df = main_df.rename(columns={'SponsorshipAmount': 'SponsorshipAmount_AwayTeam'})
 main_df = main_df.drop(['Team'], axis=1)
-
+'''
 ##########################################################
 # Merge Trade Data - Mihir
 #########################################################
-
+'''
 
 trade_df = pd.read_csv("../data/MihirT_TradeData.csv")
 
@@ -187,7 +189,7 @@ main_df = main_df.drop(['Team'], axis=1)
 main_df = main_df.merge(trade_df, how='left', left_on=['Season', 'AwayTeam'], right_on = ['Season', 'Team'])
 main_df = main_df.rename(columns={'NumIn': 'Away_NumIn', 'NumOut': 'Away_NumOut', 'DepAge': 'Away_DepAge', 'ArrAge': 'Away_ArrAge', 'MarketDep': 'Away_MarketDep', 'MarketArr': 'Away_MarketArr', 'Income': 'Away_Income', 'Expenditures': 'Away_Expenditures'})
 main_df = main_df.drop(['Team'], axis=1)
-
+'''
 # Remove the 2010 season since we don't have complete data
 
 main_df = main_df[main_df['Season'] != 2010]
