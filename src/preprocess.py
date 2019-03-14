@@ -21,6 +21,8 @@ main_df = pd.concat(dataframes, sort=False)
 cols_to_drop = [c for c in list(main_df.columns[26:]) if c != 'Season']
 print(cols_to_drop)
 main_df = main_df.drop(columns=cols_to_drop).dropna()
+
+
 ##########################################################
 # Ali's Datasets Merge
 ##########################################################
@@ -68,10 +70,14 @@ ali_df = ali_df.drop(columns = ["Club", "Club_Name"])
 
 #print(ali_df.head(10))
 
+ali_df = ali_df.drop_duplicates()
+print(ali_df)
+
 main_df = main_df.merge(ali_df, how = 'left', left_on = ['Season', 'HomeTeam'], right_on = ['Season', 'Home_Name'])
 main_df = main_df.merge(ali_df, how = 'left', left_on = ['Season', 'AwayTeam'], right_on = ['Season', 'Home_Name'], suffixes = ("_Home", "_Away"))
 
 main_df = main_df.drop(columns = ["Home_Name_Home", "Home_Name_Away"])
+
 
 ##########################################################
 # Anu's Datasets Merge
@@ -189,12 +195,13 @@ main_df = main_df.rename(columns={'NumIn': 'Away_NumIn', 'NumOut': 'Away_NumOut'
 main_df = main_df.drop(['Team'], axis=1)
 '''
 # Remove the 2010 season since we don't have complete data
-
 main_df = main_df[main_df['Season'] != 2010]
 
 # print(main_df.head(10))
 
 # Remove problematic row
 main_df = main_df[main_df.Div.notna()]
+#print(main_df.info(verbose = True, null_counts = True))
+
 
 main_df.to_csv('../data/preprocessed/football.csv', index=False)
