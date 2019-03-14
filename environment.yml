@@ -5,3 +5,4 @@ dependencies:
   - pandas=0.24.*
   - matplotlib=3.0.*
   - jupyter=1.0.*
+  - tornado<6
