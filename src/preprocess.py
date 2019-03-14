@@ -18,11 +18,12 @@ for i, file in enumerate(main_files):
     dataframes.append(df)
 
 main_df = pd.concat(dataframes, sort=False)
+cols_to_drop = list(main_merged.columns[26:])
 main_df = main_df.drop(columns=cols_to_drop).dropna()
 ##########################################################
 # Ali's Datasets Merge
 ##########################################################
-'''
+
 ali_files = glob.glob('../data/ali_raw/201*.csv')
 
 print(ali_files)
@@ -74,7 +75,7 @@ main_df = main_df.merge(ali_df, how = 'left', left_on = ['Season', 'HomeTeam'], 
 main_df = main_df.merge(ali_df, how = 'left', left_on = ['Season', 'AwayTeam'], right_on = ['Season', 'Home_Name'], suffixes = ("_Home", "_Away"))
 
 main_df = main_df.drop(columns = ["Home_Name_Home", "Home_Name_Away"])
-'''
+
 ##########################################################
 # Anu's Datasets Merge
 ##########################################################
