@@ -18,15 +18,14 @@ for i, file in enumerate(main_files):
     dataframes.append(df)
 
 main_df = pd.concat(dataframes, sort=False)
-cols_to_drop = list(main_df.columns[26:])
+cols_to_drop = [c for c in list(main_df.columns[26:]) if c != 'Season']
+print(cols_to_drop)
 main_df = main_df.drop(columns=cols_to_drop).dropna()
 ##########################################################
 # Ali's Datasets Merge
 ##########################################################
 
 ali_files = glob.glob('../data/ali_raw/201*.csv')
-
-print(ali_files)
 
 ali_frames = []
 
