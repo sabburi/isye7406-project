@@ -205,5 +205,5 @@ main_df = main_df.fillna(method='ffill')
 main_df = main_df.fillna(method='bfill')
 
 del main_df['datetime_est']
-del main_df['HomeTeam']
+# del main_df['HomeTeam']
 
