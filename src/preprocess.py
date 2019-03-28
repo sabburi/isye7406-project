@@ -237,4 +237,6 @@ main_df = main_df.merge(sponsorship_data_df, how='left', left_on=['Season', 'Awa
 main_df = main_df.rename(columns={'SponsorshipAmount': 'SponsorshipAmount_AwayTeam'})
 main_df = main_df.drop(['Team'], axis=1)
 
-print(main_df)
+#print(main_df)
+
+main_df.to_csv("../data/preprocessed/merged_football.csv")
