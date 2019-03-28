@@ -1,3 +1,9 @@
+
+# coding: utf-8
+
+# In[1]:
+
+
 import pandas as pd
 import numpy as np
 import glob
@@ -21,6 +27,11 @@ main_df = pd.concat(dataframes, sort=False)
 cols_to_drop = [c for c in list(main_df.columns[26:]) if c != 'Season']
 print(cols_to_drop)
 main_df = main_df.drop(columns=cols_to_drop).dropna()
+#& main_df['Date'] <= '2018-12-31'
+main_df = main_df[(main_df['Date'] >= '2010-01-01') & (main_df['Date'] <= '2018-12-31')]
+
+
+# In[2]:
 
 
 ##########################################################
@@ -71,7 +82,7 @@ ali_df = ali_df.drop(columns = ["Club", "Club_Name"])
 #print(ali_df.head(10))
 
 ali_df = ali_df.drop_duplicates()
-print(ali_df)
+
 
 main_df = main_df.merge(ali_df, how = 'left', left_on = ['Season', 'HomeTeam'], right_on = ['Season', 'Home_Name'])
 main_df = main_df.merge(ali_df, how = 'left', left_on = ['Season', 'AwayTeam'], right_on = ['Season', 'Home_Name'], suffixes = ("_Home", "_Away"))
@@ -79,10 +90,13 @@ main_df = main_df.merge(ali_df, how = 'left', left_on = ['Season', 'AwayTeam'], 
 main_df = main_df.drop(columns = ["Home_Name_Home", "Home_Name_Away"])
 
 
+# In[3]:
+
+
 ##########################################################
 # Anu's Datasets Merge
 ##########################################################
-'''
+
 def convert_name(name):
     d = {'Chelsea': 'Chelsea', 'Bolton Wanderers': 'Bolton', 'Portsmouth': 'Portsmouth', 'Blackburn Rovers': 'Blackburn',
      'Stoke City': 'Stoke', 'Aston Villa': 'Aston Villa', 'Wolverhampton Wanderers': 'Wolves', 'Everton': 'Everton',
@@ -101,58 +115,98 @@ rosters_df['HomeTeam'] = rosters_df['HomeTeam'].apply(lambda x: convert_name(x))
 rosters_df['AwayTeam'] = rosters_df['AwayTeam'].apply(lambda x: convert_name(x))
 
 main_df = main_df.merge(rosters_df, how='left', on=['Season', 'HomeTeam', 'AwayTeam'])
-'''
+
+
+# In[4]:
+
+
 ##########################################################
 # Ravi's Datasets Merge
 ##########################################################
-'''
+
 google_trends_df = pd.read_csv("../data/ravi/google_trends.csv")
 main_df = main_df.merge(google_trends_df, how='left', on=['Season', 'HomeTeam', 'AwayTeam'])
 
-'''
-##########################################################
-# Merge Additional Dataset Weather - Orestis
-#########################################################
-'''
-def convert_name_weather(name):
-    # Convert names for the weather data
 
-#     d = {'Chelsea': 'Chelsea', 'Bolton': 'Bolton', 'Portsmouth': 'Portsmouth', 'Blackburn': 'Blackburn',
-#      'Stoke City': 'Stoke','Stoke':"Stoke", 'Aston Villa': 'Aston Villa', 'Wolves': 'Wolves', 'Everton': 'Everton',
-#      'Manchester United': 'Man United', 'Tottenham Hotspur': 'Tottenham', 'Sunderland': 'Sunderland', 'Wigan': 'Wigan',
-#      'Hull': 'Hull', 'Burnley': 'Burnley', 'Birmingham': 'Birmingham', 'Liverpool': 'Liverpool', 'Manchester City': 'Man City',
-#      'Arsenal': 'Arsenal', 'West Ham United': 'West Ham', 'Fulham': 'Fulham', 'West Bromwich Albion': 'West Brom', 'Newcastle United': 'Newcastle',
-#      'Blackpool': 'Blackpool', 'QPR': 'QPR', 'Swansea City': 'Swansea', 'Norwich': 'Norwich', 'Reading': 'Reading',
-#      'Southampton': 'Southampton', 'Crystal Palace': 'Crystal Palace', 'Cardiff': 'Cardiff', 'Leicester City': 'Leicester', 'Bournemouth': 'Bournemouth',
-#      'Watford': 'Watford', 'Middlesbrough': 'Middlesbrough', 'Brighton': 'Brighton', 'Huddersfield Town': 'Huddersfield'}
+# In[5]:
 
-#     return d[name]
-
-# all_files_weather = glob.glob('../data/weather/preprocessed/*.csv')
-
-# li = []
-
-# for filename in all_files_weather:
-#     df = pd.read_csv(filename, index_col=None, header=0)
-#     li.append(df)
-
-# weather_frame = pd.concat(li, axis=0, ignore_index=True)
-# weather_frame['HomeTeam'] = weather_frame['HomeTeam'].apply(lambda x: convert_name_weather(x))
-# weather_frame['datetime_est'] = pd.to_datetime(weather_frame['datetime_est'])
-# weather_frame['datetime_est'] = weather_frame['datetime_est'].dt.normalize()
-
-# weather_frame.fillna(method='ffill')
-
-main_df = main_df.merge(weather_frame, how = 'left', left_on = ['Date', 'HomeTeam'], right_on = ['datetime_est', 'HomeTeam'])
-'''
 
 ##########################################################
 # Rachel's Dataset Merge
 #########################################################
-'''
+
 wage_bill_df = pd.read_csv("../data/rachel_raw/Master.csv")
 main_df = main_df.merge(wage_bill_df, how='left', on=['Season', 'HomeTeam', 'AwayTeam'])
-'''
+
+
+# In[6]:
+
+
+##########################################################
+# Merge Trade Data - Mihir
+#########################################################
+
+trade_df = pd.read_csv("../data/MihirT_TradeData.csv")
+
+#Converting season to integer for merging purposes
+trade_df['Season'] = trade_df['Season'].astype(int)
+
+#Merge trade data with Home Team
+main_df = main_df.merge(trade_df, how='left', left_on=['Season', 'HomeTeam'], right_on = ['Season', 'Team'])
+main_df = main_df.rename(columns={'NumIn': 'Home_NumIn', 'NumOut': 'Home_NumOut', 'DepAge': 'Home_DepAge', 'ArrAge': 'Home_ArrAge', 'MarketDep': 'Home_MarketDep', 'MarketArr': 'Home_MarketArr', 'Income': 'Home_Income', 'Expenditures': 'Home_Expenditures'})
+main_df = main_df.drop(['Team'], axis=1)
+
+#Merge trade data with Away Team
+main_df = main_df.merge(trade_df, how='left', left_on=['Season', 'AwayTeam'], right_on = ['Season', 'Team'])
+main_df = main_df.rename(columns={'NumIn': 'Away_NumIn', 'NumOut': 'Away_NumOut', 'DepAge': 'Away_DepAge', 'ArrAge': 'Away_ArrAge', 'MarketDep': 'Away_MarketDep', 'MarketArr': 'Away_MarketArr', 'Income': 'Away_Income', 'Expenditures': 'Away_Expenditures'})
+main_df = main_df.drop(['Team'], axis=1)
+
+
+# In[7]:
+
+
+##########################################################
+# Merge Additional Dataset Weather - Orestis
+#########################################################
+
+def convert_name_weather(name):
+
+    d = {'Chelsea': 'Chelsea', 'Bolton': 'Bolton', 'Portsmouth': 'Portsmouth', 'Blackburn': 'Blackburn',
+     'Stoke City': 'Stoke','Stoke':"Stoke", 'Aston Villa': 'Aston Villa', 'Wolves': 'Wolves', 'Everton': 'Everton',
+     'Manchester United': 'Man United', 'Tottenham Hotspur': 'Tottenham', 'Sunderland': 'Sunderland', 'Wigan': 'Wigan',
+     'Hull': 'Hull', 'Burnley': 'Burnley', 'Birmingham': 'Birmingham', 'Liverpool': 'Liverpool', 'Manchester City': 'Man City',
+     'Arsenal': 'Arsenal', 'West Ham United': 'West Ham', 'Fulham': 'Fulham', 'West Bromwich Albion': 'West Brom', 'Newcastle United': 'Newcastle',
+     'Blackpool': 'Blackpool', 'QPR': 'QPR', 'Swansea City': 'Swansea', 'Norwich': 'Norwich', 'Reading': 'Reading',
+     'Southampton': 'Southampton', 'Crystal Palace': 'Crystal Palace', 'Cardiff': 'Cardiff', 'Leicester City': 'Leicester', 'Bournemouth': 'Bournemouth',
+     'Watford': 'Watford', 'Middlesbrough': 'Middlesbrough', 'Brighton': 'Brighton', 'Huddersfield Town': 'Huddersfield'}
+
+    return d[name]
+
+all_files_weather = glob.glob('../data/weather/preprocessed/*.csv')
+
+li = []
+
+for filename in all_files_weather:
+    df = pd.read_csv(filename, index_col=None, header=0)
+    li.append(df)
+    
+
+
+weather_frame = pd.concat(li, axis=0, ignore_index=True)
+
+weather_frame['HomeTeam'] = weather_frame['HomeTeam'].apply(lambda x: convert_name_weather(x))
+weather_frame['datetime_est'] = pd.to_datetime(weather_frame['datetime_est'])
+weather_frame['datetime_est'] = weather_frame['datetime_est'].dt.normalize()
+weather_frame = weather_frame.fillna(method='ffill')
+weather_frame = weather_frame.fillna(method='bfill')
+weather_frame.drop_duplicates(subset= ['datetime_est','HomeTeam'],keep='first',inplace=True)
+main_df = main_df.merge(weather_frame, how = 'left', left_on = ['Date', 'HomeTeam'], right_on = ['datetime_est', 'HomeTeam'])
+main_df = main_df.fillna(method='ffill')
+main_df = main_df.fillna(method='bfill')
+
+del main_df['datetime_est']
+# del main_df['HomeTeam']
+
 ##########################################################
 # Sponsorship Data - Laura
 #########################################################
@@ -183,34 +237,4 @@ main_df = main_df.merge(sponsorship_data_df, how='left', left_on=['Season', 'Awa
 main_df = main_df.rename(columns={'SponsorshipAmount': 'SponsorshipAmount_AwayTeam'})
 main_df = main_df.drop(['Team'], axis=1)
 
-##########################################################
-# Merge Trade Data - Mihir
-#########################################################
-'''
-
-# trade_df = pd.read_csv("../data/MihirT_TradeData.csv")
-
-# #Converting season to integer for merging purposes
-# trade_df['Season'] = trade_df['Season'].astype(int)
-
-# #Merge trade data with Home Team
-# main_df = main_df.merge(trade_df, how='left', left_on=['Season', 'HomeTeam'], right_on = ['Season', 'Team'])
-# main_df = main_df.rename(columns={'NumIn': 'Home_NumIn', 'NumOut': 'Home_NumOut', 'DepAge': 'Home_DepAge', 'ArrAge': 'Home_ArrAge', 'MarketDep': 'Home_MarketDep', 'MarketArr': 'Home_MarketArr', 'Income': 'Home_Income', 'Expenditures': 'Home_Expenditures'})
-# main_df = main_df.drop(['Team'], axis=1)
-
-#Merge trade data with Away Team
-main_df = main_df.merge(trade_df, how='left', left_on=['Season', 'AwayTeam'], right_on = ['Season', 'Team'])
-main_df = main_df.rename(columns={'NumIn': 'Away_NumIn', 'NumOut': 'Away_NumOut', 'DepAge': 'Away_DepAge', 'ArrAge': 'Away_ArrAge', 'MarketDep': 'Away_MarketDep', 'MarketArr': 'Away_MarketArr', 'Income': 'Away_Income', 'Expenditures': 'Away_Expenditures'})
-main_df = main_df.drop(['Team'], axis=1)
-'''
-# Remove the 2010 season since we don't have complete data
-main_df = main_df[main_df['Season'] != 2010]
-
-# print(main_df.head(10))
-
-# Remove problematic row
-main_df = main_df[main_df.Div.notna()]
-#print(main_df.info(verbose = True, null_counts = True))
-
-
-main_df.to_csv('../data/preprocessed/football.csv', index=False)
+print(main_df)
