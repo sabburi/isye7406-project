@@ -25,12 +25,11 @@ for i, file in enumerate(main_files):
 
 main_df = pd.concat(dataframes, sort=False)
 cols_to_drop = [c for c in list(main_df.columns[26:]) if c != 'Season']
-print(cols_to_drop)
 main_df = main_df.drop(columns=cols_to_drop).dropna()
 #& main_df['Date'] <= '2018-12-31'
 main_df = main_df[(main_df['Date'] >= '2010-01-01') & (main_df['Date'] <= '2018-12-31')]
 
-
+main_df = main_df[main_df['Season'] != 2010]
 # In[2]:
 
 
@@ -206,7 +205,6 @@ main_df = main_df.fillna(method='bfill')
 
 del main_df['datetime_est']
 # del main_df['HomeTeam']
-
 ##########################################################
 # Sponsorship Data - Laura
 #########################################################
@@ -221,7 +219,7 @@ sponsorship_data_df['SponsorshipAmount'] = sponsorship_data_df['SponsorshipAmoun
 
 #Inputing NaN values
 sponsorship_data_df = sponsorship_data_df.replace(0, np.NaN)
-means_df = sponsorship_data_df.groupby('Team')['SponsorshipAmount'].mean()
+means_df = pd.DataFrame(sponsorship_data_df.groupby('Team')['SponsorshipAmount'].mean())
 sponsorship_data_df = sponsorship_data_df.merge(means_df, how='left', left_on=['Team'], right_on = ['Team'])
 sponsorship_data_df['SponsorshipAmount_x'].fillna(sponsorship_data_df['SponsorshipAmount_y'],inplace=True)
 sponsorship_data_df = sponsorship_data_df.drop(['SponsorshipAmount_y'],axis=1)
