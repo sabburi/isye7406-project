@@ -242,14 +242,27 @@ main_df['day_of_week'] = main_df['Date'].dt.day_name()
 
 main_df = pd.concat([main_df, pd.get_dummies(main_df[['HomeTeam', 'AwayTeam', 'Referee', 'wx_phrase', 'day_of_week']])], sort=False, axis=1)
 
+
+h_thresh = np.percentile(1 / main_df['B365H'], 20)
+a_thresh = np.percentile(1 / main_df['B365A'], 20)
+d_20_thresh = np.percentile(1 / main_df['B365D'], 20)
+d_80_thresh = np.percentile(1 / main_df['B365D'], 80)
+
 main_df = agg_features(main_df)
 main_df = differences(main_df)
-main_df = upset(main_df)
+main_df = upset(main_df, h_thresh, a_thresh, d_20_thresh, d_80_thresh)
 
-main_df = main_df.drop(['ID', 'FTR', 'HTR', 'FTAG', 'FTHG', 'HTHG', 'HTAG', 'Div', 'wx_phrase', 'Referee', 'day_of_week', 'Date'], axis=1)
+main_df = main_df.drop(['B365D', 'B365A', 'B365H', 'ID', 'FTR', 'HTR', 'FTAG', 'FTHG', 'HTHG', 'HTAG', 'Div', 'wx_phrase', 'Referee', 'day_of_week', 'Date', 'heat_index'], axis=1)
 
-print(main_df.columns)
+train_df = main_df[(main_df.Season < 2018)]
+test_df = main_df[(main_df.Season >= 2018)]
+
+train_df = train_df.drop(['Season'], axis=1)
+test_df = test_df.drop(['Season'], axis=1)
+main_df = main_df.drop(['Season'], axis=1)
 
 print(main_df.info())
 
-main_df.to_csv("../data/preprocessed/merged_football.csv", index=False)
+main_df.to_csv("../data/preprocessed/football.csv", index=False)
+train_df.to_csv("../data/preprocessed/football_train.csv", index=False)
+test_df.to_csv("../data/preprocessed/football_test.csv", index=False)
