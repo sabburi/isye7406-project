@@ -7,6 +7,7 @@
 import pandas as pd
 import numpy as np
 import glob
+from modules.new_features import agg_features, differences, upset
 
 ##########################################################
 # Construct main dataframe - Marcel
@@ -30,8 +31,6 @@ main_df = main_df.drop(columns=cols_to_drop).dropna()
 main_df = main_df[(main_df['Date'] >= '2010-01-01') & (main_df['Date'] <= '2018-12-31')]
 
 main_df = main_df[main_df['Season'] != 2010]
-# In[2]:
-
 
 ##########################################################
 # Ali's Datasets Merge
@@ -188,7 +187,7 @@ li = []
 for filename in all_files_weather:
     df = pd.read_csv(filename, index_col=None, header=0)
     li.append(df)
-    
+
 
 
 weather_frame = pd.concat(li, axis=0, ignore_index=True)
@@ -237,4 +236,18 @@ main_df = main_df.drop(['Team'], axis=1)
 
 #print(main_df)
 
-main_df.to_csv("../data/preprocessed/merged_football.csv")
+main_df['day_of_week'] = main_df['Date'].dt.day_name()
+
+main_df = pd.concat([main_df, pd.get_dummies(main_df[['HomeTeam', 'AwayTeam', 'Referee', 'wx_phrase', 'day_of_week']])], sort=False)
+
+main_df = agg_features(main_df)
+main_df = differences(main_df)
+main_df = upset(main_df)
+
+main_df = main_df.drop(['ID', 'FTR', 'HTR', 'FTAG', 'FTHG', 'HTHG', 'HTAG', 'Div', 'wx_phrase', 'Referee', 'day_of_week', 'Date'], axis=1)
+
+print(main_df.columns)
+
+print(main_df.info())
+
+main_df.to_csv("../data/preprocessed/merged_football.csv", index=False)
