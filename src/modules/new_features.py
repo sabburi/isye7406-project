@@ -108,29 +108,50 @@ def differences(main_df):
 
     return main_df
 
+<<<<<<< HEAD:src/new_features.py
+def calc_upset(x, thresh_h, thresh_a, thresh_d1, thresh_d2):
+    if x['FTR'] == 'H' and 1 / float(x['B365H']) < thresh_h:
+        return 1
+    elif x['FTR'] == 'A' and 1 / float(x['B365A']) < thresh_a:
+=======
 def calc_upset(x, thresh = 0.4):
 
     if x['FTR'] == 'H' and 1 / float(x['B365H']) < thresh:
+>>>>>>> b8005ddebdfe5c5e99a69a8b620cb2eeae65f31b:src/modules/new_features.py
         return 1
-    elif x['FTR'] == 'A' and 1 / float(x['B365A']) < thresh:
+    elif x['FTR'] == 'D' and 1 / float(x['B365D']) < thresh_d1:
         return 1
-    elif x['FTR'] == 'D' and 1 / float(x['B365D']) < thresh:
+    elif (x['FTR'] == 'H' or x['FTR'] == 'A') and 1 / float(x['B365D']) > thresh_d2:
         return 1
     else:
         return 0
+    
 
+
+<<<<<<< HEAD:src/new_features.py
+def upset(main_df, h_thresh, a_thresh, d_1_thresh, d_2_thresh):    
+    upset = [calc_upset(row, h_thresh, a_thresh, d_1_thresh, d_2_thresh) for i, row in main_df.iterrows()]
+=======
 def upset(main_df):
     upset = [calc_upset(row) for i, row in main_df.iterrows()]
+>>>>>>> b8005ddebdfe5c5e99a69a8b620cb2eeae65f31b:src/modules/new_features.py
 
     main_df['Upset'] = np.array(upset).reshape(-1, 1)
 
     return main_df
 
 if __name__ == "__main__":
-    df = pd.read_csv('../data/preprocessed/merged_football.csv')
+
+
+    df = pd.read_csv('/Users/anubhavrana/Downloads/merged_football.csv')
+    h_thresh = np.percentile(1 / df['B365H'], 20)
+    a_thresh = np.percentile(1 / df['B365A'], 20)
+    d_20_thresh = np.percentile(1 / df['B365D'], 20) 
+    d_80_thresh = np.percentile(1 / df['B365D'], 80) 
     df = agg_features(df)
     df = differences(df)
-    df = upset(df)
+
+    df = upset(df, h_thresh, a_thresh, d_20_thresh, d_80_thresh)
     print(df.info(verbose=True))
     df.to_csv("../data/preprocessed/new_features.csv")
 
