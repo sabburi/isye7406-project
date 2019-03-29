@@ -236,5 +236,5 @@ main_df = main_df.rename(columns={'SponsorshipAmount': 'SponsorshipAmount_AwayTe
 main_df = main_df.drop(['Team'], axis=1)
 
 #print(main_df)
-
-main_df.to_csv("../data/preprocessed/merged_football.csv")
+main_df[main_df['SponsorshipAmount_AwayTeam'].isna()][['Season', 'Date', 'SponsorshipAmount_AwayTeam']]
+main_df.to_csv("../data/preprocessed/merged_football.csv", index=False)
