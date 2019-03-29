@@ -238,7 +238,7 @@ main_df = main_df.drop(['Team'], axis=1)
 
 main_df['day_of_week'] = main_df['Date'].dt.day_name()
 
-main_df = pd.concat([main_df, pd.get_dummies(main_df[['HomeTeam', 'AwayTeam', 'Referee', 'wx_phrase', 'day_of_week']])], sort=False)
+main_df = pd.concat([main_df, pd.get_dummies(main_df[['HomeTeam', 'AwayTeam', 'Referee', 'wx_phrase', 'day_of_week']])], sort=False, axis=1)
 
 main_df = agg_features(main_df)
 main_df = differences(main_df)
