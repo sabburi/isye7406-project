@@ -33,6 +33,22 @@ def agg_features(main_df):
     home_fk_won = []
     away_fk_won = []
 
+    new_chem_dict = defaultdict(float)
+    home_new_chem = []
+    away_new_chem = []
+
+    win_dict = defaultdict(lambda : defaultdict(int))
+    home_wins = []
+    away_wins = []
+
+    loss_dict = defaultdict(lambda : defaultdict(int))
+    home_losses = []
+    away_losses = []
+
+    draw_dict = defaultdict(lambda : defaultdict(int))
+    home_draws = []
+    away_draws = []
+
     for i, row in main_df.iterrows():
 
         goals_for_dict[row['Season']][row['HomeTeam']] += row['FTHG']
@@ -77,6 +93,69 @@ def agg_features(main_df):
         fk_won_dict[row['Season']][row['AwayTeam']] += row['HF']
         away_fk_won.append(fk_won_dict[row['Season']][row['AwayTeam']])
 
+        if row['HomeTeam'] not in new_chem_dict.keys():
+            new_chem_dict[row['HomeTeam']] = row['ChemHome']
+
+        if row['AwayTeam'] not in new_chem_dict.keys():
+            new_chem_dict[row['AwayTeam']] = row['ChemAway']
+            
+        
+
+        if row['FTR'] == 'H':
+            new_chem_dict[row['HomeTeam']] += row['ChemDeltaHome']
+            home_new_chem.append(new_chem_dict[row['HomeTeam']])
+
+            new_chem_dict[row['AwayTeam']] -= row['ChemDeltaAway']
+            away_new_chem.append(new_chem_dict[row['AwayTeam']])
+
+            win_dict[row['Season']][row['HomeTeam']] += 1
+            home_wins.append(win_dict[row['Season']][row['HomeTeam']])
+            away_wins.append(win_dict[row['Season']][row['AwayTeam']])
+
+            loss_dict[row['Season']][row['AwayTeam']] += 1
+            home_losses.append(loss_dict[row['Season']][row['HomeTeam']])
+            away_losses.append(loss_dict[row['Season']][row['AwayTeam']])
+
+            home_draws.append(draw_dict[row['Season']][row['HomeTeam']])
+            away_draws.append(draw_dict[row['Season']][row['AwayTeam']])              
+
+        elif row['FTR'] == 'A':
+
+            new_chem_dict[row['AwayTeam']] += row['ChemDeltaAway']
+            away_new_chem.append(new_chem_dict[row['AwayTeam']])
+
+            new_chem_dict[row['HomeTeam']] -= row['ChemDeltaHome']
+            home_new_chem.append(new_chem_dict[row['HomeTeam']])
+
+            win_dict[row['Season']][row['AwayTeam']] += 1
+            home_wins.append(win_dict[row['Season']][row['HomeTeam']])
+            away_wins.append(win_dict[row['Season']][row['AwayTeam']])
+
+            loss_dict[row['Season']][row['HomeTeam']] += 1
+            home_losses.append(loss_dict[row['Season']][row['HomeTeam']])
+            away_losses.append(loss_dict[row['Season']][row['AwayTeam']])
+
+            home_draws.append(draw_dict[row['Season']][row['HomeTeam']])
+            away_draws.append(draw_dict[row['Season']][row['AwayTeam']])  
+        
+        else:
+            new_chem_dict[row['HomeTeam']] += row['ChemDeltaHome'] / 2
+            home_new_chem.append(new_chem_dict[row['HomeTeam']])
+
+            new_chem_dict[row['AwayTeam']] += row['ChemDeltaAway'] / 2
+            away_new_chem.append(new_chem_dict[row['AwayTeam']])   
+
+            home_wins.append(win_dict[row['Season']][row['HomeTeam']])
+            away_wins.append(win_dict[row['Season']][row['AwayTeam']])
+
+            home_losses.append(loss_dict[row['Season']][row['HomeTeam']])
+            away_losses.append(loss_dict[row['Season']][row['AwayTeam']])
+
+            draw_dict[row['Season']][row['HomeTeam']] += 1
+            draw_dict[row['Season']][row['AwayTeam']] += 1
+            home_draws.append(draw_dict[row['Season']][row['HomeTeam']])
+            away_draws.append(draw_dict[row['Season']][row['AwayTeam']])           
+
     main_df['HomeGoalsFor'] = home_goals_for
     main_df['AwayGoalsFor'] = away_goals_for
     main_df['HomeGoalsAgainst'] = home_goals_against
@@ -93,6 +172,14 @@ def agg_features(main_df):
     main_df['AwayFKC'] = away_fk_concede
     main_df['HomeFKW'] = home_fk_won
     main_df['AwayFKW'] = away_fk_won
+    main_df['HomeNewChem'] = home_new_chem
+    main_df['AwayNewChem'] = away_new_chem
+    main_df['HomeWins'] = home_wins
+    main_df['AwayWins'] = away_wins
+    main_df['HomeLosses'] = home_losses
+    main_df['AwayLosses'] = away_losses
+    main_df['HomeDraws'] = home_draws
+    main_df['AwayDraws'] = away_draws
 
     return main_df
 
