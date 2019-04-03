@@ -241,10 +241,10 @@ main_df.to_csv("../data/preprocessed/merged_football.csv", index=False)
 main_df['day_of_week'] = main_df['Date'].dt.day_name()
 
 
-h_thresh = np.percentile(1 / main_df['B365H'], 30)
-a_thresh = np.percentile(1 / main_df['B365A'], 30)
-d_20_thresh = np.percentile(1 / main_df['B365D'], 30)
-d_80_thresh = np.percentile(1 / main_df['B365D'], 70)
+h_thresh = np.percentile(1 / main_df['B365H'], 40)
+a_thresh = np.percentile(1 / main_df['B365A'], 40)
+d_20_thresh = np.percentile(1 / main_df['B365D'], 40)
+d_80_thresh = np.percentile(1 / main_df['B365D'], 60)
 
 main_df = agg_features(main_df)
 main_df = differences(main_df)
