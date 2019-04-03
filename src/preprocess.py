@@ -250,8 +250,9 @@ main_df = agg_features(main_df)
 main_df = differences(main_df)
 
 main_df = pd.concat([main_df, pd.get_dummies(main_df[['HomeTeam', 'AwayTeam', 'Referee', 'wx_phrase', 'day_of_week']])], sort=False, axis=1)
-main_df = main_df.drop(['B365D', 'B365A', 'B365H', 'ID', 'FTR', 'HTR', 'FTAG', 'FTHG', 'HTHG', 'HTAG', 'Div', 'wx_phrase', 'Referee', 'day_of_week', 'Date', 'heat_index'], axis=1)
 main_df = upset(main_df, h_thresh, a_thresh, d_20_thresh, d_80_thresh)
+main_df = main_df.drop(['B365D', 'B365A', 'B365H', 'ID', 'FTR', 'HTR', 'FTAG', 'FTHG', 'HTHG', 'HTAG', 'Div', 'wx_phrase', 'Referee', 'day_of_week', 'Date', 'heat_index'], axis=1)
+
 
 train_df = main_df[(main_df.Season < 2018)]
 test_df = main_df[(main_df.Season >= 2018)]
