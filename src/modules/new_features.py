@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 from pandas.api.types import is_numeric_dtype
-from collections import defaultdict
+from collections import defaultdict, Counter
 
 def agg_features(main_df):
     goals_for_dict = defaultdict(lambda : defaultdict(int))
@@ -49,8 +49,15 @@ def agg_features(main_df):
     home_draws = []
     away_draws = []
 
-    for i, row in main_df.iterrows():
+    streak_dict = defaultdict(lambda: defaultdict(list))
+    home_streak = []
+    away_streak = []
 
+    game_counter = Counter()
+    home_norm_chem = []
+    away_norm_chem = []
+
+    for i, row in main_df.iterrows():
         goals_for_dict[row['Season']][row['HomeTeam']] += row['FTHG']
         home_goals_for.append(goals_for_dict[row['Season']][row['HomeTeam']])
 
@@ -95,10 +102,18 @@ def agg_features(main_df):
 
         if row['HomeTeam'] not in new_chem_dict.keys():
             new_chem_dict[row['HomeTeam']] = row['ChemHome']
+            
+
 
         if row['AwayTeam'] not in new_chem_dict.keys():
             new_chem_dict[row['AwayTeam']] = row['ChemAway']
-            
+        
+        game_counter[row['HomeTeam']] += 1
+        game_counter[row['AwayTeam']] += 1
+
+        
+        home_norm_chem.append(row['ChemHome'] / (36 + game_counter[row['HomeTeam']]))
+        away_norm_chem.append(row['ChemAway'] / (36 + game_counter[row['AwayTeam']]))            
         
 
         if row['FTR'] == 'H':
@@ -117,7 +132,18 @@ def agg_features(main_df):
             away_losses.append(loss_dict[row['Season']][row['AwayTeam']])
 
             home_draws.append(draw_dict[row['Season']][row['HomeTeam']])
-            away_draws.append(draw_dict[row['Season']][row['AwayTeam']])              
+            away_draws.append(draw_dict[row['Season']][row['AwayTeam']])   
+
+            if len(streak_dict[row['Season']][row['HomeTeam']]) <= 10:
+                streak_dict[row['Season']][row['HomeTeam']].append(3)
+                streak_dict[row['Season']][row['AwayTeam']].append(0)
+            else:
+                del streak_dict[row['Season']][row['HomeTeam']][0]
+                del streak_dict[row['Season']][row['AwayTeam']][0]
+
+                streak_dict[row['Season']][row['HomeTeam']].append(3)
+                streak_dict[row['Season']][row['AwayTeam']].append(0)                
+
 
         elif row['FTR'] == 'A':
 
@@ -137,6 +163,16 @@ def agg_features(main_df):
 
             home_draws.append(draw_dict[row['Season']][row['HomeTeam']])
             away_draws.append(draw_dict[row['Season']][row['AwayTeam']])  
+
+            if len(streak_dict[row['Season']][row['HomeTeam']]) <= 10:
+                streak_dict[row['Season']][row['HomeTeam']].append(0)
+                streak_dict[row['Season']][row['AwayTeam']].append(3)
+            else:
+                del streak_dict[row['Season']][row['HomeTeam']][0]
+                del streak_dict[row['Season']][row['AwayTeam']][0]
+
+                streak_dict[row['Season']][row['HomeTeam']].append(0)
+                streak_dict[row['Season']][row['AwayTeam']].append(3)    
         
         else:
             new_chem_dict[row['HomeTeam']] += row['ChemDeltaHome'] / 2
@@ -154,7 +190,21 @@ def agg_features(main_df):
             draw_dict[row['Season']][row['HomeTeam']] += 1
             draw_dict[row['Season']][row['AwayTeam']] += 1
             home_draws.append(draw_dict[row['Season']][row['HomeTeam']])
-            away_draws.append(draw_dict[row['Season']][row['AwayTeam']])           
+            away_draws.append(draw_dict[row['Season']][row['AwayTeam']])
+
+
+            if len(streak_dict[row['Season']][row['HomeTeam']]) <= 10:
+                streak_dict[row['Season']][row['HomeTeam']].append(1)
+                streak_dict[row['Season']][row['AwayTeam']].append(1)
+            else:
+                del streak_dict[row['Season']][row['HomeTeam']][0]
+                del streak_dict[row['Season']][row['AwayTeam']][0]
+
+                streak_dict[row['Season']][row['HomeTeam']].append(1)
+                streak_dict[row['Season']][row['AwayTeam']].append(1)
+
+        home_streak.append(np.mean(streak_dict[row['Season']][row['HomeTeam']]))   
+        away_streak.append(np.mean(streak_dict[row['Season']][row['AwayTeam']]))               
 
     main_df['HomeGoalsFor'] = home_goals_for
     main_df['AwayGoalsFor'] = away_goals_for
@@ -180,7 +230,11 @@ def agg_features(main_df):
     main_df['AwayLosses'] = away_losses
     main_df['HomeDraws'] = home_draws
     main_df['AwayDraws'] = away_draws
-
+    main_df['HomeStreak'] = home_streak
+    main_df['AwayStreak'] = away_streak
+    main_df['HomeNormChem'] = home_norm_chem
+    main_df['AwayNormChem'] = away_norm_chem
+    
     return main_df
 
 def differences(main_df):

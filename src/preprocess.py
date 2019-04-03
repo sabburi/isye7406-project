@@ -241,10 +241,10 @@ main_df.to_csv("../data/preprocessed/merged_football.csv", index=False)
 main_df['day_of_week'] = main_df['Date'].dt.day_name()
 
 
-h_thresh = np.percentile(1 / main_df['B365H'], 20)
-a_thresh = np.percentile(1 / main_df['B365A'], 20)
-d_20_thresh = np.percentile(1 / main_df['B365D'], 20)
-d_80_thresh = np.percentile(1 / main_df['B365D'], 80)
+h_thresh = np.percentile(1 / main_df['B365H'], 40)
+a_thresh = np.percentile(1 / main_df['B365A'], 40)
+d_20_thresh = np.percentile(1 / main_df['B365D'], 40)
+d_80_thresh = np.percentile(1 / main_df['B365D'], 60)
 
 main_df = agg_features(main_df)
 main_df = differences(main_df)
@@ -341,10 +341,22 @@ main_df = main_df.drop(['Order'], axis=1)
 ########################
 
 main_df = pd.concat([main_df, pd.get_dummies(main_df[['Referee', 'wx_phrase', 'day_of_week']])], sort=False, axis=1)
+
+main_df['Diff_Income:DiffStreak'] = main_df['Diff_Income'] * main_df['DiffStreak']
+main_df['Diff_Expenditures:DiffStreak'] = main_df['Diff_Expenditures'] * main_df['DiffStreak']
+main_df['DiffGoalsFor:DiffStreak'] = main_df['DiffGoalsFor'] * main_df['DiffStreak']
+main_df['DiffGoalsAgainst:DiffStreak'] = main_df['DiffGoalsAgainst'] * main_df['DiffStreak']
+main_df['DiffShotsTgt:DiffStreak'] = main_df['DiffShotsTgt'] * main_df['DiffStreak']
+main_df['DiffNewChem:DiffStreak'] = main_df['DiffNewChem'] * main_df['DiffStreak']
+
+train_odds_df = main_df[(main_df.Season < 2018)][['B365H', 'B365A', 'B365D']]
+test_odds_df = main_df[(main_df.Season >= 2018)][['B365H', 'B365A', 'B365D']]
+#main_df = upset(main_df, h_thresh, a_thresh, d_20_thresh, d_80_thresh)
 main_df = main_df.drop(['B365D', 'B365A', 'B365H', 'ID', 'FTR', 'HTR', 'FTAG', 'FTHG', 'HTHG', 'HTAG', 'Div', 'wx_phrase', 'Referee', 'day_of_week', 'Date', 'heat_index'], axis=1)
 
 train_df = main_df[(main_df.Season < 2018)]
 test_df = main_df[(main_df.Season >= 2018)]
+
 
 train_df = train_df.drop(['Season'], axis=1)
 test_df = test_df.drop(['Season'], axis=1)
@@ -355,3 +367,5 @@ print(main_df.info())
 main_df.to_csv("../data/preprocessed/football.csv", index=False)
 train_df.to_csv("../data/preprocessed/football_train.csv", index=False)
 test_df.to_csv("../data/preprocessed/football_test.csv", index=False)
+train_odds_df.to_csv("../data/preprocessed/football_odds_train.csv", index=False)
+test_odds_df.to_csv("../data/preprocessed/football_odds_test.csv", index=False)
