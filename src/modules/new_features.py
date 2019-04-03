@@ -220,7 +220,7 @@ def agg_features(main_df):
     main_df['AwayDraws'] = away_draws
     main_df['HomeStreak'] = home_streak
     main_df['AwayStreak'] = away_streak
-    
+
     return main_df
 
 def differences(main_df):
