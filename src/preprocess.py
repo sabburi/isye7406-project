@@ -249,7 +249,98 @@ d_80_thresh = np.percentile(1 / main_df['B365D'], 80)
 main_df = agg_features(main_df)
 main_df = differences(main_df)
 main_df = upset(main_df, h_thresh, a_thresh, d_20_thresh, d_80_thresh)
-main_df = pd.concat([main_df, pd.get_dummies(main_df[['HomeTeam', 'AwayTeam', 'Referee', 'wx_phrase', 'day_of_week']])], sort=False, axis=1)
+
+##########################################################
+# Upsets - Marcel
+#########################################################
+
+#Home Upsets
+
+home_upsets = main_df[['HomeTeam', 'Upset', 'Season']].rename(columns={'HomeTeam': 'Team'})
+
+home_upsets['Order'] = home_upsets.index.get_level_values(0)
+
+home_upsets = home_upsets.groupby(['Team', 'Season']) #['Upset'].cumsum()#.shift(1)
+
+updated_groups = []
+
+for n, group in home_upsets:
+    group.loc[:, 'CumUpset'] = group['Upset'].cumsum()
+
+    group.loc[:, 'GameHelper'] = 1
+    group.loc[:, 'GameCount'] = group['GameHelper'].cumsum()
+    group.drop(['GameHelper'], axis=1)
+
+    updated_groups.append(group)
+
+home_upsets = pd.concat(updated_groups).sort_values('Order')
+
+# Away Upsets
+
+away_upsets = main_df[['AwayTeam', 'Upset', 'Season']].rename(columns={'AwayTeam': 'Team'})
+
+away_upsets['Order'] = away_upsets.index.get_level_values(0)
+
+away_upsets = away_upsets.groupby(['Team', 'Season']) #['Upset'].cumsum()#.shift(1)
+
+updated_groups = []
+
+for n, group in away_upsets:
+    group.loc[:,'CumUpset'] = group['Upset'].cumsum()
+
+    group.loc[:, 'GameHelper'] = 1
+    group.loc[:, 'GameCount'] = group['GameHelper'].cumsum()
+    group.drop(['GameHelper'], axis=1)
+
+    updated_groups.append(group)
+
+away_upsets = pd.concat(updated_groups).sort_values('Order')
+
+# Merge with main df
+
+main_df['Order'] = main_df.index.get_level_values(0)
+main_df = main_df.sort_values('Order')
+
+main_df = pd.merge_asof(main_df, home_upsets[['Team', 'Order', 'CumUpset', 'Season', 'GameCount']].sort_values('Order'), left_by=['HomeTeam', 'Season'], right_by=['Team', 'Season'], on='Order' , direction='backward', allow_exact_matches=False)
+main_df.loc[main_df.CumUpset.isnull(), 'CumUpset'] = 0
+main_df.loc[main_df.GameCount.isnull(), 'GameCount'] = 1
+main_df['CumUpsetHome'] = main_df['CumUpset']
+main_df['GameCountHome'] = main_df['GameCount']
+main_df = main_df.drop(['Team', 'CumUpset', 'GameCount'], axis=1)
+
+main_df = pd.merge_asof(main_df, away_upsets[['Team', 'Order', 'CumUpset', 'Season', 'GameCount']].sort_values('Order'), left_by=['HomeTeam', 'Season'], right_by=['Team', 'Season'], on='Order' , direction='backward', allow_exact_matches=False)
+main_df.loc[main_df.CumUpset.isnull(), 'CumUpset'] = 0
+main_df.loc[main_df.GameCount.isnull(), 'GameCount'] = 1
+main_df['CumUpsetHome'] = main_df['CumUpset'] + main_df['CumUpsetHome']
+main_df['GameCountHome'] = main_df['GameCount'] + main_df['GameCountHome']
+main_df['NormCumUpsetHome'] = main_df['CumUpsetHome'] / main_df['GameCountHome']
+main_df = main_df.drop(['Team', 'CumUpset', 'GameCount', 'GameCountHome', 'CumUpsetHome'], axis=1)
+
+############
+
+main_df = pd.merge_asof(main_df, home_upsets[['Team', 'Order', 'CumUpset', 'Season', 'GameCount']].sort_values('Order'), left_by=['AwayTeam', 'Season'], right_by=['Team', 'Season'], on='Order' , direction='backward', allow_exact_matches=False)
+main_df.loc[main_df.CumUpset.isnull(), 'CumUpset'] = 0
+main_df.loc[main_df.GameCount.isnull(), 'GameCount'] = 1
+main_df['CumUpsetAway'] = main_df['CumUpset']
+main_df['GameCountAway'] = main_df['GameCount']
+main_df = main_df.drop(['Team', 'CumUpset', 'GameCount'], axis=1)
+
+main_df = pd.merge_asof(main_df, away_upsets[['Team', 'Order', 'CumUpset', 'Season', 'GameCount']].sort_values('Order'), left_by=['AwayTeam', 'Season'], right_by=['Team', 'Season'], on='Order' , direction='backward', allow_exact_matches=False)
+main_df.loc[main_df.CumUpset.isnull(), 'CumUpset'] = 0
+main_df.loc[main_df.GameCount.isnull(), 'GameCount'] = 1
+main_df['CumUpsetAway'] = main_df['CumUpset'] + main_df['CumUpsetAway']
+main_df['GameCountAway'] = main_df['GameCount'] + main_df['GameCountAway']
+main_df['NormCumUpsetAway'] = main_df['CumUpsetAway'] / main_df['GameCountAway']
+main_df = main_df.drop(['Team', 'CumUpset', 'GameCount', 'GameCountAway', 'CumUpsetAway'], axis=1)
+
+main_df = main_df.drop(['Order'], axis=1)
+
+
+
+
+########################
+
+main_df = pd.concat([main_df, pd.get_dummies(main_df[['Referee', 'wx_phrase', 'day_of_week']])], sort=False, axis=1)
 main_df = main_df.drop(['B365D', 'B365A', 'B365H', 'ID', 'FTR', 'HTR', 'FTAG', 'FTHG', 'HTHG', 'HTAG', 'Div', 'wx_phrase', 'Referee', 'day_of_week', 'Date', 'heat_index'], axis=1)
 
 train_df = main_df[(main_df.Season < 2018)]
