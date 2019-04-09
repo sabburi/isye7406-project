@@ -261,6 +261,20 @@ def calc_upset(x, thresh_h, thresh_a, thresh_d1, thresh_d2):
     else:
         return 0
 
+def calc_new_response(x):
+    if x['FTR'] == 'H':
+        return x['B365H']
+    elif x['FTR'] == 'A':
+        return x['B365A']
+    elif x['FTR'] == 'D':
+        return x['B365D']
+
+def new_response(main_df):
+    new_response = [calc_new_response(row) for i, row in main_df.iterrows()]
+
+    main_df['New_Response'] = np.array(new_response).reshape(-1, 1)
+
+    return main_df
 
 def upset(main_df, h_thresh, a_thresh, d_1_thresh, d_2_thresh):
     upset = [calc_upset(row, h_thresh, a_thresh, d_1_thresh, d_2_thresh) for i, row in main_df.iterrows()]
