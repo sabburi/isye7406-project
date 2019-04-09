@@ -7,7 +7,7 @@
 import pandas as pd
 import numpy as np
 import glob
-from modules.new_features import agg_features, differences, upset
+from modules.new_features import agg_features, differences, upset, new_response
 
 ##########################################################
 # Construct main dataframe - Marcel
