@@ -16,9 +16,9 @@ sum(is.na(df))
 Upset <- df$Upset
 df = df[ , !(names(df) %in% c('Upset','HomeTeam','AwayTeam'))]
 
-ind <- sapply(df2, is.numeric)
-df[ind] <- lapply(df2[ind], scale)
-df = cbind(df2, Upset)
+ind <- sapply(df, is.numeric)
+df[ind] <- lapply(df[ind], scale)
+df = cbind(df, Upset)
 
 # Lasso
 y <- df$Upset
